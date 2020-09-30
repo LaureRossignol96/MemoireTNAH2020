@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-04T16:05:05.281+02:00</Created>
+        <LastChange>2020-06-04T16:53:31.200+02:00</LastChange>
+        <TranskribusMetadata docId="402809" pageId="15563830" pageNr="7" tsid="30484166" status="IN_PROGRESS" userId="50847" imgUrl="https://files.transkribus.eu/Get?id=IXGDXYNCBTTYCZWYMCLFFFUH&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=NWZEAXQQTMCTRPPVTIBQYUCB" imageId="11388659"/>
+    </Metadata>
+    <Page imageFilename="LETTRE 03 B.png" imageWidth="796" imageHeight="1156">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1593250206344" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="81,44 81,757 769,757 769,44"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="100,81 131,83 162,83 193,84 224,85 256,86 287,87 318,88 349,88 380,89 412,90 443,91 474,92 505,92 536,93 568,94 599,95 630,96 661,97 692,98 724,99 724,62 692,61 661,60 630,59 599,58 568,57 536,56 505,55 474,55 443,54 412,53 380,52 349,51 318,51 287,50 256,49 224,48 193,47 162,46 131,46 100,44"/>
+                <Baseline points="100,69 131,71 162,71 193,72 224,73 256,74 287,75 318,76 349,76 380,77 412,78 443,79 474,80 505,80 536,81 568,82 599,83 630,84 661,85 692,86 724,87"/>
+                <TextEquiv>
+                    <Unicode>Seulement que les gens de bien tra-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="89,136 120,136 152,137 184,137 216,137 248,138 280,139 311,139 343,140 375,141 407,141 439,142 471,143 503,145 534,146 566,147 598,149 630,151 662,152 694,155 726,157 726,120 694,118 662,115 630,114 598,112 566,110 534,109 503,108 471,106 439,105 407,104 375,104 343,103 311,102 280,102 248,101 216,100 184,100 152,100 120,99 89,99"/>
+                <Baseline points="89,124 120,124 152,125 184,125 216,125 248,126 280,127 311,127 343,128 375,129 407,129 439,130 471,131 503,133 534,134 566,135 598,137 630,139 662,140 694,143 726,145"/>
+                <TextEquiv>
+                    <Unicode>vaillent à renouveler les convictions nationales,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="86,188 118,188 151,188 183,188 216,189 249,189 281,190 314,191 347,192 379,193 412,194 445,196 477,197 510,199 543,200 575,202 608,204 641,205 673,207 706,209 739,210 739,173 706,172 673,170 641,168 608,167 575,165 543,163 510,162 477,160 445,159 412,157 379,156 347,155 314,154 281,153 249,152 216,152 183,151 151,151 118,151 86,151"/>
+                <Baseline points="86,176 118,176 151,176 183,176 216,177 249,177 281,178 314,179 347,180 379,181 412,182 445,184 477,185 510,187 543,188 575,190 608,192 641,193 673,195 706,197 739,198"/>
+                <TextEquiv>
+                    <Unicode>avec un imperturbable dévouement, alors même</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l4" custom="readingOrder {index:3;}">
+                <Coords points="97,241 129,241 161,242 193,242 225,243 257,244 289,245 321,247 353,249 385,250 418,251 450,254 482,255 514,258 546,259 578,261 610,263 642,265 674,266 706,268 739,269 739,229 706,228 674,226 642,225 610,223 578,221 546,219 514,218 482,215 450,214 418,211 385,210 353,209 321,207 289,205 257,204 225,203 193,202 161,202 129,201 97,201"/>
+                <Baseline points="97,228 129,228 161,229 193,229 225,230 257,231 289,232 321,234 353,236 385,237 418,238 450,241 482,242 514,245 546,246 578,248 610,250 642,252 674,253 706,255 739,256"/>
+                <TextEquiv>
+                    <Unicode>que le succès se ferait longtemps attendre. Il</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:4;}">
+                <Coords points="81,294 113,295 145,296 177,297 209,298 242,299 274,301 306,303 338,304 370,306 403,307 435,310 467,312 499,314 531,315 564,318 596,320 628,322 660,325 692,328 725,330 725,290 692,288 660,285 628,282 596,280 564,278 531,275 499,274 467,272 435,270 403,267 370,266 338,264 306,263 274,261 242,259 209,258 177,257 145,256 113,255 81,254"/>
+                <Baseline points="81,281 113,282 145,283 177,284 209,285 242,286 274,288 306,290 338,291 370,293 403,294 435,297 467,299 499,301 531,302 564,305 596,307 628,309 660,312 692,315 725,317"/>
+                <TextEquiv>
+                    <Unicode>faut que la patience s’unisse au dévouement !</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:5;}">
+                <Coords points="150,378 179,380 208,382 237,384 267,386 296,388 325,390 355,392 384,394 413,396 443,398 472,400 501,402 530,404 560,407 589,409 618,411 648,414 677,416 706,418 736,421 736,384 706,381 677,379 648,377 618,374 589,372 560,370 530,367 501,365 472,363 443,361 413,359 384,357 355,355 325,353 296,351 267,349 237,347 208,345 179,343 150,341"/>
+                <Baseline points="150,366 179,368 208,370 237,372 267,374 296,376 325,378 355,380 384,382 413,384 443,386 472,388 501,390 530,392 560,395 589,397 618,399 648,402 677,404 706,406 736,409"/>
+                <TextEquiv>
+                    <Unicode>Recevez, mon cher ami, avec mes nouvelles</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l7" custom="readingOrder {index:6;}">
+                <Coords points="81,425 114,427 147,429 180,432 214,434 247,436 280,439 314,441 347,443 380,446 414,449 447,451 480,454 513,457 547,460 580,462 613,466 647,469 680,472 713,476 747,479 747,442 713,439 680,435 647,432 613,429 580,425 547,423 513,420 480,417 447,414 414,412 380,409 347,406 314,404 280,402 247,399 214,397 180,395 147,392 114,390 81,388"/>
+                <Baseline points="81,413 114,415 147,417 180,420 214,422 247,424 280,427 314,429 347,431 380,434 414,437 447,439 480,442 513,445 547,448 580,450 613,454 647,457 680,460 713,464 747,467"/>
+                <TextEquiv>
+                    <Unicode>félicitations, l’assurance de mes sentiments bien</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l8" custom="readingOrder {index:7;}">
+                <Coords points="85,480 110,480 135,482 160,484 185,484 211,485 211,448 185,447 160,447 135,445 110,443 85,443"/>
+                <Baseline points="85,468 110,468 135,470 160,472 185,472 211,473"/>
+                <TextEquiv>
+                    <Unicode>affectueux</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l9" custom="readingOrder {index:8;}">
+                <Coords points="484,537 510,540 465,562 417,654 633,571 649,532 617,512 599,500 595,491 551,492 525,478 484,497"/>
+                <Baseline points="484,524 510,527 537,529 563,531 590,535 617,539"/>
+                <TextEquiv>
+                    <Unicode>F. Le Play</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l10" custom="readingOrder {index:9;}">
+                <Coords points="113,638 161,628 191,630 221,631 252,632 282,633 312,635 342,636 373,637 403,639 433,640 463,642 494,644 524,645 554,647 584,649 615,652 645,653 675,656 705,658 736,661 736,627 705,624 675,622 645,619 615,618 584,615 554,613 524,611 494,610 463,608 433,606 403,605 373,603 342,602 312,601 282,599 252,598 221,597 191,596 161,571 131,593"/>
+                <Baseline points="131,616 161,617 191,619 221,620 252,621 282,622 312,624 342,625 373,626 403,628 433,629 463,631 494,633 524,634 554,636 584,638 615,641 645,642 675,645 705,647 736,650"/>
+                <TextEquiv>
+                    <Unicode> Je me suis empressé d’aller hier soir à 7h ½ </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l11" custom="readingOrder {index:10;}">
+                <Coords points="85,676 119,676 153,677 187,678 221,679 256,681 290,682 324,683 358,685 392,688 427,690 461,692 495,695 529,697 563,700 598,703 632,705 666,708 700,711 734,714 769,718 769,684 734,680 700,677 666,674 632,671 598,669 563,666 529,663 495,661 461,658 427,656 392,654 358,651 324,649 290,648 256,647 221,645 187,644 153,643 119,642 85,642"/>
+                <Baseline points="85,665 119,665 153,666 187,667 221,668 256,670 290,671 324,672 358,674 392,677 427,679 461,681 495,684 529,686 563,689 598,692 632,694 666,697 700,700 734,703 769,707"/>
+                <TextEquiv>
+                    <Unicode>annoncer la bonne Nouvelle à la famille Egger</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l12" custom="readingOrder {index:11;}">
+                <Coords points="86,724 114,725 142,727 170,728 198,730 226,731 254,732 282,733 310,734 338,736 367,737 395,739 423,740 451,742 479,743 507,745 535,747 563,750 591,752 619,755 648,757 648,723 619,721 591,718 563,716 535,713 507,711 479,709 451,708 423,706 395,705 367,703 338,702 310,700 282,699 254,698 226,697 198,696 170,694 142,693 114,691 86,690"/>
+                <Baseline points="86,713 114,714 142,716 170,717 198,719 226,720 254,721 282,722 310,723 338,725 367,726 395,728 423,729 451,731 479,732 507,734 535,736 563,739 591,741 619,744 648,746"/>
+                <TextEquiv>
+                    <Unicode>qui a été fort heureuse de votre succès.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Seulement que les gens de bien tra-
+vaillent à renouveler les convictions nationales,
+avec un imperturbable dévouement, alors même
+que le succès se ferait longtemps attendre. Il
+faut que la patience s’unisse au dévouement !
+Recevez, mon cher ami, avec mes nouvelles
+félicitations, l’assurance de mes sentiments bien
+affectueux
+F. Le Play
+ Je me suis empressé d’aller hier soir à 7h ½ 
+annoncer la bonne Nouvelle à la famille Egger
+qui a été fort heureuse de votre succès.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

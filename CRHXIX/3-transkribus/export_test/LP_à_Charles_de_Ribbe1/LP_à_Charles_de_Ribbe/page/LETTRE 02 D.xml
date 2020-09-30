@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-04T16:05:05.072+02:00</Created>
+        <LastChange>2020-06-04T16:44:18.524+02:00</LastChange>
+        <TranskribusMetadata docId="402809" pageId="15563828" pageNr="5" tsid="30482198" status="IN_PROGRESS" userId="50847" imgUrl="https://files.transkribus.eu/Get?id=FJWDTGEYOCBZAHEYCEDEOTOJ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=KXRHPYJWJDKSJLTPEIFQZAVK" imageId="11388657"/>
+    </Metadata>
+    <Page imageFilename="LETTRE 02 D.png" imageWidth="837" imageHeight="1030">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1593250206050" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="48,54 48,577 806,577 806,54"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="87,96 119,97 151,97 183,98 215,99 248,99 280,99 312,100 344,100 376,101 409,101 441,101 473,101 505,101 537,101 570,101 602,101 634,101 666,101 698,101 731,101 731,59 698,59 666,59 634,59 602,59 570,59 537,59 505,59 473,59 441,59 409,59 376,59 354,40 322,40 280,57 248,57 215,57 183,56 151,55 119,55 87,54"/>
+                <Baseline points="87,82 119,83 151,83 183,84 215,85 248,85 280,85 312,86 344,86 376,87 409,87 441,87 473,87 505,87 537,87 570,87 602,87 634,87 666,87 698,87 731,87"/>
+                <TextEquiv>
+                    <Unicode>M. Claude Jannet m’apprend qu’il</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="48,158 73,159 98,160 123,161 149,161 174,162 199,162 225,162 250,161 275,161 301,161 326,161 351,161 377,161 402,162 427,163 453,164 453,122 427,121 402,120 377,119 351,119 326,119 301,119 275,119 250,119 225,120 199,120 174,120 149,119 123,119 98,118 73,117 48,116"/>
+                <Baseline points="48,144 73,145 98,146 123,147 149,147 174,148 199,148 225,148 250,147 275,147 301,147 326,147 351,147 377,147 402,148 427,149 453,150"/>
+                <TextEquiv>
+                    <Unicode>souffre de maux de tête.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="125,225 155,224 185,224 215,224 245,223 275,223 305,222 336,222 366,222 396,222 426,222 456,222 486,223 516,224 547,224 577,226 607,227 637,229 667,230 697,232 728,234 728,192 697,190 667,188 637,187 607,185 577,184 547,182 516,182 486,181 456,180 426,180 396,180 366,180 336,180 305,180 275,181 245,181 215,182 185,182 155,182 125,183"/>
+                <Baseline points="125,211 155,210 185,210 215,210 245,209 275,209 305,208 336,208 366,208 396,208 426,208 456,208 486,209 516,210 547,210 577,212 607,213 637,215 667,216 697,218 728,220"/>
+                <TextEquiv>
+                    <Unicode>Employez votre influence pour l’empêcher</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l4" custom="readingOrder {index:3;}">
+                <Coords points="55,287 86,287 117,287 149,287 180,288 211,288 243,288 274,289 305,289 337,290 368,290 399,291 431,292 462,293 493,294 525,295 556,297 587,298 619,300 650,302 682,304 682,262 650,260 619,258 587,256 556,255 525,253 493,252 462,251 431,250 399,249 368,248 337,248 305,247 274,247 243,246 211,246 180,246 149,245 117,245 86,245 55,245"/>
+                <Baseline points="55,273 86,273 117,273 149,273 180,274 211,274 243,274 274,275 305,275 337,276 368,276 399,277 431,278 462,279 493,280 525,281 556,283 587,284 619,286 650,288 682,290"/>
+                <TextEquiv>
+                    <Unicode>même de lire l’Organisation du Travail.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:4;}">
+                <Coords points="130,346 155,347 181,348 207,349 232,350 258,351 284,352 309,353 335,353 361,354 386,354 412,355 438,356 463,356 489,357 515,358 515,316 489,315 463,314 438,314 412,313 386,312 361,312 335,311 309,311 284,310 258,309 232,308 207,307 181,306 155,305 130,304"/>
+                <Baseline points="130,332 155,333 181,334 207,335 232,336 258,337 284,338 309,339 335,339 361,340 386,340 412,341 438,342 463,342 489,343 515,344"/>
+                <TextEquiv>
+                    <Unicode>Il faut qu’il se ménage.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:5;}">
+                <Coords points="127,403 159,404 192,405 224,406 257,408 289,409 322,410 355,411 387,413 420,414 452,415 485,416 517,417 550,418 583,418 615,419 648,419 680,420 713,420 746,420 746,383 713,383 680,383 648,382 615,382 583,381 550,381 517,380 485,379 452,378 420,377 387,376 355,374 322,373 289,372 257,371 224,369 192,368 159,367 127,366"/>
+                <Baseline points="127,391 159,392 192,393 224,394 257,396 289,397 322,398 355,399 387,401 420,402 452,403 485,404 517,405 550,406 583,406 615,407 648,407 680,408 713,408 746,408"/>
+                <TextEquiv>
+                    <Unicode>Il n’y a pas de livre qui convienne moins </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l7" custom="readingOrder {index:6;}">
+                <Coords points="59,454 85,456 112,456 139,456 165,457 192,457 219,459 219,422 192,420 165,420 139,419 112,419 85,419 59,417"/>
+                <Baseline points="59,442 85,444 112,444 139,444 165,445 192,445 219,447"/>
+                <TextEquiv>
+                    <Unicode>à son mal.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l8" custom="readingOrder {index:7;}">
+                <Coords points="131,511 164,512 198,513 232,514 266,515 299,516 333,517 367,518 401,519 434,520 468,521 502,522 536,524 569,525 603,526 637,528 671,529 704,531 738,532 772,534 806,536 806,497 772,495 738,493 704,492 671,490 637,489 603,487 569,486 536,485 502,483 468,482 434,481 401,480 367,479 333,478 299,477 266,476 232,475 198,474 164,473 131,472"/>
+                <Baseline points="131,498 164,499 198,500 232,501 266,502 299,503 333,504 367,505 401,506 434,507 468,508 502,509 536,511 569,512 603,513 637,515 671,516 704,518 738,519 772,521 806,523"/>
+                <TextEquiv>
+                    <Unicode>Conseillez lui Robinson Crusoe ou Walter Scott.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l9" custom="readingOrder {index:8;}">
+                <Coords points="61,566 86,567 112,568 137,568 163,569 189,569 214,570 240,570 265,571 291,571 317,571 342,572 368,572 393,573 419,574 445,574 470,575 496,576 522,577 522,538 496,537 470,536 445,535 419,535 393,534 368,533 342,533 317,532 291,532 265,532 240,531 214,531 189,530 163,530 137,529 112,529 86,528 61,527"/>
+                <Baseline points="61,553 86,554 112,555 137,555 163,556 189,556 214,557 240,557 265,558 291,558 317,558 342,559 368,559 393,560 419,561 445,561 470,562 496,563 522,564"/>
+                <TextEquiv>
+                    <Unicode>s’il ne peut s’empêcher de lire.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>M. Claude Jannet m’apprend qu’il
+souffre de maux de tête.
+Employez votre influence pour l’empêcher
+même de lire l’Organisation du Travail.
+Il faut qu’il se ménage.
+Il n’y a pas de livre qui convienne moins 
+à son mal.
+Conseillez lui Robinson Crusoe ou Walter Scott.
+s’il ne peut s’empêcher de lire.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-04T16:05:05.479+02:00</Created>
+        <LastChange>2020-06-04T17:42:01.494+02:00</LastChange>
+        <TranskribusMetadata docId="402809" pageId="15563833" pageNr="10" tsid="30490248" status="IN_PROGRESS" userId="50847" imgUrl="https://files.transkribus.eu/Get?id=FLAQCJTZKRULPXOKXLAJUWYB&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=BZXWNRUXRNKCCECKTYAGFMFR" imageId="11388662"/>
+    </Metadata>
+    <Page imageFilename="LETTRE 06 A.png" imageWidth="923" imageHeight="1378">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1593250206871" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="54,41 54,1330 900,1330 900,41"/>
+            <TextLine id="r1l2" custom="readingOrder {index:0;}">
+                <Coords points="396,97 422,97 449,96 475,96 502,96 528,95 555,95 562,106 608,95 634,95 661,95 687,96 714,96 740,97 767,98 767,61 740,60 714,59 687,59 661,58 634,58 608,58 581,58 555,58 528,58 502,59 475,59 449,59 438,37 396,60"/>
+                <Baseline points="396,85 422,85 449,84 475,84 502,84 528,83 555,83 581,83 608,83 634,83 661,83 687,84 714,84 740,85 767,86"/>
+                <TextEquiv>
+                    <Unicode>Paris le 13 janvier 1870</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:1;}">
+                <Coords points="233,208 258,208 283,207 308,207 333,207 358,206 383,206 408,206 433,206 458,205 483,205 521,204 521,167 483,168 458,168 433,169 408,169 382,163 358,169 333,170 308,170 291,149 258,171 233,171"/>
+                <Baseline points="233,196 258,196 283,195 308,195 333,195 358,194 383,194 408,194 433,194 458,193 483,193 508,194"/>
+                <TextEquiv>
+                    <Unicode>Mon cher ami,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l4" custom="readingOrder {index:2;}">
+                <Coords points="165,283 194,283 248,277 278,277 308,276 338,276 367,276 397,275 427,275 457,275 487,275 516,275 546,275 576,275 606,276 636,276 665,277 695,277 725,279 755,279 785,281 785,244 755,242 725,242 695,240 665,240 636,239 606,239 576,238 546,238 516,238 487,238 457,238 427,238 397,238 367,239 338,239 308,239 278,240 248,240 213,228 189,241"/>
+                <Baseline points="189,266 218,266 248,265 278,265 308,264 338,264 367,264 397,263 427,263 457,263 487,263 516,263 546,263 576,263 606,264 636,264 665,265 695,265 725,267 755,267 785,269"/>
+                <TextEquiv>
+                    <Unicode>Je suis toujours fort heureux de recevoir</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:3;}">
+                <Coords points="169,326 201,326 233,326 266,325 298,325 331,325 363,325 396,325 428,326 461,326 493,326 525,327 558,327 590,328 623,329 655,330 688,331 720,332 753,333 785,334 818,336 818,302 785,300 753,299 720,298 688,297 655,296 623,295 590,294 558,293 525,293 493,292 461,292 428,292 396,291 363,291 331,291 298,291 266,291 233,292 201,292 169,292"/>
+                <Baseline points="169,315 201,315 233,315 266,314 298,314 331,314 363,314 396,314 428,315 461,315 493,315 525,316 558,316 590,317 623,318 655,319 688,320 720,321 753,322 785,323 818,325"/>
+                <TextEquiv>
+                    <Unicode>une lettre de vous. Et ce bonheur est sans</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:4;}">
+                <Coords points="173,374 205,374 237,373 269,374 301,374 333,374 365,374 398,375 430,376 462,377 494,378 526,379 558,380 590,382 623,384 655,386 687,387 719,389 751,391 783,393 816,395 816,361 783,359 751,357 719,355 687,353 655,352 623,350 590,348 558,346 526,345 494,344 462,343 430,342 398,341 365,340 333,340 301,340 269,340 237,339 205,340 173,340"/>
+                <Baseline points="173,363 205,363 237,362 269,363 301,363 333,363 365,363 398,364 430,365 462,366 494,367 526,368 558,369 590,371 623,373 655,375 687,376 719,378 751,380 783,382 816,384"/>
+                <TextEquiv>
+                    <Unicode> mélange au moment même où je donne le</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l7" custom="readingOrder {index:5;} textStyle {offset:0; length:12;underlined:true; fontSize:0.0; kerning:0;} textStyle {offset:35; length:11;underlined:true; fontSize:0.0; kerning:0;}">
+                <Coords points="166,420 198,421 231,422 264,422 297,423 329,425 362,426 395,428 428,430 460,431 493,433 526,435 559,436 591,438 624,440 657,442 690,443 722,444 755,445 788,446 821,446 821,412 788,412 755,411 722,410 690,409 657,408 624,406 591,404 559,402 526,401 493,399 460,397 428,396 395,394 362,392 329,391 297,389 264,388 231,388 198,387 166,386"/>
+                <Baseline points="166,409 198,410 231,411 264,411 297,412 329,414 362,415 395,417 428,419 460,420 493,422 526,424 559,425 591,427 624,429 657,431 690,432 722,433 755,434 788,435 821,435"/>
+                <TextEquiv>
+                    <Unicode>Bon à tirer de la couverture de l’organisation</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l8" custom="readingOrder {index:6;} textStyle {offset:0; length:10;underlined:true; fontSize:0.0; kerning:0;}">
+                <Coords points="172,479 204,480 237,480 270,481 303,482 336,482 368,483 401,484 434,485 467,486 500,487 532,488 565,489 598,491 631,493 663,495 696,497 729,499 762,502 795,505 828,508 828,471 795,468 762,465 729,462 696,460 663,458 631,456 598,454 565,452 532,451 500,450 467,449 434,448 401,447 368,446 336,445 303,445 270,444 237,443 204,443 172,442"/>
+                <Baseline points="172,467 204,468 237,468 270,469 303,470 336,470 368,471 401,472 434,473 467,474 500,475 532,476 565,477 598,479 631,481 663,483 696,485 729,487 762,490 795,493 828,496"/>
+                <TextEquiv>
+                    <Unicode>du travail ; où par conséquent j’ai toute liberté</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l9" custom="readingOrder {index:7;}">
+                <Coords points="170,538 203,539 237,540 270,540 304,540 338,541 371,541 405,542 439,542 472,542 506,543 540,544 573,544 607,545 641,547 674,548 708,549 742,551 775,554 809,556 852,559 852,522 809,519 775,517 742,514 708,512 674,511 641,510 607,508 573,507 540,507 506,506 472,505 439,505 405,505 371,504 338,504 304,503 270,503 237,503 203,502 170,501"/>
+                <Baseline points="170,526 203,527 237,528 270,528 304,528 338,529 371,529 405,530 439,530 472,530 506,531 540,532 573,532 607,533 641,535 674,536 708,537 742,539 775,542 809,544 843,546"/>
+                <TextEquiv>
+                    <Unicode>d’esprit pour vous adresser mes remerciements.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l10" custom="readingOrder {index:8;}">
+                <Coords points="226,599 258,599 291,599 323,599 356,599 388,599 421,599 454,600 486,600 519,601 551,601 584,602 616,603 649,604 682,605 714,606 747,608 779,609 812,612 845,613 845,577 812,576 779,573 747,572 714,570 682,569 649,568 616,567 584,566 551,565 519,565 486,564 454,564 421,563 388,563 356,563 323,563 291,563 258,563 226,563"/>
+                <Baseline points="226,587 258,587 291,587 323,587 356,587 388,587 421,587 454,588 486,588 519,589 551,589 584,590 616,591 649,592 682,593 714,594 747,596 779,597 812,600 845,601"/>
+                <TextEquiv>
+                    <Unicode>Je vois avec une vive satisfaction que vous</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l11" custom="readingOrder {index:9;}">
+                <Coords points="161,645 198,646 236,647 274,647 312,648 350,648 388,649 425,649 463,650 501,650 539,651 577,652 615,653 652,654 690,655 728,656 766,657 804,659 842,661 880,663 880,629 842,627 804,625 766,623 728,622 690,621 652,620 615,619 577,618 539,617 501,616 463,616 425,615 388,615 350,614 312,614 274,613 236,613 198,612 161,611"/>
+                <Baseline points="161,634 198,635 236,636 274,636 312,637 350,637 388,638 425,638 463,639 501,639 539,640 577,641 615,642 652,643 690,644 728,645 766,646 804,648 842,650 880,652"/>
+                <TextEquiv>
+                    <Unicode>persévérez dans l’inclination qui vous porte à consacrer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l12" custom="readingOrder {index:10;}">
+                <Coords points="167,693 202,694 238,695 274,696 310,697 346,697 381,698 417,698 453,699 489,700 525,700 560,701 596,701 632,702 668,703 704,703 739,705 775,705 811,707 847,708 883,710 883,676 847,674 811,673 775,671 739,671 704,669 668,669 632,668 596,667 560,667 525,666 489,666 453,665 417,664 381,664 346,663 310,663 274,662 238,661 202,660 167,659"/>
+                <Baseline points="167,682 202,683 238,684 274,685 310,686 346,686 381,687 417,687 453,688 489,689 525,689 560,690 596,690 632,691 668,692 704,692 739,694 775,694 811,696 847,697 883,699"/>
+                <TextEquiv>
+                    <Unicode>votre vie au bien public. Que par conséquent, à notre </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l13" custom="readingOrder {index:11;}">
+                <Coords points="165,751 197,751 230,750 263,750 296,750 329,750 362,750 394,751 427,751 460,752 493,752 526,752 559,753 592,754 624,754 657,755 690,756 723,756 756,757 789,757 822,758 822,722 789,721 756,721 723,720 690,720 657,719 624,718 592,718 559,717 526,716 493,716 460,716 427,715 394,715 362,714 329,714 296,714 263,714 230,714 197,715 165,715"/>
+                <Baseline points="165,739 197,739 230,738 263,738 296,738 329,738 362,738 394,739 427,739 460,740 493,740 526,740 559,741 592,742 624,742 657,743 690,744 723,744 756,745 789,745 822,746"/>
+                <TextEquiv>
+                    <Unicode>époque de nivellement et de fausse égalité, vous</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l14" custom="readingOrder {index:12;}">
+                <Coords points="171,804 204,803 238,802 272,802 306,801 340,801 374,800 408,800 442,800 476,800 510,800 543,801 577,801 611,802 645,802 679,803 713,803 747,804 781,805 815,805 849,806 849,776 815,775 781,775 747,774 713,773 679,773 645,772 611,772 577,771 543,771 510,770 476,770 442,770 408,770 374,770 340,771 306,771 272,772 238,772 204,773 171,774"/>
+                <Baseline points="171,794 204,793 238,792 272,792 306,791 340,791 374,790 408,790 442,790 476,790 510,790 543,791 577,791 611,792 645,792 679,793 713,793 747,794 781,795 815,795 849,796"/>
+                <TextEquiv>
+                    <Unicode>acquierez plus que jamais le droit d’être par</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l16" custom="readingOrder {index:13;}">
+                <Coords points="168,850 201,851 234,851 268,852 301,852 335,852 368,852 401,852 435,852 468,852 502,852 535,852 568,853 602,853 635,854 669,855 702,856 735,858 769,861 802,863 836,866 836,836 832,801 769,831 735,828 702,826 669,825 635,824 602,823 568,823 535,822 502,822 468,822 435,822 401,822 368,822 335,822 301,822 268,822 234,821 201,821 168,820"/>
+                <Baseline points="168,840 201,841 234,841 268,842 301,842 335,842 368,842 401,842 435,842 468,842 502,842 535,842 568,843 602,843 635,844 669,845 702,846 735,848 769,851 802,853 836,856"/>
+                <TextEquiv>
+                    <Unicode>l’opinion dans les rangs de la classe supérieure.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l17" custom="readingOrder {index:14;}">
+                <Coords points="171,900 205,899 239,899 273,899 307,899 341,899 375,899 409,899 443,900 477,900 512,900 546,901 580,901 614,902 648,902 682,902 716,902 750,902 784,902 818,901 853,900 853,869 818,870 784,871 750,871 716,871 682,871 648,871 614,871 580,870 546,870 512,869 477,869 443,869 409,868 375,868 341,868 307,868 273,868 239,868 205,868 171,869"/>
+                <Baseline points="171,890 205,889 239,889 273,889 307,889 341,889 375,889 409,889 443,890 477,890 512,890 546,891 580,891 614,892 648,892 682,892 716,892 750,892 784,892 818,891 853,890"/>
+                <TextEquiv>
+                    <Unicode>J’espère que la haute distinction que vous avez reçue</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l18" custom="readingOrder {index:15;}">
+                <Coords points="168,946 202,945 237,945 272,944 306,944 341,944 376,944 410,944 445,944 480,944 515,945 549,945 584,945 619,946 653,946 688,947 723,948 757,948 792,948 827,949 862,949 862,918 827,918 792,917 757,917 723,917 688,916 653,915 619,915 584,914 549,914 515,914 480,913 445,913 410,913 376,913 341,913 306,913 272,913 237,914 202,914 168,915"/>
+                <Baseline points="168,936 202,935 237,935 272,934 306,934 341,934 376,934 410,934 445,934 480,934 515,935 549,935 584,935 619,936 653,936 688,937 723,938 757,938 792,938 827,939 862,939"/>
+                <TextEquiv>
+                    <Unicode>l’an dernier vous a rendue plus facile l’accomplissement</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l19" custom="readingOrder {index:16;}">
+                <Coords points="172,994 206,993 240,992 274,991 308,991 342,990 376,990 410,990 444,990 478,990 512,990 546,991 580,991 614,992 648,993 682,993 716,994 750,996 784,997 818,998 853,999 853,966 818,965 784,964 750,963 716,961 682,960 648,960 614,959 580,958 546,958 512,957 478,957 444,957 410,957 376,957 342,957 308,958 274,958 240,959 206,960 172,961"/>
+                <Baseline points="172,983 206,982 240,981 274,980 308,980 342,979 376,979 410,979 444,979 478,979 512,979 546,980 580,980 614,981 648,982 682,982 716,983 750,985 784,986 818,987 853,988"/>
+                <TextEquiv>
+                    <Unicode>de votre mission, dans le cercle de la vie domestique.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l20" custom="readingOrder {index:17;}">
+                <Coords points="171,1045 206,1044 241,1044 276,1044 312,1043 347,1043 382,1043 418,1043 453,1043 488,1043 524,1043 559,1043 594,1043 629,1043 665,1043 700,1044 735,1044 771,1044 806,1045 841,1045 877,1046 877,1010 841,1009 806,1009 771,1008 735,1008 700,1008 665,1007 629,1007 594,1007 559,1007 524,1007 488,1007 453,1007 418,1007 382,1007 347,1007 312,1007 276,1008 241,1008 206,1008 171,1009"/>
+                <Baseline points="171,1033 206,1032 241,1032 276,1032 312,1031 347,1031 382,1031 418,1031 453,1031 488,1031 524,1031 559,1031 594,1031 629,1031 665,1031 700,1032 735,1032 771,1032 806,1033 841,1033 877,1034"/>
+                <TextEquiv>
+                    <Unicode>Le dévouement au bien public trouve rarement les récom-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l21" custom="readingOrder {index:18;}">
+                <Coords points="171,1097 207,1095 243,1094 280,1093 316,1093 353,1092 389,1092 426,1092 462,1092 499,1092 535,1093 571,1093 608,1094 644,1094 681,1095 717,1095 754,1096 790,1096 827,1097 863,1097 900,1097 900,1064 863,1064 827,1064 790,1063 754,1063 717,1062 681,1062 644,1061 608,1061 571,1060 535,1060 499,1059 462,1059 426,1059 389,1059 353,1059 316,1060 280,1060 243,1061 207,1062 171,1064"/>
+                <Baseline points="171,1086 207,1084 243,1083 280,1082 316,1082 353,1081 389,1081 426,1081 462,1081 499,1081 535,1082 571,1082 608,1083 644,1083 681,1084 717,1084 754,1085 790,1085 827,1086 863,1086 900,1086"/>
+                <TextEquiv>
+                    <Unicode>penses immédiates que donne le labeur quotidien appliqué</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l22" custom="readingOrder {index:19;}">
+                <Coords points="167,1141 203,1140 239,1140 276,1140 312,1140 349,1139 385,1139 421,1139 458,1139 494,1139 531,1139 567,1139 603,1139 640,1139 676,1139 713,1140 749,1140 785,1141 822,1141 858,1142 895,1142 895,1109 858,1109 822,1108 785,1108 749,1107 713,1107 676,1106 640,1106 603,1106 567,1106 531,1106 494,1106 458,1106 421,1106 385,1106 349,1106 312,1107 276,1107 239,1107 203,1107 167,1108"/>
+                <Baseline points="167,1130 203,1129 239,1129 276,1129 312,1129 349,1128 385,1128 421,1128 458,1128 494,1128 531,1128 567,1128 603,1128 640,1128 676,1128 713,1129 749,1129 785,1130 822,1130 858,1131 895,1131"/>
+                <TextEquiv>
+                    <Unicode>au culte de l’intérêt privé, que les femmes prennent souvent</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l23" custom="readingOrder {index:20;}">
+                <Coords points="166,1187 201,1188 237,1188 272,1188 308,1187 343,1187 379,1187 414,1186 450,1186 485,1186 521,1185 557,1185 592,1185 628,1185 663,1185 699,1186 734,1186 770,1187 805,1188 841,1190 877,1192 877,1162 841,1160 805,1158 770,1157 734,1156 699,1156 663,1155 628,1155 592,1155 557,1155 521,1155 485,1156 450,1156 414,1156 379,1157 343,1157 308,1157 272,1158 237,1158 201,1158 166,1157"/>
+                <Baseline points="166,1177 201,1178 237,1178 272,1178 308,1177 343,1177 379,1177 414,1176 450,1176 485,1176 521,1175 557,1175 592,1175 628,1175 663,1175 699,1176 734,1176 770,1177 805,1178 841,1180 877,1182"/>
+                <TextEquiv>
+                    <Unicode>pour mesure du mérite de leurs fils, de leurs frères ou de leurs</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l24" custom="readingOrder {index:21;}">
+                <Coords points="169,1232 203,1231 238,1231 273,1231 308,1230 343,1230 378,1230 412,1230 447,1230 482,1230 517,1230 552,1230 587,1230 622,1230 656,1230 691,1230 726,1230 761,1229 796,1229 831,1229 866,1229 866,1199 831,1199 796,1199 761,1199 726,1200 691,1200 656,1200 622,1200 587,1200 552,1200 517,1200 482,1200 447,1200 412,1200 378,1200 343,1200 308,1200 273,1201 238,1201 203,1201 169,1202"/>
+                <Baseline points="169,1222 203,1221 238,1221 273,1221 308,1220 343,1220 378,1220 412,1220 447,1220 482,1220 517,1220 552,1220 587,1220 622,1220 656,1220 691,1220 726,1220 761,1219 796,1219 831,1219 866,1219"/>
+                <TextEquiv>
+                    <Unicode>maris. Et si le bon esprit des dames de votre famille</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l25" custom="readingOrder {index:22;}">
+                <Coords points="54,1305 80,1306 106,1307 132,1308 158,1308 184,1308 210,1307 236,1307 262,1306 288,1306 314,1306 340,1305 366,1305 392,1305 392,1268 366,1268 340,1268 314,1269 288,1269 262,1269 236,1270 210,1270 184,1271 158,1271 132,1271 106,1270 80,1269 54,1268"/>
+                <Baseline points="54,1293 80,1294 106,1295 132,1296 158,1296 184,1296 210,1295 236,1295 262,1294 288,1294 314,1294 340,1293 366,1293 392,1293"/>
+                <TextEquiv>
+                    <Unicode>* organis. du trav., page 353, note 12.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Paris le 13 janvier 1870
+Mon cher ami,
+Je suis toujours fort heureux de recevoir
+une lettre de vous. Et ce bonheur est sans
+ mélange au moment même où je donne le
+Bon à tirer de la couverture de l’organisation
+du travail ; où par conséquent j’ai toute liberté
+d’esprit pour vous adresser mes remerciements.
+Je vois avec une vive satisfaction que vous
+persévérez dans l’inclination qui vous porte à consacrer
+votre vie au bien public. Que par conséquent, à notre 
+époque de nivellement et de fausse égalité, vous
+acquierez plus que jamais le droit d’être par
+l’opinion dans les rangs de la classe supérieure.
+J’espère que la haute distinction que vous avez reçue
+l’an dernier vous a rendue plus facile l’accomplissement
+de votre mission, dans le cercle de la vie domestique.
+Le dévouement au bien public trouve rarement les récom-
+penses immédiates que donne le labeur quotidien appliqué
+au culte de l’intérêt privé, que les femmes prennent souvent
+pour mesure du mérite de leurs fils, de leurs frères ou de leurs
+maris. Et si le bon esprit des dames de votre famille
+* organis. du trav., page 353, note 12.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

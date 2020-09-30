@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-04T16:05:05.709+02:00</Created>
+        <LastChange>2020-06-04T17:58:57.365+02:00</LastChange>
+        <TranskribusMetadata docId="402809" pageId="15563836" pageNr="13" tsid="30491621" status="IN_PROGRESS" userId="50847" imgUrl="https://files.transkribus.eu/Get?id=RAHIBCQJQJZJELJRFVWVFYMQ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=TIUGJSPXFQXRCLGXXQWWMPMY" imageId="11388665"/>
+    </Metadata>
+    <Page imageFilename="LETTRE 06 D.png" imageWidth="918" imageHeight="1262">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1593250207325" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="139,57 139,1181 884,1181 884,57"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="168,87 188,95 246,100 272,89 307,90 342,90 376,90 411,91 446,91 481,91 516,92 550,92 585,92 620,93 655,93 690,94 724,95 759,95 794,97 829,98 864,99 864,69 848,52 786,48 759,65 724,65 678,42 655,63 620,63 585,62 540,45 516,62 481,61 446,61 411,61 376,60 342,60 307,60 272,59 237,59 194,42 160,41"/>
+                <Baseline points="168,77 202,78 237,79 272,79 307,80 342,80 376,80 411,81 446,81 481,81 516,82 550,82 585,82 620,83 655,83 690,84 724,85 759,85 794,87 829,88 864,89"/>
+                <TextEquiv>
+                    <Unicode>la plupart des familles de haut  étaient frappées.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="165,134 197,136 229,136 262,137 294,138 327,138 359,138 392,139 424,139 457,139 489,139 521,139 554,140 586,140 619,140 651,141 684,142 716,143 749,143 781,145 814,147 817,116 815,101 749,113 716,113 684,112 651,111 619,110 586,110 554,110 521,109 489,109 457,109 424,109 392,109 359,108 327,108 294,108 262,107 232,97 200,97 165,104"/>
+                <Baseline points="165,124 197,126 229,126 262,127 294,128 327,128 359,128 392,129 424,129 457,129 489,129 521,129 554,130 586,130 619,130 651,131 684,132 716,133 749,133 781,135 814,137"/>
+                <TextEquiv>
+                    <Unicode>La Provence à cette époque comme à toute autre, à dû</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="153,181 199,182 232,184 265,185 299,186 332,187 365,188 398,188 432,189 465,189 498,189 531,189 565,189 598,189 631,189 664,189 698,189 731,190 764,190 797,191 831,192 831,162 797,161 764,160 731,160 698,159 664,159 631,159 598,159 565,159 531,159 498,159 465,159 432,159 398,158 365,158 332,157 299,156 265,155 232,154 199,152 153,151"/>
+                <Baseline points="166,170 199,172 232,174 265,175 299,176 332,177 365,178 398,178 432,179 465,179 498,179 531,179 565,179 598,179 631,179 664,179 698,179 731,180 764,180 797,181 831,182"/>
+                <TextEquiv>
+                    <Unicode>jouer le rôle d’une digue salutaire devant l’invasion</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l4" custom="readingOrder {index:3;}">
+                <Coords points="165,229 199,230 233,231 268,232 302,232 337,233 371,233 405,234 440,234 474,234 509,234 543,234 577,234 612,234 646,234 681,235 715,235 749,235 784,236 818,237 869,235 869,205 818,207 784,206 749,205 715,205 681,205 646,204 612,204 577,204 543,204 509,204 474,204 440,204 405,204 371,203 337,203 302,202 268,202 233,201 199,200 165,199"/>
+                <Baseline points="165,219 199,220 233,221 268,222 302,222 337,223 371,223 405,224 440,224 474,224 509,224 543,224 577,224 612,224 646,224 681,225 715,225 749,225 784,226 818,227 853,228"/>
+                <TextEquiv>
+                    <Unicode>du mal déchaîné par la corruption des gouvernants.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:4;}">
+                <Coords points="164,283 197,284 231,284 264,285 298,285 331,285 365,286 398,286 432,286 465,286 499,286 533,286 566,286 600,286 633,285 667,285 700,285 734,285 767,285 801,286 835,286 835,256 801,256 767,255 734,255 700,255 667,255 633,255 600,256 566,256 533,256 499,256 465,256 432,256 398,256 365,256 331,255 298,255 264,255 231,254 197,254 164,253"/>
+                <Baseline points="164,273 197,274 231,274 264,275 298,275 331,275 365,276 398,276 432,276 465,276 499,276 533,276 566,276 600,276 633,275 667,275 700,275 734,275 767,275 801,276 835,276"/>
+                <TextEquiv>
+                    <Unicode>Ce sont des nuances qui constituent la véritable histoire</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:5;}">
+                <Coords points="164,327 199,327 234,327 269,328 304,328 339,328 374,328 409,329 444,329 479,330 514,330 549,331 584,331 619,331 654,332 689,333 724,333 759,334 794,335 829,335 865,336 865,306 829,305 794,305 759,304 724,303 689,303 654,302 619,301 584,301 549,301 514,300 479,300 444,299 409,299 374,298 339,298 304,298 269,298 234,297 199,297 164,297"/>
+                <Baseline points="164,317 199,317 234,317 269,318 304,318 339,318 374,318 409,319 444,319 479,320 514,320 549,321 584,321 619,321 654,322 689,323 724,323 759,324 794,325 829,325 865,326"/>
+                <TextEquiv>
+                    <Unicode>et qui doivent être surtout mises en relief par les savants</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l7" custom="readingOrder {index:6;}">
+                <Coords points="156,375 204,370 240,371 276,371 311,371 347,372 383,372 419,373 454,373 490,374 526,374 562,375 597,375 633,376 669,376 705,376 740,377 776,377 812,377 848,378 848,348 812,347 776,347 740,347 705,346 669,346 633,346 597,345 562,345 526,344 490,344 454,343 419,343 383,342 347,342 311,341 276,341 240,341 204,340 156,345"/>
+                <Baseline points="169,360 204,360 240,361 276,361 311,361 347,362 383,362 419,363 454,363 490,364 526,364 562,365 597,365 633,366 669,366 705,366 740,367 776,367 812,367 848,368"/>
+                <TextEquiv>
+                    <Unicode>placés, comme vous, au milieu des faits, des objets, et des</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l8" custom="readingOrder {index:7;}">
+                <Coords points="166,412 197,412 228,412 260,414 260,384 228,382 197,382 166,382"/>
+                <Baseline points="166,402 197,402 228,402 260,404"/>
+                <TextEquiv>
+                    <Unicode>papiers.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l9" custom="readingOrder {index:8;}">
+                <Coords points="225,453 256,454 288,455 320,456 352,457 384,458 416,459 448,460 480,460 512,461 544,462 575,463 607,463 639,464 671,464 703,465 735,465 767,466 799,466 831,467 863,467 863,437 831,437 799,436 767,436 735,435 703,435 671,434 639,434 607,433 575,433 544,432 512,431 480,430 448,430 416,429 384,428 352,427 320,426 288,425 256,424 225,423"/>
+                <Baseline points="225,443 256,444 288,445 320,446 352,447 384,448 416,449 448,450 480,450 512,451 544,452 575,453 607,453 639,454 671,454 703,455 735,455 767,456 799,456 831,457 863,457"/>
+                <TextEquiv>
+                    <Unicode>En ce qui touche les papiers qui vous donnent tant de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l10" custom="readingOrder {index:9;}">
+                <Coords points="160,491 196,493 232,494 268,496 304,497 341,498 377,499 413,500 449,501 485,501 522,502 558,503 594,503 630,504 666,505 703,506 739,506 775,507 811,509 847,510 884,511 884,481 847,480 811,479 775,477 739,476 703,476 666,475 630,474 594,473 558,473 522,472 485,471 449,471 413,470 377,469 341,468 304,467 268,466 232,464 196,463 160,461"/>
+                <Baseline points="160,481 196,483 232,484 268,486 304,487 341,488 377,489 413,490 449,491 485,491 522,492 558,493 594,493 630,494 666,495 703,496 739,496 775,497 811,499 847,500 884,501"/>
+                <TextEquiv>
+                    <Unicode>mal et qui sont jusqu’à la principale source de vos décou-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l11" custom="readingOrder {index:10;}">
+                <Coords points="158,533 190,533 223,535 256,535 289,536 322,537 354,538 387,539 420,539 453,540 486,541 518,542 551,542 584,544 617,544 649,545 682,546 715,547 748,548 781,550 814,551 814,521 781,520 748,518 715,517 682,516 649,515 617,514 584,514 551,512 518,512 486,511 453,510 420,509 387,509 354,508 322,507 289,506 256,505 223,505 190,503 158,503"/>
+                <Baseline points="158,523 190,523 223,525 256,525 289,526 322,527 354,528 387,529 420,529 453,530 486,531 518,532 551,532 584,534 617,534 649,535 682,536 715,537 748,538 781,540 814,541"/>
+                <TextEquiv>
+                    <Unicode>vertes, vous comprendrez de suite combien mon plan de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l12" custom="readingOrder {index:11;}">
+                <Coords points="159,575 186,575 214,576 242,576 270,576 298,577 326,577 353,578 381,578 409,579 437,579 465,579 493,580 521,581 548,581 576,582 604,583 632,584 660,585 688,586 716,588 716,558 688,556 660,555 632,554 604,553 576,552 548,551 521,551 493,550 465,549 437,549 409,549 381,548 353,548 326,547 298,547 270,546 242,546 214,546 186,545 159,545"/>
+                <Baseline points="159,565 186,565 214,566 242,566 270,566 298,567 326,567 353,568 381,568 409,569 437,569 465,569 493,570 521,571 548,571 576,572 604,573 632,574 660,575 688,576 716,578"/>
+                <TextEquiv>
+                    <Unicode>musée historique vous donnerait de secours.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l13" custom="readingOrder {index:12;}">
+                <Coords points="220,626 250,626 281,627 312,628 343,629 374,629 405,630 436,631 467,632 498,633 529,634 559,635 590,636 621,637 652,638 683,638 714,639 745,640 776,640 807,640 838,640 838,610 807,610 776,610 745,610 714,609 683,608 652,608 621,607 590,606 559,605 529,604 498,603 467,602 436,601 405,600 374,599 343,599 312,598 281,597 250,596 220,596"/>
+                <Baseline points="220,616 250,616 281,617 312,618 343,619 374,619 405,620 436,621 467,622 498,623 529,624 559,625 590,626 621,627 652,628 683,628 714,629 745,630 776,630 807,630 838,630"/>
+                <TextEquiv>
+                    <Unicode>La cinquième ère de liberté qui a commencé avec la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l14" custom="readingOrder {index:13;}">
+                <Coords points="154,662 187,663 221,664 255,665 289,666 323,667 357,668 391,669 425,670 459,671 493,672 526,673 560,674 594,676 628,677 662,677 696,678 730,679 764,680 798,680 832,681 832,651 798,650 764,650 730,649 696,648 662,647 628,647 594,646 560,644 526,643 493,642 459,641 425,640 391,639 357,638 323,637 289,636 255,635 221,634 187,633 154,632"/>
+                <Baseline points="154,652 187,653 221,654 255,655 289,656 323,657 357,658 391,659 425,660 459,661 493,662 526,663 560,664 594,666 628,667 662,667 696,668 730,669 764,670 798,670 832,671"/>
+                <TextEquiv>
+                    <Unicode>présente année (voir Organisation du travail, §8, note 11 à 13)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l15" custom="readingOrder {index:14;}">
+                <Coords points="154,703 189,704 225,705 261,706 296,707 332,708 368,709 403,710 439,711 475,712 511,714 546,715 582,716 618,717 653,718 689,719 725,720 760,721 796,722 832,723 868,723 868,693 832,693 796,692 760,691 725,690 689,689 653,688 618,687 582,686 546,685 511,684 475,682 439,681 403,680 368,679 332,678 296,677 261,676 225,675 189,674 154,673"/>
+                <Baseline points="154,693 189,694 225,695 261,696 296,697 332,698 368,699 403,700 439,701 475,702 511,704 546,705 582,706 618,707 653,708 689,709 725,710 760,711 796,712 832,713 868,713"/>
+                <TextEquiv>
+                    <Unicode>a été une source d’expériences légitimes pour ceux qui, comme vous,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l16" custom="readingOrder {index:15;}">
+                <Coords points="149,740 182,741 216,742 249,744 283,745 316,746 350,747 383,749 417,750 450,751 484,752 518,753 551,754 585,755 618,755 652,757 685,758 719,759 752,760 786,761 820,762 820,732 786,731 752,730 719,729 685,728 652,727 618,725 585,725 551,724 518,723 484,722 450,721 417,720 383,719 350,717 316,716 283,715 249,714 216,712 182,711 149,710"/>
+                <Baseline points="149,730 182,731 216,732 249,734 283,735 316,736 350,737 383,739 417,740 450,741 484,742 518,743 551,744 585,745 618,745 652,747 685,748 719,749 752,750 786,751 820,752"/>
+                <TextEquiv>
+                    <Unicode>ont vu de près l’abrutissante domination du préfet. Les</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l17" custom="readingOrder {index:16;}">
+                <Coords points="151,783 186,785 222,786 258,787 294,788 329,790 365,791 401,792 437,793 472,794 508,795 544,796 580,797 615,798 651,799 687,800 723,801 758,802 794,803 830,804 866,805 866,775 830,774 794,773 758,772 723,771 687,770 651,769 615,768 580,767 544,766 508,765 472,764 437,763 401,762 365,761 329,760 294,758 258,757 222,756 186,755 151,753"/>
+                <Baseline points="151,773 186,775 222,776 258,777 294,778 329,780 365,781 401,782 437,783 472,784 508,785 544,786 580,787 615,788 651,789 687,790 723,791 758,792 794,793 830,794 866,795"/>
+                <TextEquiv>
+                    <Unicode>nouveaux gouvernants donnent par eux-mêmes de grandes ga-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l18" custom="readingOrder {index:17;}">
+                <Coords points="140,824 177,825 215,828 253,829 291,831 329,832 367,833 404,834 442,836 480,837 518,838 556,839 594,840 631,841 669,841 707,843 745,844 783,845 821,846 859,847 859,817 821,816 783,815 745,814 707,813 669,811 631,811 594,810 556,809 518,808 480,807 442,806 404,804 367,803 329,802 291,801 253,799 215,798 177,795 140,794"/>
+                <Baseline points="140,814 177,815 215,818 253,819 291,821 329,822 367,823 404,824 442,826 480,827 518,828 556,829 594,830 631,831 669,831 707,833 745,834 783,835 821,836 859,837"/>
+                <TextEquiv>
+                    <Unicode>ranties ; et tous les gens de bien doivent les seconder. Plaise</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l19" custom="readingOrder {index:18;}">
+                <Coords points="149,868 183,870 217,871 251,872 285,873 319,874 353,875 387,876 421,877 455,877 489,878 523,878 557,879 591,880 625,880 659,881 693,882 727,882 761,883 795,884 829,885 829,855 795,854 761,853 727,852 693,852 659,851 625,850 591,850 557,849 523,848 489,848 455,847 421,847 387,846 353,845 319,844 285,843 251,842 217,841 183,840 149,838"/>
+                <Baseline points="149,858 183,860 217,861 251,862 285,863 319,864 353,865 387,866 421,867 455,867 489,868 523,868 557,869 591,870 625,870 659,871 693,872 727,872 761,873 795,874 829,875"/>
+                <TextEquiv>
+                    <Unicode>a dieu que les passions subversives  n’épuisent pas, en résistances</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l20" custom="readingOrder {index:19;}">
+                <Coords points="149,907 182,908 216,909 249,910 283,911 317,911 350,912 384,912 418,913 451,914 485,914 519,915 552,916 586,916 620,917 653,918 687,919 721,920 754,922 788,924 822,925 822,895 788,894 754,892 721,890 687,889 653,888 620,887 586,886 552,886 519,885 485,884 451,884 418,883 384,882 350,882 317,881 283,881 249,880 216,879 182,878 149,877"/>
+                <Baseline points="149,897 182,898 216,899 249,900 283,901 317,901 350,902 384,902 418,903 451,904 485,904 519,905 552,906 586,906 620,907 653,908 687,909 721,910 754,912 788,914 822,915"/>
+                <TextEquiv>
+                    <Unicode>et en conflits, leur puissance de travail et d’action ; qu’en </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l21" custom="readingOrder {index:20;}">
+                <Coords points="150,951 185,952 221,953 257,954 292,955 328,956 364,956 400,957 435,958 471,959 507,959 543,960 578,961 614,962 650,963 686,964 721,965 757,967 793,968 829,970 829,940 793,938 757,937 721,935 686,934 650,933 614,932 578,931 543,930 507,929 471,929 435,928 400,927 364,926 328,926 292,925 257,924 221,923 185,922 150,921"/>
+                <Baseline points="150,941 185,942 221,943 257,944 292,945 328,946 364,946 400,947 435,948 471,949 507,949 543,950 578,951 614,952 650,953 686,954 721,955 757,957 793,958 829,960"/>
+                <TextEquiv>
+                    <Unicode>résumé le changement, n’aboutisse pas seulement, comme aux</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l22" custom="readingOrder {index:21;}">
+                <Coords points="146,991 174,993 202,994 231,995 259,996 287,996 316,997 344,998 372,999 401,1000 429,1000 458,1001 486,1002 514,1003 543,1004 571,1005 599,1006 628,1007 656,1009 685,1011 686,963 656,979 628,977 599,976 571,975 543,974 514,973 486,972 458,971 429,970 401,970 372,969 344,968 316,967 287,966 259,966 231,965 202,964 174,963 146,961"/>
+                <Baseline points="146,981 174,983 202,984 231,985 259,986 287,986 316,987 344,988 372,989 401,990 429,990 458,991 486,992 514,993 543,994 571,995 599,996 628,997 656,999 685,1001"/>
+                <TextEquiv>
+                    <Unicode>quatre ères précédentes, à de stériles débats !</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l23" custom="readingOrder {index:22;}">
+                <Coords points="216,1042 248,1042 280,1043 312,1044 345,1044 377,1045 409,1045 442,1046 474,1047 506,1047 539,1048 571,1049 603,1050 635,1050 668,1051 700,1051 732,1052 765,1052 797,1052 829,1053 862,1053 862,1023 829,1023 797,1022 765,1022 732,1022 700,1021 668,1021 635,1020 603,1020 571,1019 539,1018 506,1017 474,1017 442,1016 409,1015 377,1015 345,1014 312,1014 280,1013 248,1012 216,1012"/>
+                <Baseline points="216,1032 248,1032 280,1033 312,1034 345,1034 377,1035 409,1035 442,1036 474,1037 506,1037 539,1038 571,1039 603,1040 635,1040 668,1041 700,1041 732,1042 765,1042 797,1042 829,1043 862,1043"/>
+                <TextEquiv>
+                    <Unicode>Présentez mon souvenir respectueux à vos dames, causes</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l24" custom="readingOrder {index:23;}">
+                <Coords points="149,1080 184,1082 220,1083 256,1084 292,1084 327,1085 363,1085 399,1086 435,1086 470,1087 506,1087 542,1087 578,1088 613,1088 649,1088 685,1089 721,1090 756,1090 792,1091 828,1093 864,1094 864,1064 828,1063 792,1061 756,1060 721,1060 685,1059 649,1058 613,1058 578,1058 542,1057 506,1057 470,1057 435,1056 399,1056 363,1055 327,1055 292,1054 256,1054 220,1053 184,1052 149,1050"/>
+                <Baseline points="149,1070 184,1072 220,1073 256,1074 292,1074 327,1075 363,1075 399,1076 435,1076 470,1077 506,1077 542,1077 578,1078 613,1078 649,1078 685,1079 721,1080 756,1080 792,1081 828,1083 864,1084"/>
+                <TextEquiv>
+                    <Unicode>de l’objet de cette lettre avec l’ami Jannet et la jeunesse progressive</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l25" custom="readingOrder {index:24;}">
+                <Coords points="139,1116 173,1118 208,1119 242,1120 277,1121 312,1121 346,1122 381,1122 416,1123 450,1123 485,1124 520,1124 554,1124 589,1124 624,1125 658,1125 693,1125 728,1126 762,1127 797,1128 832,1129 832,1099 797,1098 762,1097 728,1096 693,1095 658,1095 624,1095 589,1094 554,1094 520,1094 485,1094 450,1093 416,1093 381,1092 346,1092 312,1091 277,1091 242,1090 208,1089 173,1088 139,1086"/>
+                <Baseline points="139,1106 173,1108 208,1109 242,1110 277,1111 312,1111 346,1112 381,1112 416,1113 450,1113 485,1114 520,1114 554,1114 589,1114 624,1115 658,1115 693,1115 728,1116 762,1117 797,1118 832,1119"/>
+                <TextEquiv>
+                    <Unicode>de la localité, recevez enfin, cher ami, la nouvelle assurance</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l26" custom="readingOrder {index:25;}">
+                <Coords points="143,1153 168,1154 194,1155 219,1156 245,1157 270,1157 296,1158 321,1158 347,1159 372,1159 398,1159 423,1159 449,1159 442,1174 500,1159 500,1129 474,1129 449,1129 423,1129 398,1129 372,1129 347,1129 321,1128 296,1128 270,1127 245,1127 219,1126 194,1125 168,1124 143,1123"/>
+                <Baseline points="143,1143 168,1144 194,1145 219,1146 245,1147 270,1147 296,1148 321,1148 347,1149 372,1149 398,1149 423,1149 449,1149 474,1149 500,1149"/>
+                <TextEquiv>
+                    <Unicode>de mes sentiments affectueux.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l27" custom="readingOrder {index:26;}">
+                <Coords points="685,1181 641,1229 739,1232 825,1180 804,1165 791,1150 799,1144 794,1139 715,1126 685,1151"/>
+                <Baseline points="685,1171 711,1170 738,1170 764,1170 791,1170"/>
+                <TextEquiv>
+                    <Unicode>F Le Play</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>la plupart des familles de haut  étaient frappées.
+La Provence à cette époque comme à toute autre, à dû
+jouer le rôle d’une digue salutaire devant l’invasion
+du mal déchaîné par la corruption des gouvernants.
+Ce sont des nuances qui constituent la véritable histoire
+et qui doivent être surtout mises en relief par les savants
+placés, comme vous, au milieu des faits, des objets, et des
+papiers.
+En ce qui touche les papiers qui vous donnent tant de
+mal et qui sont jusqu’à la principale source de vos décou-
+vertes, vous comprendrez de suite combien mon plan de
+musée historique vous donnerait de secours.
+La cinquième ère de liberté qui a commencé avec la
+présente année (voir Organisation du travail, §8, note 11 à 13)
+a été une source d’expériences légitimes pour ceux qui, comme vous,
+ont vu de près l’abrutissante domination du préfet. Les
+nouveaux gouvernants donnent par eux-mêmes de grandes ga-
+ranties ; et tous les gens de bien doivent les seconder. Plaise
+a dieu que les passions subversives  n’épuisent pas, en résistances
+et en conflits, leur puissance de travail et d’action ; qu’en 
+résumé le changement, n’aboutisse pas seulement, comme aux
+quatre ères précédentes, à de stériles débats !
+Présentez mon souvenir respectueux à vos dames, causes
+de l’objet de cette lettre avec l’ami Jannet et la jeunesse progressive
+de la localité, recevez enfin, cher ami, la nouvelle assurance
+de mes sentiments affectueux.
+F Le Play</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
