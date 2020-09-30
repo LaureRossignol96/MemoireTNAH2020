@@ -1,6 +1,6 @@
 ARBORESCENCE DÉTAILLÉE DES LIVRABLES
 
-LIVRABLES
+
 ├── CRHXIX
 │   ├── 1-inventaires
 │   │   ├── Inventaire_cor_LP.xlsx
@@ -593,7 +593,7 @@ LIVRABLES
 │   │           └── extraction-elicom_proudhon.py
 │   └── rapport_fin_stage_OBVIL.pdf
 ├── arborescence.txt
-└── lisez-moi.txt
+└── README.md
 
 
 63 directories, 567 files
