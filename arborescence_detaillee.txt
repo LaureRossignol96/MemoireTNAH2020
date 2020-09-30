@@ -1,0 +1,599 @@
+ARBORESCENCE DÉTAILLÉE DES LIVRABLES
+
+LIVRABLES
+├── CRHXIX
+│   ├── 1-inventaires
+│   │   ├── Inventaire_cor_LP.xlsx
+│   │   └── Inventaire_LP_plain_text_gallica.pdf
+│   ├── 2-transcriptions
+│   │   └── LePlay_Loyson_MF.pdf
+│   ├── 3-trankribus
+│   │   ├── export_test
+│   │   │   ├── BNF9enJPG
+│   │   │   │   ├── BNF9enJPG
+│   │   │   │   │   ├── 0001.jpg
+│   │   │   │   │   ├── 0002.jpg
+│   │   │   │   │   ├── 0003.jpg
+│   │   │   │   │   ├── 0004.jpg
+│   │   │   │   │   ├── 0005.jpg
+│   │   │   │   │   ├── 0006.jpg
+│   │   │   │   │   ├── 0007.jpg
+│   │   │   │   │   ├── 0008.jpg
+│   │   │   │   │   ├── 0009.jpg
+│   │   │   │   │   ├── 0010.jpg
+│   │   │   │   │   ├── 0011.jpg
+│   │   │   │   │   ├── 0012.jpg
+│   │   │   │   │   ├── 0013.jpg
+│   │   │   │   │   ├── 0014.jpg
+│   │   │   │   │   ├── 0015.jpg
+│   │   │   │   │   ├── 0016.jpg
+│   │   │   │   │   ├── 0017.jpg
+│   │   │   │   │   ├── 0018.jpg
+│   │   │   │   │   ├── 0019.jpg
+│   │   │   │   │   ├── 0020.jpg
+│   │   │   │   │   ├── 0021.jpg
+│   │   │   │   │   ├── 0022.jpg
+│   │   │   │   │   ├── 0023.jpg
+│   │   │   │   │   ├── 0024.jpg
+│   │   │   │   │   ├── 0025.jpg
+│   │   │   │   │   ├── 0026.jpg
+│   │   │   │   │   ├── 0027.jpg
+│   │   │   │   │   ├── 0028.jpg
+│   │   │   │   │   ├── 0029.jpg
+│   │   │   │   │   ├── 0030.jpg
+│   │   │   │   │   ├── 0031.jpg
+│   │   │   │   │   ├── 0032.jpg
+│   │   │   │   │   ├── 0033.jpg
+│   │   │   │   │   ├── 0034.jpg
+│   │   │   │   │   ├── 0035.jpg
+│   │   │   │   │   ├── 0036.jpg
+│   │   │   │   │   ├── 0037.jpg
+│   │   │   │   │   ├── 0038.jpg
+│   │   │   │   │   ├── 0039.jpg
+│   │   │   │   │   ├── 0040.jpg
+│   │   │   │   │   ├── 0041.jpg
+│   │   │   │   │   ├── 0042.jpg
+│   │   │   │   │   ├── 0043.jpg
+│   │   │   │   │   ├── metadata.xml
+│   │   │   │   │   ├── mets.xml
+│   │   │   │   │   └── page
+│   │   │   │   └── BNF9enJPG_tei.xml
+│   │   │   ├── LP_à_Charles_de_Ribbe1
+│   │   │   │   ├── LP_à_Charles_de_Ribbe
+│   │   │   │   │   ├── LETTRE 01.png
+│   │   │   │   │   ├── LETTRE 02 A.png
+│   │   │   │   │   ├── LETTRE 02 B.png
+│   │   │   │   │   ├── LETTRE 02 C.png
+│   │   │   │   │   ├── LETTRE 02 D.png
+│   │   │   │   │   ├── LETTRE 03 A.png
+│   │   │   │   │   ├── LETTRE 03 B.png
+│   │   │   │   │   ├── LETTRE 04 A.png
+│   │   │   │   │   ├── LETTRE 04 B.png
+│   │   │   │   │   ├── LETTRE 06 A.png
+│   │   │   │   │   ├── LETTRE 06 B.png
+│   │   │   │   │   ├── LETTRE 06 C.png
+│   │   │   │   │   ├── LETTRE 06 D.png
+│   │   │   │   │   ├── LETTRE 07 A.png
+│   │   │   │   │   ├── LETTRE 07 B.png
+│   │   │   │   │   ├── metadata.xml
+│   │   │   │   │   ├── mets.xml
+│   │   │   │   │   └── page
+│   │   │   │   └── LP_à_Charles_de_Ribbe_tei.xml
+│   │   │   ├── LP_à_Charles_de_Ribbe2
+│   │   │   │   ├── LP_à_Charles_de_Ribbe
+│   │   │   │   │   ├── ChdeRibbe01.png
+│   │   │   │   │   ├── ChdeRibbe02A.png
+│   │   │   │   │   ├── ChdeRibbe02B.png
+│   │   │   │   │   ├── ChdeRibbe02C.png
+│   │   │   │   │   ├── metadata.xml
+│   │   │   │   │   ├── mets.xml
+│   │   │   │   │   └── page
+│   │   │   │   ├── LP_à_Charles_de_Ribbe.pdf
+│   │   │   │   ├── LP_à_Charles_de_Ribbe_tei.xml
+│   │   │   │   └── LP_à_Charles_de_Ribbe.txt
+│   │   │   └── Set_entrainement_le_play
+│   │   │       ├── Set_entrainement_le_play
+│   │   │       │   ├── 5MS14112_p37_1p_20sept1864.jpg
+│   │   │       │   ├── 6LPLK_MS14112_p39_p1_23sept1864.jpg
+│   │   │       │   ├── IMG-3506.JPG
+│   │   │       │   ├── IMG-3508.JPG
+│   │   │       │   ├── LETTRE 07 A.png
+│   │   │       │   ├── LETTRE 07 B.png
+│   │   │       │   ├── LPdupanloup1BNF9.jpg
+│   │   │       │   ├── LPdupanloup2BNF9.jpg
+│   │   │       │   ├── LPdupanloup3BNF9.jpg
+│   │   │       │   ├── LPLoyson0049.TIF
+│   │   │       │   ├── LPLoyson0050.TIF
+│   │   │       │   ├── LPLoyson0053.TIF
+│   │   │       │   ├── LPLoyson0054.TIF
+│   │   │       │   ├── metadata.xml
+│   │   │       │   ├── mets.xml
+│   │   │       │   ├── page
+│   │   │       │   └── u peruzzi xxxi ins 37 (7).jpg
+│   │   │       ├── Set_entrainement_le_play.docx
+│   │   │       ├── Set_entrainement_le_play.pdf
+│   │   │       ├── Set_entrainement_le_play_tables.xlsx
+│   │   │       ├── Set_entrainement_le_play_tei.xml
+│   │   │       ├── Set_entrainement_le_play.txt
+│   │   │       └── Set_entrainement_le_play.xlsx
+│   │   ├── Point_Transkribus.pdf
+│   │   ├── Tuto1_preparation_des_donnees_transkribus.pdf
+│   │   ├── Tuto2_entrainement_du_modele.pdf
+│   │   ├── Tuto3_application_du_modele.pdf
+│   │   └── Tuto4_exportation_transkribus.pdf
+│   ├── 4-cahier_des_charges
+│   │   ├── cdc_CRHXIX_LePlayV2.pdf
+│   │   └── users_stories_LP_V3.ods
+│   ├── 5-site
+│   │   ├── architecture_site_LP.JPG
+│   │   └── pages
+│   │       ├── 1_SiteLP_ACCUEIL.pdf
+│   │       ├── 2a_SiteLP_A_PROPOS_DE_LE_PLAY.pdf
+│   │       ├── 2b_SiteLP_A_PROPOS_DE_LE_PLAY.pdf
+│   │       ├── 3a_SiteLP_CorrespondanceLP_ordre_chrono.pdf
+│   │       ├── 3b_SiteLP_CorrespondanceLP_ordre_correspondants - Copie.pdf
+│   │       ├── 3c_SiteLP_CorrespondanceLP_lieu_rédaction.pdf
+│   │       ├── 3d_SiteLP_CorrespondanceLP_lieu_conservation.pdf
+│   │       ├── 4_SiteLP_Index.pdf
+│   │       ├── 5_SiteLP_Recherche_avancée.pdf
+│   │       ├── 6_SiteLP_Guides.pdf
+│   │       ├── 7_SiteLP_Actualités.pdf
+│   │       └── 8_SiteLP_Apropos_édition.pdf
+│   ├── 6-index
+│   │   └── Vocabulaire leplaysien - mots à ajouter.pdf
+│   ├── 7-index_tei
+│   │   ├── index_correspondants_teiHeader.pdf
+│   │   ├── index_evenements_tei.pdf
+│   │   ├── index_leplaysien_tei.pdf
+│   │   ├── index_lieux_tei.pdf
+│   │   ├── index_organisations_tei.pdf
+│   │   ├── index_ouvrages_tei.pdf
+│   │   └── index_personnes_tei.pdf
+│   ├── 8-tei
+│   │   ├── essai_tei_correspondance_CRHXIXv2.xml
+│   │   ├── lp_dupanloup_xml
+│   │   │   ├── lp_dupanloup_bnf_base.xml
+│   │   │   ├── lp_dupanloup_bnf-l1.xml
+│   │   │   └── lp_dupanloup_bnf-l2.xml
+│   │   ├── lp_ribbe_arbaud_xml
+│   │   │   ├── lp_ribbe_arbaud_base.xml
+│   │   │   ├── lp_ribbe_arbaud-l1.xml
+│   │   │   └── lp_ribbe_arbaud-l2.xml
+│   │   └── Tuto_XML-TEI_CHRXIX.pdf
+│   └── rapport_fin_stage_CRHXIX.pdf
+│	├── 9-odd
+│   │   ├── LP_testODD
+│   │   │   ├── ODD_LEPLAY_V1.html
+│   │   │   ├── ODD_LEPLAY_V1.xml
+│   │   │   ├── out
+│   │   │   │   └── ODD_LEPLAY_V1.rng
+│   │   │   └── test.xml
+│   │   └── ODD_LEPLAY_V1.html
+├── LABEX_OBVIL
+│   ├── extraction_cor_stage2020
+│   │   ├── cor_lamartine
+│   │   │   ├── corpus
+│   │   │   │   ├── Correspondance_de_Lamartine_I_1807-1812_[...]Lamartine_Alphonse_bpt6k5805303r(1).pdf
+│   │   │   │   └── lamartine-cor-vol1.html
+│   │   │   ├── dump
+│   │   │   │   ├── lamartine-cor-vol1-0.xml
+│   │   │   │   ├── lamartine-cor-vol1-10.xml
+│   │   │   │   ├── lamartine-cor-vol1-11.xml
+│   │   │   │   ├── lamartine-cor-vol1-12.xml
+│   │   │   │   ├── lamartine-cor-vol1-13.xml
+│   │   │   │   ├── lamartine-cor-vol1-14.xml
+│   │   │   │   ├── lamartine-cor-vol1-15.xml
+│   │   │   │   ├── lamartine-cor-vol1-16.xml
+│   │   │   │   ├── lamartine-cor-vol1-17.xml
+│   │   │   │   ├── lamartine-cor-vol1-18.xml
+│   │   │   │   ├── lamartine-cor-vol1-19.xml
+│   │   │   │   ├── lamartine-cor-vol1-1.xml
+│   │   │   │   ├── lamartine-cor-vol1-20.xml
+│   │   │   │   ├── lamartine-cor-vol1-21.xml
+│   │   │   │   ├── lamartine-cor-vol1-22.xml
+│   │   │   │   ├── lamartine-cor-vol1-23.xml
+│   │   │   │   ├── lamartine-cor-vol1-24.xml
+│   │   │   │   ├── lamartine-cor-vol1-25.xml
+│   │   │   │   ├── lamartine-cor-vol1-26.xml
+│   │   │   │   ├── lamartine-cor-vol1-27.xml
+│   │   │   │   ├── lamartine-cor-vol1-28.xml
+│   │   │   │   ├── lamartine-cor-vol1-29.xml
+│   │   │   │   ├── lamartine-cor-vol1-2.xml
+│   │   │   │   ├── lamartine-cor-vol1-30.xml
+│   │   │   │   ├── lamartine-cor-vol1-31.xml
+│   │   │   │   ├── lamartine-cor-vol1-32.xml
+│   │   │   │   ├── lamartine-cor-vol1-33.xml
+│   │   │   │   ├── lamartine-cor-vol1-34.xml
+│   │   │   │   ├── lamartine-cor-vol1-35.xml
+│   │   │   │   ├── lamartine-cor-vol1-36.xml
+│   │   │   │   ├── lamartine-cor-vol1-37.xml
+│   │   │   │   ├── lamartine-cor-vol1-38.xml
+│   │   │   │   ├── lamartine-cor-vol1-39.xml
+│   │   │   │   ├── lamartine-cor-vol1-3.xml
+│   │   │   │   ├── lamartine-cor-vol1-40.xml
+│   │   │   │   ├── lamartine-cor-vol1-41.xml
+│   │   │   │   ├── lamartine-cor-vol1-42.xml
+│   │   │   │   ├── lamartine-cor-vol1-43.xml
+│   │   │   │   ├── lamartine-cor-vol1-44.xml
+│   │   │   │   ├── lamartine-cor-vol1-45.xml
+│   │   │   │   ├── lamartine-cor-vol1-46.xml
+│   │   │   │   ├── lamartine-cor-vol1-47.xml
+│   │   │   │   ├── lamartine-cor-vol1-48.xml
+│   │   │   │   ├── lamartine-cor-vol1-49.xml
+│   │   │   │   ├── lamartine-cor-vol1-4.xml
+│   │   │   │   ├── lamartine-cor-vol1-50.xml
+│   │   │   │   ├── lamartine-cor-vol1-51.xml
+│   │   │   │   ├── lamartine-cor-vol1-52.xml
+│   │   │   │   ├── lamartine-cor-vol1-53.xml
+│   │   │   │   ├── lamartine-cor-vol1-54.xml
+│   │   │   │   ├── lamartine-cor-vol1-55.xml
+│   │   │   │   ├── lamartine-cor-vol1-56.xml
+│   │   │   │   ├── lamartine-cor-vol1-57.xml
+│   │   │   │   ├── lamartine-cor-vol1-58.xml
+│   │   │   │   ├── lamartine-cor-vol1-59.xml
+│   │   │   │   ├── lamartine-cor-vol1-5.xml
+│   │   │   │   ├── lamartine-cor-vol1-60.xml
+│   │   │   │   ├── lamartine-cor-vol1-61.xml
+│   │   │   │   ├── lamartine-cor-vol1-62.xml
+│   │   │   │   ├── lamartine-cor-vol1-63.xml
+│   │   │   │   ├── lamartine-cor-vol1-64.xml
+│   │   │   │   ├── lamartine-cor-vol1-65.xml
+│   │   │   │   ├── lamartine-cor-vol1-66.xml
+│   │   │   │   ├── lamartine-cor-vol1-67.xml
+│   │   │   │   ├── lamartine-cor-vol1-68.xml
+│   │   │   │   ├── lamartine-cor-vol1-69.xml
+│   │   │   │   ├── lamartine-cor-vol1-6.xml
+│   │   │   │   ├── lamartine-cor-vol1-70.xml
+│   │   │   │   ├── lamartine-cor-vol1-71.xml
+│   │   │   │   ├── lamartine-cor-vol1-72.xml
+│   │   │   │   ├── lamartine-cor-vol1-73.xml
+│   │   │   │   ├── lamartine-cor-vol1-74.xml
+│   │   │   │   ├── lamartine-cor-vol1-75.xml
+│   │   │   │   ├── lamartine-cor-vol1-76.xml
+│   │   │   │   ├── lamartine-cor-vol1-77.xml
+│   │   │   │   ├── lamartine-cor-vol1-78.xml
+│   │   │   │   ├── lamartine-cor-vol1-79.xml
+│   │   │   │   ├── lamartine-cor-vol1-7.xml
+│   │   │   │   ├── lamartine-cor-vol1-80.xml
+│   │   │   │   ├── lamartine-cor-vol1-81.xml
+│   │   │   │   ├── lamartine-cor-vol1-82.xml
+│   │   │   │   ├── lamartine-cor-vol1-83.xml
+│   │   │   │   ├── lamartine-cor-vol1-84.xml
+│   │   │   │   ├── lamartine-cor-vol1-85.xml
+│   │   │   │   ├── lamartine-cor-vol1-86.xml
+│   │   │   │   ├── lamartine-cor-vol1-87.xml
+│   │   │   │   ├── lamartine-cor-vol1-88.xml
+│   │   │   │   ├── lamartine-cor-vol1-89.xml
+│   │   │   │   ├── lamartine-cor-vol1-8.xml
+│   │   │   │   ├── lamartine-cor-vol1-90.xml
+│   │   │   │   ├── lamartine-cor-vol1-91.xml
+│   │   │   │   ├── lamartine-cor-vol1-92.xml
+│   │   │   │   ├── lamartine-cor-vol1-93.xml
+│   │   │   │   ├── lamartine-cor-vol1-94.xml
+│   │   │   │   ├── lamartine-cor-vol1-95.xml
+│   │   │   │   ├── lamartine-cor-vol1-96.xml
+│   │   │   │   └── lamartine-cor-vol1-9.xml
+│   │   │   ├── remarques
+│   │   │   │   ├── procedure_lamartine.pdf
+│   │   │   │   ├── recapitulatif_lamartine.md
+│   │   │   │   ├── rq_HTML_lamartine_Vol1.pdf
+│   │   │   │   └── rq_XML_lamartine_Vol1.pdf
+│   │   │   └── script
+│   │   │       └── extraction-elicom_lamartine.py
+│   │   ├── cor_lamennais
+│   │   │   ├── corpus
+│   │   │   │   ├── Correspondance_Tome_1___Lamennais_[...]La_Mennais_bpt6k9761794z.pdf
+│   │   │   │   └── lamennais-cor-vol1.html
+│   │   │   ├── dump
+│   │   │   │   ├── lamennais-cor-vol1-0.xml
+│   │   │   │   ├── lamennais-cor-vol1-100.xml
+│   │   │   │   ├── lamennais-cor-vol1-101.xml
+│   │   │   │   ├── lamennais-cor-vol1-102.xml
+│   │   │   │   ├── lamennais-cor-vol1-103.xml
+│   │   │   │   ├── lamennais-cor-vol1-104.xml
+│   │   │   │   ├── lamennais-cor-vol1-105.xml
+│   │   │   │   ├── lamennais-cor-vol1-106.xml
+│   │   │   │   ├── lamennais-cor-vol1-107.xml
+│   │   │   │   ├── lamennais-cor-vol1-108.xml
+│   │   │   │   ├── lamennais-cor-vol1-109.xml
+│   │   │   │   ├── lamennais-cor-vol1-10.xml
+│   │   │   │   ├── lamennais-cor-vol1-110.xml
+│   │   │   │   ├── lamennais-cor-vol1-111.xml
+│   │   │   │   ├── lamennais-cor-vol1-112.xml
+│   │   │   │   ├── lamennais-cor-vol1-113.xml
+│   │   │   │   ├── lamennais-cor-vol1-114.xml
+│   │   │   │   ├── lamennais-cor-vol1-1-156b.xml
+│   │   │   │   ├── lamennais-cor-vol1-115.xml
+│   │   │   │   ├── lamennais-cor-vol1-116b.xml
+│   │   │   │   ├── lamennais-cor-vol1-116c.xml
+│   │   │   │   ├── lamennais-cor-vol1-116.xml
+│   │   │   │   ├── lamennais-cor-vol1-117e.xml
+│   │   │   │   ├── lamennais-cor-vol1-117.xml
+│   │   │   │   ├── lamennais-cor-vol1-118.xml
+│   │   │   │   ├── lamennais-cor-vol1-119.xml
+│   │   │   │   ├── lamennais-cor-vol1-11.xml
+│   │   │   │   ├── lamennais-cor-vol1-120.xml
+│   │   │   │   ├── lamennais-cor-vol1-121.xml
+│   │   │   │   ├── lamennais-cor-vol1-122.xml
+│   │   │   │   ├── lamennais-cor-vol1-123.xml
+│   │   │   │   ├── lamennais-cor-vol1-124.xml
+│   │   │   │   ├── lamennais-cor-vol1-125.xml
+│   │   │   │   ├── lamennais-cor-vol1-126.xml
+│   │   │   │   ├── lamennais-cor-vol1-127.xml
+│   │   │   │   ├── lamennais-cor-vol1-128.xml
+│   │   │   │   ├── lamennais-cor-vol1-129.xml
+│   │   │   │   ├── lamennais-cor-vol1-12.xml
+│   │   │   │   ├── lamennais-cor-vol1-130.xml
+│   │   │   │   ├── lamennais-cor-vol1-131.xml
+│   │   │   │   ├── lamennais-cor-vol1-132.xml
+│   │   │   │   ├── lamennais-cor-vol1-133.xml
+│   │   │   │   ├── lamennais-cor-vol1-134.xml
+│   │   │   │   ├── lamennais-cor-vol1-135.xml
+│   │   │   │   ├── lamennais-cor-vol1-136.xml
+│   │   │   │   ├── lamennais-cor-vol1-137.xml
+│   │   │   │   ├── lamennais-cor-vol1-138.xml
+│   │   │   │   ├── lamennais-cor-vol1-139.xml
+│   │   │   │   ├── lamennais-cor-vol1-13.xml
+│   │   │   │   ├── lamennais-cor-vol1-140.xml
+│   │   │   │   ├── lamennais-cor-vol1-141.xml
+│   │   │   │   ├── lamennais-cor-vol1-142.xml
+│   │   │   │   ├── lamennais-cor-vol1-143.xml
+│   │   │   │   ├── lamennais-cor-vol1-144.xml
+│   │   │   │   ├── lamennais-cor-vol1-145.xml
+│   │   │   │   ├── lamennais-cor-vol1-146.xml
+│   │   │   │   ├── lamennais-cor-vol1-147.xml
+│   │   │   │   ├── lamennais-cor-vol1-148.xml
+│   │   │   │   ├── lamennais-cor-vol1-149.xml
+│   │   │   │   ├── lamennais-cor-vol1-14.xml
+│   │   │   │   ├── lamennais-cor-vol1-150.xml
+│   │   │   │   ├── lamennais-cor-vol1-151.xml
+│   │   │   │   ├── lamennais-cor-vol1-152.xml
+│   │   │   │   ├── lamennais-cor-vol1-153.xml
+│   │   │   │   ├── lamennais-cor-vol1-154.xml
+│   │   │   │   ├── lamennais-cor-vol1-155.xml
+│   │   │   │   ├── lamennais-cor-vol1-156.xml
+│   │   │   │   ├── lamennais-cor-vol1-157.xml
+│   │   │   │   ├── lamennais-cor-vol1-158.xml
+│   │   │   │   ├── lamennais-cor-vol1-159.xml
+│   │   │   │   ├── lamennais-cor-vol1-15.xml
+│   │   │   │   ├── lamennais-cor-vol1-160.xml
+│   │   │   │   ├── lamennais-cor-vol1-161.xml
+│   │   │   │   ├── lamennais-cor-vol1-162.xml
+│   │   │   │   ├── lamennais-cor-vol1-163.xml
+│   │   │   │   ├── lamennais-cor-vol1-164.xml
+│   │   │   │   ├── lamennais-cor-vol1-165.xml
+│   │   │   │   ├── lamennais-cor-vol1-166.xml
+│   │   │   │   ├── lamennais-cor-vol1-167.xml
+│   │   │   │   ├── lamennais-cor-vol1-168.xml
+│   │   │   │   ├── lamennais-cor-vol1-169.xml
+│   │   │   │   ├── lamennais-cor-vol1-16.xml
+│   │   │   │   ├── lamennais-cor-vol1-170.xml
+│   │   │   │   ├── lamennais-cor-vol1-171.xml
+│   │   │   │   ├── lamennais-cor-vol1-172.xml
+│   │   │   │   ├── lamennais-cor-vol1-173.xml
+│   │   │   │   ├── lamennais-cor-vol1-174.xml
+│   │   │   │   ├── lamennais-cor-vol1-175.xml
+│   │   │   │   ├── lamennais-cor-vol1-176.xml
+│   │   │   │   ├── lamennais-cor-vol1-177.xml
+│   │   │   │   ├── lamennais-cor-vol1-178.xml
+│   │   │   │   ├── lamennais-cor-vol1-179.xml
+│   │   │   │   ├── lamennais-cor-vol-117c.xml
+│   │   │   │   ├── lamennais-cor-vol-117d.xml
+│   │   │   │   ├── lamennais-cor-vol-117f.xml
+│   │   │   │   ├── lamennais-cor-vol1-17.xml
+│   │   │   │   ├── lamennais-cor-vol1-180.xml
+│   │   │   │   ├── lamennais-cor-vol1-181.xml
+│   │   │   │   ├── lamennais-cor-vol1-182.xml
+│   │   │   │   ├── lamennais-cor-vol1-183.xml
+│   │   │   │   ├── lamennais-cor-vol1-184.xml
+│   │   │   │   ├── lamennais-cor-vol1-185.xml
+│   │   │   │   ├── lamennais-cor-vol1-186.xml
+│   │   │   │   ├── lamennais-cor-vol1-187.xml
+│   │   │   │   ├── lamennais-cor-vol1-188.xml
+│   │   │   │   ├── lamennais-cor-vol1-189.xml
+│   │   │   │   ├── lamennais-cor-vol1-18.xml
+│   │   │   │   ├── lamennais-cor-vol1-190.xml
+│   │   │   │   ├── lamennais-cor-vol1-191.xml
+│   │   │   │   ├── lamennais-cor-vol1-192.xml
+│   │   │   │   ├── lamennais-cor-vol1-193.xml
+│   │   │   │   ├── lamennais-cor-vol1-194.xml
+│   │   │   │   ├── lamennais-cor-vol1-195.xml
+│   │   │   │   ├── lamennais-cor-vol1-19.xml
+│   │   │   │   ├── lamennais-cor-vol1-1.xml
+│   │   │   │   ├── lamennais-cor-vol1-20.xml
+│   │   │   │   ├── lamennais-cor-vol1-21.xml
+│   │   │   │   ├── lamennais-cor-vol1-22.xml
+│   │   │   │   ├── lamennais-cor-vol1-23.xml
+│   │   │   │   ├── lamennais-cor-vol1-24.xml
+│   │   │   │   ├── lamennais-cor-vol1-25.xml
+│   │   │   │   ├── lamennais-cor-vol1-26.xml
+│   │   │   │   ├── lamennais-cor-vol1-27.xml
+│   │   │   │   ├── lamennais-cor-vol1-28.xml
+│   │   │   │   ├── lamennais-cor-vol1-29.xml
+│   │   │   │   ├── lamennais-cor-vol1-2.xml
+│   │   │   │   ├── lamennais-cor-vol1-30.xml
+│   │   │   │   ├── lamennais-cor-vol1-31.xml
+│   │   │   │   ├── lamennais-cor-vol1-32.xml
+│   │   │   │   ├── lamennais-cor-vol1-33.xml
+│   │   │   │   ├── lamennais-cor-vol1-34.xml
+│   │   │   │   ├── lamennais-cor-vol1-35.xml
+│   │   │   │   ├── lamennais-cor-vol1-36.xml
+│   │   │   │   ├── lamennais-cor-vol1-37.xml
+│   │   │   │   ├── lamennais-cor-vol1-38.xml
+│   │   │   │   ├── lamennais-cor-vol1-39.xml
+│   │   │   │   ├── lamennais-cor-vol1-3.xml
+│   │   │   │   ├── lamennais-cor-vol1-40.xml
+│   │   │   │   ├── lamennais-cor-vol1-41.xml
+│   │   │   │   ├── lamennais-cor-vol1-42.xml
+│   │   │   │   ├── lamennais-cor-vol1-43.xml
+│   │   │   │   ├── lamennais-cor-vol1-44.xml
+│   │   │   │   ├── lamennais-cor-vol1-45.xml
+│   │   │   │   ├── lamennais-cor-vol1-46.xml
+│   │   │   │   ├── lamennais-cor-vol1-47.xml
+│   │   │   │   ├── lamennais-cor-vol1-48.xml
+│   │   │   │   ├── lamennais-cor-vol1-49.xml
+│   │   │   │   ├── lamennais-cor-vol1-4.xml
+│   │   │   │   ├── lamennais-cor-vol1-50.xml
+│   │   │   │   ├── lamennais-cor-vol1-51.xml
+│   │   │   │   ├── lamennais-cor-vol1-52.xml
+│   │   │   │   ├── lamennais-cor-vol1-53.xml
+│   │   │   │   ├── lamennais-cor-vol1-54.xml
+│   │   │   │   ├── lamennais-cor-vol1-55.xml
+│   │   │   │   ├── lamennais-cor-vol1-56.xml
+│   │   │   │   ├── lamennais-cor-vol1-57.xml
+│   │   │   │   ├── lamennais-cor-vol1-58.xml
+│   │   │   │   ├── lamennais-cor-vol1-59.xml
+│   │   │   │   ├── lamennais-cor-vol1-5.xml
+│   │   │   │   ├── lamennais-cor-vol1-60.xml
+│   │   │   │   ├── lamennais-cor-vol1-61.xml
+│   │   │   │   ├── lamennais-cor-vol1-62.xml
+│   │   │   │   ├── lamennais-cor-vol1-63.xml
+│   │   │   │   ├── lamennais-cor-vol1-64.xml
+│   │   │   │   ├── lamennais-cor-vol1-65.xml
+│   │   │   │   ├── lamennais-cor-vol1-66.xml
+│   │   │   │   ├── lamennais-cor-vol1-67.xml
+│   │   │   │   ├── lamennais-cor-vol1-68.xml
+│   │   │   │   ├── lamennais-cor-vol1-69.xml
+│   │   │   │   ├── lamennais-cor-vol1-6.xml
+│   │   │   │   ├── lamennais-cor-vol1-70.xml
+│   │   │   │   ├── lamennais-cor-vol1-71.xml
+│   │   │   │   ├── lamennais-cor-vol1-72.xml
+│   │   │   │   ├── lamennais-cor-vol1-73.xml
+│   │   │   │   ├── lamennais-cor-vol1-74.xml
+│   │   │   │   ├── lamennais-cor-vol1-75.xml
+│   │   │   │   ├── lamennais-cor-vol1-76.xml
+│   │   │   │   ├── lamennais-cor-vol1-77.xml
+│   │   │   │   ├── lamennais-cor-vol1-78.xml
+│   │   │   │   ├── lamennais-cor-vol1-79.xml
+│   │   │   │   ├── lamennais-cor-vol1-7.xml
+│   │   │   │   ├── lamennais-cor-vol1-80.xml
+│   │   │   │   ├── lamennais-cor-vol1-81.xml
+│   │   │   │   ├── lamennais-cor-vol1-82.xml
+│   │   │   │   ├── lamennais-cor-vol1-83.xml
+│   │   │   │   ├── lamennais-cor-vol1-84.xml
+│   │   │   │   ├── lamennais-cor-vol1-85.xml
+│   │   │   │   ├── lamennais-cor-vol1-86.xml
+│   │   │   │   ├── lamennais-cor-vol1-87.xml
+│   │   │   │   ├── lamennais-cor-vol1-88.xml
+│   │   │   │   ├── lamennais-cor-vol1-89.xml
+│   │   │   │   ├── lamennais-cor-vol1-8.xml
+│   │   │   │   ├── lamennais-cor-vol1-90.xml
+│   │   │   │   ├── lamennais-cor-vol1-91.xml
+│   │   │   │   ├── lamennais-cor-vol1-92.xml
+│   │   │   │   ├── lamennais-cor-vol1-93.xml
+│   │   │   │   ├── lamennais-cor-vol1-94.xml
+│   │   │   │   ├── lamennais-cor-vol1-95.xml
+│   │   │   │   ├── lamennais-cor-vol1-96.xml
+│   │   │   │   ├── lamennais-cor-vol1-97.xml
+│   │   │   │   ├── lamennais-cor-vol1-98.xml
+│   │   │   │   ├── lamennais-cor-vol1-99.xml
+│   │   │   │   ├── lamennais-cor-vol1-9.xml
+│   │   │   │   └── lammennais-cor-vol1-117b.xml
+│   │   │   ├── remarques
+│   │   │   │   ├── index_correspondants_Lamennais_vol1.pdf
+│   │   │   │   ├── rq_HTML_lamennais_vol1.pdf
+│   │   │   └── script
+│   │   │       └── extraction-elicom_lamennais.py
+│   │   └── cor_proudhon
+│   │       ├── corpus
+│   │       │   ├── Correspondance_I_[1837-1841_]___[...]Proudhon_Pierre-Joseph_bpt6k5524787b.pdf
+│   │       │   └── proudhon-cor-vol1.html
+│   │       ├── dump
+│   │       │   ├── proudhon-cor-vol1-0a.xml
+│   │       │   ├── proudhon-cor-vol1-0b.xml
+│   │       │   ├── proudhon-cor-vol1-10.xml
+│   │       │   ├── proudhon-cor-vol1-11.xml
+│   │       │   ├── proudhon-cor-vol1-12.xml
+│   │       │   ├── proudhon-cor-vol1-13.xml
+│   │       │   ├── proudhon-cor-vol1-14.xml
+│   │       │   ├── proudhon-cor-vol1-15.xml
+│   │       │   ├── proudhon-cor-vol1-16.xml
+│   │       │   ├── proudhon-cor-vol1-17.xml
+│   │       │   ├── proudhon-cor-vol1-18.xml
+│   │       │   ├── proudhon-cor-vol1-19.xml
+│   │       │   ├── proudhon-cor-vol1-1.xml
+│   │       │   ├── proudhon-cor-vol1-20.xml
+│   │       │   ├── proudhon-cor-vol1-21.xml
+│   │       │   ├── proudhon-cor-vol1-22.xml
+│   │       │   ├── proudhon-cor-vol1-23.xml
+│   │       │   ├── proudhon-cor-vol1-24.xml
+│   │       │   ├── proudhon-cor-vol1-25.xml
+│   │       │   ├── proudhon-cor-vol1-26.xml
+│   │       │   ├── proudhon-cor-vol1-27.xml
+│   │       │   ├── proudhon-cor-vol1-28.xml
+│   │       │   ├── proudhon-cor-vol1-29.xml
+│   │       │   ├── proudhon-cor-vol1-2.xml
+│   │       │   ├── proudhon-cor-vol1-30.xml
+│   │       │   ├── proudhon-cor-vol1-31.xml
+│   │       │   ├── proudhon-cor-vol1-32.xml
+│   │       │   ├── proudhon-cor-vol1-33.xml
+│   │       │   ├── proudhon-cor-vol1-34.xml
+│   │       │   ├── proudhon-cor-vol1-35.xml
+│   │       │   ├── proudhon-cor-vol1-36.xml
+│   │       │   ├── proudhon-cor-vol1-37.xml
+│   │       │   ├── proudhon-cor-vol1-38.xml
+│   │       │   ├── proudhon-cor-vol1-39.xml
+│   │       │   ├── proudhon-cor-vol1-3.xml
+│   │       │   ├── proudhon-cor-vol1-40.xml
+│   │       │   ├── proudhon-cor-vol1-41.xml
+│   │       │   ├── proudhon-cor-vol1-42.xml
+│   │       │   ├── proudhon-cor-vol1-43.xml
+│   │       │   ├── proudhon-cor-vol1-44.xml
+│   │       │   ├── proudhon-cor-vol1-45.xml
+│   │       │   ├── proudhon-cor-vol1-46.xml
+│   │       │   ├── proudhon-cor-vol1-47.xml
+│   │       │   ├── proudhon-cor-vol1-48.xml
+│   │       │   ├── proudhon-cor-vol1-49.xml
+│   │       │   ├── proudhon-cor-vol1-4.xml
+│   │       │   ├── proudhon-cor-vol1-50.xml
+│   │       │   ├── proudhon-cor-vol1-51.xml
+│   │       │   ├── proudhon-cor-vol1-52.xml
+│   │       │   ├── proudhon-cor-vol1-53.xml
+│   │       │   ├── proudhon-cor-vol1-54.xml
+│   │       │   ├── proudhon-cor-vol1-55.xml
+│   │       │   ├── proudhon-cor-vol1-56.xml
+│   │       │   ├── proudhon-cor-vol1-57.xml
+│   │       │   ├── proudhon-cor-vol1-58.xml
+│   │       │   ├── proudhon-cor-vol1-59.xml
+│   │       │   ├── proudhon-cor-vol1-5.xml
+│   │       │   ├── proudhon-cor-vol1-60.xml
+│   │       │   ├── proudhon-cor-vol1-61.xml
+│   │       │   ├── proudhon-cor-vol1-62.xml
+│   │       │   ├── proudhon-cor-vol1-63.xml
+│   │       │   ├── proudhon-cor-vol1-64.xml
+│   │       │   ├── proudhon-cor-vol1-65.xml
+│   │       │   ├── proudhon-cor-vol1-66.xml
+│   │       │   ├── proudhon-cor-vol1-67.xml
+│   │       │   ├── proudhon-cor-vol1-68.xml
+│   │       │   ├── proudhon-cor-vol1-69.xml
+│   │       │   ├── proudhon-cor-vol1-6.xml
+│   │       │   ├── proudhon-cor-vol1-70.xml
+│   │       │   ├── proudhon-cor-vol1-71.xml
+│   │       │   ├── proudhon-cor-vol1-72.xml
+│   │       │   ├── proudhon-cor-vol1-73.xml
+│   │       │   ├── proudhon-cor-vol1-74.xml
+│   │       │   ├── proudhon-cor-vol1-75.xml
+│   │       │   ├── proudhon-cor-vol1-76.xml
+│   │       │   ├── proudhon-cor-vol1-77.xml
+│   │       │   ├── proudhon-cor-vol1-78.xml
+│   │       │   ├── proudhon-cor-vol1-79.xml
+│   │       │   ├── proudhon-cor-vol1-7.xml
+│   │       │   ├── proudhon-cor-vol1-80.xml
+│   │       │   ├── proudhon-cor-vol1-81.xml
+│   │       │   ├── proudhon-cor-vol1-82.xml
+│   │       │   ├── proudhon-cor-vol1-83.xml
+│   │       │   ├── proudhon-cor-vol1-84.xml
+│   │       │   ├── proudhon-cor-vol1-85.xml
+│   │       │   ├── proudhon-cor-vol1-8.xml
+│   │       │   └── proudhon-cor-vol1-9.xml
+│   │       ├── remarques
+│   │       │   ├── index_correspondants_proudhon.pdf
+│   │       │   └── rq_html_proudhon_cor-vol1.pdf
+│   │       └── script
+│   │           └── extraction-elicom_proudhon.py
+│   └── rapport_fin_stage_OBVIL.pdf
+├── arborescence.txt
+└── lisez-moi.txt
+
+
+63 directories, 567 files

@@ -1,0 +1,51 @@
+ARBORESCENCE DES LIVRABLES 
+
+LIVRABLES
+├── CRHXIX
+│   ├── 1-inventaires
+│   ├── 2-transcriptions
+│   ├── 3-trankribus
+│   │   └── export_test
+│   │       ├── BNF9enJPG
+│   │       │   └── BNF9enJPG
+│   │       │       └── page
+│   │       ├── LP_à_Charles_de_Ribbe1
+│   │       │   └── LP_à_Charles_de_Ribbe
+│   │       │       └── page
+│   │       ├── LP_à_Charles_de_Ribbe2
+│   │       │   └── LP_à_Charles_de_Ribbe
+│   │       │       └── page
+│   │       └── Set_entrainement_le_play
+│   │           └── Set_entrainement_le_play
+│   │               └── page
+│   ├── 4-cahier_des_charges
+│   ├── 5-site
+│   │   └── pages
+│   ├── 6-index
+│   ├── 7-index_tei
+│   └── 8-tei
+│   │   ├── lp_dupanloup_xml
+│   │   └── lp_ribbe_arbaud_xml
+│   ├── 9-odd
+│   │   └── LP_testODD
+│   │       └── out
+└── LABEX_OBVIL
+    └── extraction_cor_stage2020
+        ├── cor_lamartine
+        │   ├── corpus
+        │   ├── dump
+        │   ├── remarques
+        │   └── script
+        ├── cor_lamennais
+        │   ├── corpus
+        │   ├── dump
+        │   ├── remarques
+        │   └── script
+        └── cor_proudhon
+            ├── corpus
+            ├── dump
+            ├── remarques
+            └── script
+
+63 directories
+
