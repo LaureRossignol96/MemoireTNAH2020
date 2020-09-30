@@ -6,4 +6,4 @@ Vous trouverez ici :
 - Les livrables commentés dans les annexes de mon mémoire
 - Deux arborescences pour avoir une meilleure vue d'ensemble de l'imbrication des différents dossiers (arborescence simple) et fichiers (arborescence détaillée).
 
-Vous pouvez tout télécharger en cliquant sur le bouton vert *code* puis sur *Download ZIP*
+Vous pouvez tout télécharger en cliquant sur le bouton vert *Code* puis sur *Download ZIP*
