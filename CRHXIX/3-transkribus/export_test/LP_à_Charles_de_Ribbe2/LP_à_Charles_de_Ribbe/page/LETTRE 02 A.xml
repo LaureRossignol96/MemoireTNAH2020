@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-04T16:05:04.809+02:00</Created>
+        <LastChange>2020-07-31T18:01:28.823+02:00</LastChange>
+        <TranskribusMetadata docId="402809" pageId="15563825" pageNr="2" tsid="35839657" status="IN_PROGRESS" userId="50847" imgUrl="https://files.transkribus.eu/Get?id=SNUCJMEHCMHYUMNDQIVAMFKV&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=CUMWLKFXMAMFZYDZVTDBPXGC" imageId="11388654"/>
+    </Metadata>
+    <Page imageFilename="LETTRE 02 A.png" imageWidth="772" imageHeight="1120">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1596211927184" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="92,0 92,136 117,136 117,0"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;}">
+            <Coords points="73,77 73,1037 729,1037 729,77"/>
+            <TextLine id="r2l1" custom="readingOrder {index:0;}">
+                <Coords points="319,113 345,114 371,115 397,117 423,118 450,119 476,120 502,121 528,121 555,122 581,123 607,123 633,124 660,125 660,89 633,88 607,87 581,87 555,86 528,85 515,71 476,84 450,83 440,67 397,81 376,56 350,55 319,77"/>
+                <Baseline points="319,101 345,102 371,103 397,105 423,106 450,107 476,108 502,109 528,109 555,110 581,111 607,111 633,112 660,113"/>
+                <TextEquiv>
+                    <Unicode>Paris le 17 février 1870</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l2" custom="readingOrder {index:1;}">
+                <Coords points="334,165 359,166 384,167 409,168 434,169 459,170 484,171 510,172 535,173 560,173 585,174 610,174 635,174 675,175 675,139 635,138 610,138 585,138 560,137 535,137 510,136 484,135 459,134 434,133 409,132 384,131 370,116 334,129"/>
+                <Baseline points="334,153 359,154 384,155 409,156 434,157 459,158 484,159 510,160 535,161 560,161 585,162 610,162 635,162 661,162"/>
+                <TextEquiv>
+                    <Unicode> Place Saint Sulpice, 6</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:2;}">
+                <Coords points="155,286 180,287 206,289 232,290 258,291 284,292 309,294 335,295 361,295 387,296 413,297 413,258 387,257 361,256 335,256 309,255 284,253 258,252 232,251 206,250 180,248 155,247"/>
+                <Baseline points="155,273 180,274 206,276 232,277 258,278 284,279 309,281 335,282 361,282 387,283 413,284"/>
+                <TextEquiv>
+                    <Unicode>Mon cher ami,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:3;}">
+                <Coords points="128,354 156,356 185,358 213,360 242,362 270,363 299,364 327,365 356,366 384,366 413,366 441,367 470,367 498,367 527,368 555,368 584,368 612,368 641,369 669,369 698,370 698,331 669,330 641,330 612,329 584,329 555,329 527,329 498,328 470,328 441,328 413,327 384,327 356,327 327,326 299,325 270,324 242,323 213,321 185,319 156,317 128,315"/>
+                <Baseline points="128,341 156,343 185,345 213,347 242,349 270,350 299,351 327,352 356,353 384,353 413,353 441,354 470,354 498,354 527,355 555,355 584,355 612,355 641,356 669,356 698,357"/>
+                <TextEquiv>
+                    <Unicode>Votre approbation allège le dûr souvenir </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:4;}">
+                <Coords points="86,419 117,420 148,420 179,422 211,423 242,424 273,424 304,426 336,426 367,427 398,428 429,429 461,430 492,430 523,431 554,432 586,432 617,433 648,434 679,435 711,436 711,397 679,396 648,395 617,394 586,393 554,393 523,392 492,391 461,391 429,390 398,389 367,388 336,387 304,387 273,385 242,385 211,384 179,383 148,381 117,381 86,380"/>
+                <Baseline points="86,406 117,407 148,407 179,409 211,410 242,411 273,411 304,413 336,413 367,414 398,415 429,416 461,417 492,417 523,418 554,419 586,419 617,420 648,421 679,422 711,423"/>
+                <TextEquiv>
+                    <Unicode>des 3000 heures de travail et me fait espérer </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:5;}">
+                <Coords points="82,479 114,480 146,481 178,481 210,482 242,483 274,484 307,484 339,485 371,486 403,486 435,487 467,488 499,489 532,490 564,491 596,492 628,493 660,494 692,495 725,496 725,457 692,456 660,455 628,454 596,453 564,452 532,451 499,450 467,449 435,448 403,447 371,447 339,446 307,445 274,445 242,444 210,443 178,442 146,442 114,441 82,440"/>
+                <Baseline points="82,466 114,467 146,468 178,468 210,469 242,470 274,471 307,471 339,472 371,473 403,473 435,474 467,475 499,476 532,477 564,478 596,479 628,480 660,481 692,482 725,483"/>
+                <TextEquiv>
+                    <Unicode>que ce nouveau texte nous aidera dans l’œuvre</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:6;}">
+                <Coords points="84,534 110,536 136,538 163,539 189,539 215,540 242,541 268,541 294,543 321,544 321,505 294,504 268,502 242,502 215,501 189,500 163,500 136,499 110,497 84,495"/>
+                <Baseline points="84,521 110,523 136,525 163,526 189,526 215,527 242,528 268,528 294,530 321,531"/>
+                <TextEquiv>
+                    <Unicode>de la réforme.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l8" custom="readingOrder {index:7;}">
+                <Coords points="153,591 181,592 209,593 237,594 265,595 293,596 321,597 349,598 377,599 405,599 434,600 462,601 490,603 518,604 546,604 574,605 602,607 630,608 658,609 686,610 715,612 715,573 686,571 658,570 630,569 602,568 574,566 546,565 518,565 490,564 462,562 434,561 405,560 377,560 349,559 321,558 293,557 265,556 237,555 209,554 181,553 153,552"/>
+                <Baseline points="153,578 181,579 209,580 237,581 265,582 293,583 321,584 349,585 377,586 405,586 434,587 462,588 490,590 518,591 546,591 574,592 602,594 630,595 658,596 686,597 715,599"/>
+                <TextEquiv>
+                    <Unicode>J’ai reçu d’un directeur de journal de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l9" custom="readingOrder {index:8;}">
+                <Coords points="73,650 103,651 133,651 164,652 194,652 224,653 255,653 285,654 315,655 346,655 376,656 406,657 437,658 467,659 497,660 528,661 558,662 588,663 619,665 649,666 680,667 680,631 649,630 619,629 588,627 558,626 528,625 497,624 467,623 437,622 406,621 376,620 346,619 315,619 285,618 255,617 224,617 194,616 164,616 133,615 103,615 73,614"/>
+                <Baseline points="73,638 103,639 133,639 164,640 194,640 224,641 255,641 285,642 315,643 346,643 376,644 406,645 437,646 467,647 497,648 528,649 558,650 588,651 619,653 649,654 680,655"/>
+                <TextEquiv>
+                    <Unicode>province une lettre que je vous transmets</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l10" custom="readingOrder {index:9;}">
+                <Coords points="82,698 108,700 135,701 162,702 189,702 216,703 243,705 269,705 296,706 323,707 350,709 377,709 404,710 431,712 457,713 484,714 511,715 538,717 565,717 592,719 660,723 660,687 592,683 565,681 538,681 511,679 484,678 457,677 431,676 404,674 377,673 350,673 323,671 296,670 269,669 243,669 216,667 189,666 162,666 135,665 108,664 82,662"/>
+                <Baseline points="82,686 108,688 135,689 162,690 189,690 216,691 243,693 269,693 296,694 323,695 350,697 377,697 404,698 431,700 457,701 484,702 511,703 538,705 565,705 592,707 619,709"/>
+                <TextEquiv>
+                    <Unicode>ci-jointe en vous adressant une question.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l11" custom="readingOrder {index:10;}">
+                <Coords points="143,750 169,751 196,754 223,755 250,757 276,758 303,759 330,760 357,761 383,762 410,763 437,764 464,764 490,765 517,766 544,767 571,767 597,768 624,770 651,771 687,772 687,736 651,735 624,734 597,732 571,731 544,731 517,730 490,729 464,728 437,728 410,727 383,726 357,725 330,724 303,723 276,722 250,721 223,719 196,718 169,715 143,714"/>
+                <Baseline points="143,738 169,739 196,742 223,743 250,745 276,746 303,747 330,748 357,749 383,750 410,751 437,752 464,752 490,753 517,754 544,755 571,755 597,756 624,758 651,759 678,760"/>
+                <TextEquiv>
+                    <Unicode>J’ai eu la pensée que vous pourriez peut-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l12" custom="readingOrder {index:11;}">
+                <Coords points="82,809 113,810 144,810 175,811 206,812 238,813 269,814 299,826 331,816 362,817 394,818 425,819 456,820 481,827 518,822 550,823 581,824 612,824 643,825 674,825 706,825 706,786 674,786 643,786 612,785 581,785 550,784 518,783 487,782 456,781 425,780 394,779 362,778 331,777 300,776 269,775 238,774 206,773 175,772 144,771 104,761 73,760"/>
+                <Baseline points="82,796 113,797 144,797 175,798 206,799 238,800 269,801 300,802 331,803 362,804 394,805 425,806 456,807 487,808 518,809 550,810 581,811 612,811 643,812 674,812 706,812"/>
+                <TextEquiv>
+                    <Unicode>être fournir aux journaux de province et même</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l13" custom="readingOrder {index:12;}">
+                <Coords points="74,860 105,861 137,861 168,862 200,864 231,864 263,866 294,867 326,868 357,870 389,872 420,873 452,874 483,876 515,877 546,878 578,880 609,881 641,881 672,883 704,884 704,847 692,833 641,844 609,844 578,843 546,841 515,840 483,839 452,837 420,836 389,835 357,833 326,831 294,830 263,829 231,827 200,827 168,825 151,816 105,824 74,823"/>
+                <Baseline points="74,848 105,849 137,849 168,850 200,852 231,852 263,854 294,855 326,856 357,858 389,860 420,861 452,862 483,864 515,865 546,866 578,868 609,869 641,869 672,871 704,872"/>
+                <TextEquiv>
+                    <Unicode>de Paris des articles qui remédieraient à la</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l14" custom="readingOrder {index:13;}">
+                <Coords points="74,911 105,912 137,913 169,914 201,915 233,916 264,917 296,918 328,920 354,925 392,923 423,925 455,926 487,927 519,928 551,930 582,931 614,932 646,933 678,934 710,935 710,899 678,898 646,897 614,896 582,895 551,894 519,892 487,891 455,890 423,889 392,887 360,886 328,884 296,882 264,881 233,880 201,879 169,878 137,877 105,876 74,875"/>
+                <Baseline points="74,899 105,900 137,901 169,902 201,903 233,904 264,905 296,906 328,908 360,910 392,911 423,913 455,914 487,915 519,916 551,918 582,919 614,920 646,921 678,922 710,923"/>
+                <TextEquiv>
+                    <Unicode>pénurie d’hommes capables de traiter la question</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l15" custom="readingOrder {index:14;}">
+                <Coords points="75,960 106,961 137,963 169,965 200,966 232,968 263,969 295,971 326,972 358,974 389,976 420,977 460,988 483,980 515,981 546,983 578,984 609,985 641,986 672,987 704,988 704,952 672,951 641,950 609,949 578,948 546,947 515,945 483,944 452,942 420,941 389,940 358,938 326,936 295,935 263,933 232,932 200,930 169,929 137,927 106,925 75,924"/>
+                <Baseline points="75,948 106,949 137,951 169,953 200,954 232,956 263,957 295,959 326,960 358,962 389,964 420,965 452,966 483,968 515,969 546,971 578,972 609,973 641,974 672,975 704,976"/>
+                <TextEquiv>
+                    <Unicode>Vous jugerez dans quelle limite vous </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l16" custom="readingOrder {index:15;}">
+                <Coords points="76,1019 108,1018 141,1018 173,1018 206,1019 239,1020 271,1021 304,1022 337,1023 369,1025 402,1027 435,1028 467,1030 500,1031 533,1033 565,1034 598,1035 631,1036 663,1036 696,1037 729,1037 729,1001 696,1001 663,1000 631,1000 598,999 565,998 533,997 500,995 467,994 435,992 402,991 369,989 337,987 304,986 271,985 239,984 206,983 173,982 141,982 108,982 76,983"/>
+                <Baseline points="76,1007 108,1006 141,1006 173,1006 206,1007 239,1008 271,1009 304,1010 337,1011 369,1013 402,1015 435,1016 467,1018 500,1019 533,1021 565,1022 598,1023 631,1024 663,1024 696,1025 729,1025"/>
+                <TextEquiv>
+                    <Unicode>pourriez exercer ce genre de propagande. Mais</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Paris le 17 février 1870
+ Place Saint Sulpice, 6
+Mon cher ami,
+Votre approbation allège le dûr souvenir 
+des 3000 heures de travail et me fait espérer 
+que ce nouveau texte nous aidera dans l’œuvre
+de la réforme.
+J’ai reçu d’un directeur de journal de
+province une lettre que je vous transmets
+ci-jointe en vous adressant une question.
+J’ai eu la pensée que vous pourriez peut-
+être fournir aux journaux de province et même
+de Paris des articles qui remédieraient à la
+pénurie d’hommes capables de traiter la question
+Vous jugerez dans quelle limite vous 
+pourriez exercer ce genre de propagande. Mais</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-04T16:05:04.609+02:00</Created>
+        <LastChange>2020-07-31T17:59:42.718+02:00</LastChange>
+        <TranskribusMetadata docId="402809" pageId="15563824" pageNr="1" tsid="35839392" status="IN_PROGRESS" userId="50847" imgUrl="https://files.transkribus.eu/Get?id=TAUPGYFICKSJOBEASAIIPPHX&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=AECVUPTTXVUUJVWIYDLEFZLE" imageId="11388653"/>
+    </Metadata>
+    <Page imageFilename="LETTRE 01.png" imageWidth="1167" imageHeight="1382">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1596211925957" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="52,379 52,536 196,536 196,379"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="52,529 80,535 109,536 138,536 167,534 196,535 196,385 167,384 138,386 109,386 80,385 52,379"/>
+                <Baseline points="52,479 80,485 109,486 138,486 167,484 196,485"/>
+                <TextEquiv>
+                    <Unicode>*24 juin</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>*24 juin</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;}">
+            <Coords points="244,93 244,1263 1099,1263 1099,93"/>
+            <TextLine id="r2l1" custom="readingOrder {index:0;}">
+                <Coords points="415,168 440,168 465,168 491,168 516,168 541,167 567,167 592,167 618,167 643,167 668,166 694,166 719,167 744,167 770,167 795,168 823,203 855,175 851,106 770,137 744,137 719,137 694,136 668,136 664,96 639,96 592,137 567,137 541,137 520,109 479,96 449,125 440,138 415,138"/>
+                <Baseline points="415,158 440,158 465,158 491,158 516,158 541,157 567,157 592,157 618,157 643,157 668,156 694,156 719,157 744,157 770,157 795,158 821,158"/>
+                <TextEquiv>
+                    <Unicode>Mon cher ami,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:1;}">
+                <Coords points="310,296 345,296 381,296 416,296 452,296 487,297 523,297 558,298 594,299 629,299 665,300 701,301 736,302 772,304 807,304 843,306 878,307 914,308 949,309 985,310 1021,311 1021,271 993,253 949,269 914,268 878,267 843,266 807,264 772,264 736,262 701,261 665,260 633,231 598,231 558,258 523,257 487,257 452,256 416,256 381,256 345,256 310,256"/>
+                <Baseline points="310,283 345,283 381,283 416,283 452,283 487,284 523,284 558,285 594,286 629,286 665,287 701,288 736,289 772,291 807,291 843,293 878,294 914,295 949,296 985,297 1021,298"/>
+                <TextEquiv>
+                    <Unicode>Regrettant beaucoup d’avoir </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:2;}">
+                <Coords points="244,363 286,364 328,364 370,365 413,366 455,367 497,367 540,368 582,368 624,369 667,369 709,370 751,370 793,371 836,371 878,372 920,372 963,373 1005,374 1047,375 1090,376 1090,336 1047,335 1005,334 963,333 920,332 878,332 836,331 793,331 751,330 709,330 667,329 624,329 582,328 540,328 497,327 455,327 413,326 370,325 328,324 286,324 244,323"/>
+                <Baseline points="244,350 286,351 328,351 370,352 413,353 455,354 497,354 540,355 582,355 624,356 667,356 709,357 751,357 793,358 836,358 878,359 920,359 963,360 1005,361 1047,362 1090,363"/>
+                <TextEquiv>
+                    <Unicode>manqué l’occasion de vous voir, samedi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:3;}">
+                <Coords points="247,429 289,430 332,430 374,431 417,431 460,432 502,432 545,433 587,433 630,433 673,434 715,434 758,435 800,435 843,436 886,437 928,438 971,439 1013,440 1056,442 1099,444 1099,414 1056,412 1013,410 971,409 928,408 886,407 843,406 800,405 758,405 715,404 673,404 630,403 587,403 545,403 502,402 460,402 417,401 374,401 332,400 289,400 247,399"/>
+                <Baseline points="247,419 289,420 332,420 374,421 417,421 460,422 502,422 545,423 587,423 630,423 673,424 715,424 758,425 800,425 843,426 886,427 928,428 971,429 1013,430 1056,432 1099,434"/>
+                <TextEquiv>
+                    <Unicode>soir, nous vous prions de nous faire l’amitié </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l9" custom="readingOrder {index:4;}">
+                <Coords points="261,499 302,500 344,500 386,501 427,501 469,502 511,503 552,503 594,504 636,505 678,505 719,506 761,506 803,507 844,507 886,508 928,508 969,508 1011,508 1053,507 1095,507 1095,467 1068,450 1011,468 969,468 928,468 886,468 844,467 840,454 819,443 703,428 662,427 636,465 594,464 552,463 511,463 469,462 427,461 386,461 344,460 302,460 261,459"/>
+                <Baseline points="261,486 302,487 344,487 386,488 427,488 469,489 511,490 552,490 594,491 636,492 678,492 719,493 761,493 803,494 844,494 886,495 928,495 969,495 1011,495 1053,494 1095,494"/>
+                <TextEquiv>
+                    <Unicode>de venir diner jeudi à *6 ½ avec MM. </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l10" custom="readingOrder {index:5;}">
+                <Coords points="263,508 290,508 316,510 340,510 367,511 391,512 416,512 442,512 468,513 492,513 519,513 544,514 570,514 595,515 621,515 646,516 671,516 671,566 645,566 620,565 594,565 569,564 534,583 509,582 492,563 467,563 441,562 416,562 390,562 365,561 332,576 307,576 288,558 263,558"/>
+                <Baseline points="263,553 288,553 314,555 339,555 365,556 390,557 416,557 441,557 467,558 492,558 518,558 543,559 569,559 594,560 620,560 645,561 671,561"/>
+                <TextEquiv>
+                    <Unicode>Rapetti et Coquille.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l11" custom="readingOrder {index:6;}">
+                <Coords points="765,709 791,709 817,710 843,711 869,712 895,712 921,713 947,712 973,712 999,712 1025,710 1025,670 999,672 973,672 947,672 921,673 895,672 869,672 843,671 798,616 756,648 765,669"/>
+                <Baseline points="765,696 791,696 817,697 843,698 869,699 895,699 921,700 947,699 973,699 999,699 1025,697"/>
+                <TextEquiv>
+                    <Unicode>Tout à vous</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l12" custom="readingOrder {index:7;}">
+                <Coords points="845,775 870,776 896,777 791,811 669,1001 1149,786 1052,780 1059,781 1051,785 1051,745 1025,743 1032,717 1007,698 948,739 906,708 880,707 852,714 845,735"/>
+                <Baseline points="845,762 870,763 896,764 922,765 948,766 973,767 999,768 1025,770 1051,772"/>
+                <TextEquiv>
+                    <Unicode>F. Le Play</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l13" custom="readingOrder {index:8;}">
+                <Coords points="264,976 289,976 315,975 340,974 366,974 392,974 417,974 443,974 469,975 494,975 520,976 545,977 524,1012 597,979 622,980 648,980 674,981 699,982 725,983 751,983 751,943 725,943 699,942 674,941 648,940 622,940 597,939 571,938 545,937 520,936 494,935 469,935 443,934 417,934 392,934 366,934 340,934 315,935 289,936 264,936"/>
+                <Baseline points="264,963 289,963 315,962 340,961 366,961 392,961 417,961 443,961 469,962 494,962 520,963 545,964 571,965 597,966 622,967 648,967 674,968 699,969 725,970 751,970"/>
+                <TextEquiv>
+                    <Unicode>Mardi soir, 22 juin 1869</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l14" custom="readingOrder {index:9;}">
+                <Coords points="282,1073 320,1074 358,1074 396,1075 434,1076 472,1077 510,1077 549,1078 587,1079 625,1080 663,1081 701,1082 739,1083 777,1084 816,1085 854,1085 892,1085 930,1086 968,1086 1006,1086 1045,1086 1045,1046 1006,1046 956,1008 918,1008 892,1045 854,1045 816,1045 777,1044 739,1043 701,1042 663,1041 625,1040 587,1039 549,1038 510,1037 472,1037 436,1025 398,1007 358,1017 320,1034 282,1033"/>
+                <Baseline points="282,1060 320,1061 358,1061 396,1062 434,1063 472,1064 510,1064 549,1065 587,1066 625,1067 663,1068 701,1069 739,1070 777,1071 816,1072 854,1072 892,1072 930,1073 968,1073 1006,1073 1045,1073"/>
+                <TextEquiv>
+                    <Unicode>Le R. P. Hyacinthe* fait jeudi à 1h. (Salle</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l15" custom="readingOrder {index:10;}">
+                <Coords points="249,1133 287,1134 326,1135 365,1136 404,1137 443,1137 482,1138 521,1138 560,1139 599,1139 638,1140 676,1140 715,1141 754,1141 793,1141 832,1142 871,1142 910,1142 949,1143 988,1143 1027,1144 1027,1104 988,1103 949,1103 910,1102 871,1102 832,1102 793,1101 754,1101 715,1101 676,1100 638,1100 599,1099 560,1099 521,1098 482,1098 443,1097 404,1097 365,1096 326,1095 287,1094 249,1093"/>
+                <Baseline points="249,1120 287,1121 326,1122 365,1123 404,1124 443,1124 482,1125 521,1125 560,1126 599,1126 638,1127 676,1127 715,1128 754,1128 793,1128 832,1129 871,1129 910,1129 949,1130 988,1130 1027,1131"/>
+                <TextEquiv>
+                    <Unicode>Herz, rue de la victoire*) un discours sur la </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l16" custom="readingOrder {index:11;}">
+                <Coords points="247,1191 286,1192 325,1193 365,1194 404,1195 444,1196 483,1197 522,1197 562,1198 601,1198 641,1199 680,1200 719,1200 759,1201 798,1202 838,1203 877,1204 916,1205 956,1207 995,1208 1035,1210 1035,1170 995,1168 956,1167 925,1146 886,1145 838,1163 798,1162 759,1161 719,1160 680,1160 641,1159 601,1158 562,1158 522,1157 483,1157 444,1156 404,1155 365,1154 325,1153 286,1152 247,1151"/>
+                <Baseline points="247,1178 286,1179 325,1180 365,1181 404,1182 444,1183 483,1184 522,1184 562,1185 601,1185 641,1186 680,1187 719,1187 759,1188 798,1189 838,1190 877,1191 916,1192 956,1194 995,1195 1035,1197"/>
+                <TextEquiv>
+                    <Unicode>paix. Je vous en donne avis pour le cas où</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l17" custom="readingOrder {index:12;}">
+                <Coords points="264,1251 289,1253 314,1254 339,1255 364,1256 389,1256 414,1257 439,1257 464,1257 489,1258 514,1258 539,1258 564,1259 589,1260 614,1260 639,1262 664,1263 664,1223 650,1203 625,1201 589,1220 564,1219 539,1218 514,1218 489,1218 464,1217 439,1217 414,1217 389,1216 364,1216 339,1215 314,1214 289,1213 264,1211"/>
+                <Baseline points="264,1238 289,1240 314,1241 339,1242 364,1243 389,1243 414,1244 439,1244 464,1244 489,1245 514,1245 539,1245 564,1246 589,1247 614,1247 639,1249 664,1250"/>
+                <TextEquiv>
+                    <Unicode>vous le verriez d’ici là.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Mon cher ami,
+Regrettant beaucoup d’avoir 
+manqué l’occasion de vous voir, samedi
+soir, nous vous prions de nous faire l’amitié 
+de venir diner jeudi à *6 ½ avec MM. 
+Rapetti et Coquille.
+Tout à vous
+F. Le Play
+Mardi soir, 22 juin 1869
+Le R. P. Hyacinthe* fait jeudi à 1h. (Salle
+Herz, rue de la victoire*) un discours sur la 
+paix. Je vous en donne avis pour le cas où
+vous le verriez d’ici là.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
