@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- *** 1) MÉTADONNÉES *** -->
+
+   <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+   <!-- /// PARTIE COMMUNE À TOUS LES MANUSCRITS -->
+
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Édition numérique de la correspondance de Le Play</title>
+            <funder>Centre de Recherche d'Histoire du XIXe siècle (CRHXIX)</funder>
+            <principal>
+               <persName ref="#remy.delacotte">Rémy Hême de Lacotte </persName>
+               <affiliation>Sorbonne Université</affiliation>
+               <date>depuis 2019</date></principal>
+
+            <principal>
+               <persName ref="#matthieu.delavergnee">Matthieu Brejon de Lavergnée</persName>
+               <affiliation>Sorbonne Université</affiliation>
+               <date>depuis 2017</date><!-- vérifier la date -->
+            </principal>
+
+            <respStmt>
+               <resp>Assistante chef de projet</resp>
+               <persName ref="#sophie.lhermitte">Sophie Lhermitte</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2020">Stagiaire numérique chargée de l'encodage, mai-juillet 2020</resp>
+               <persName ref="#lucie.slavik">Lucie Slavik</persName>
+            </respStmt>
+            <respStmt>
+               <resp when="2018">Transcripteurs Le Play à Charles de Ribbe</resp>
+               <name ref="#pierre.dulin">Pierre Dulin</name>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <publisher> CRHXIX</publisher>
+            <date when="2020">2020</date>
+            <availability>
+               <licence/>
+               <!-- Indiquer ici sous quelle licence on publie (cf. https://www.berliner-intellektuelle.eu/xml/Brief023ChamissoandeLaFoye.xml  -->
+            </availability>
+         </publicationStmt>
+         <!-- /// FIN DE LA PARTIE COMMUNE À TOUS LES MANUSCRITS -->
+
+         <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+         <!-- /// PARTIE QUI VARIE SELON LES MANUSCRITS -->
+         <sourceDesc>
+            <!-- Indication sur les origines du document -->
+            <msDesc>
+               <msIdentifier>
+                  <country key="fr">France</country>
+                  <!-- Pays d'origine -->
+                  <settlement>Paris</settlement>
+                  <!-- Lieu (ville ou autre) -->
+                  <repository>Aix-en-Provence, Musée Arbaud </repository>
+                  <!-- (lieu de conservation) Contient le nom d'un dépôt dans lequel des manuscrits sont entreposés, et qui peut faire partie d'une institution -->
+                  <idno>Fonds Ribbe </idno>
+                  <idno type="autre_depot">Photocopies déposée au Centre d'histoire du XIXe s. </idno>
+                  <!-- (identifiant) donne un numéro normalisé ou non qui peut être utilisé pour identifier une référence bibliographique -->
+               </msIdentifier>
+               <msContents/>
+               <physDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+
+            <listBibl>
+               <!-- 	(liste de références bibliographiques) contient une liste de références bibliographiques de toute nature. -->
+               <!-- Liste des ouvrages cités -->
+               <bibl>
+                  <name xml:id="livre_ref_soc">La Réforme Sociale, Frédéric Le Play, 1864</name>
+                  <note/><!-- description de l'ouvrage -->
+               </bibl>
+            </listBibl>
+
+            <listEvent>
+               <!-- liste d'événements -->
+               <event when="1864">
+                  <!-- On peut mettre un attribut when="aaaa-mm-jj" pour la date-->
+                  <label xml:id="cong_malines">Congrès catholique de Malines, 1864</label>
+                  <!-- titre de l'événement -->
+                  <note resp="#lucie.slavik">A l'occasion de ce congrès, Félix Dupanloup fait
+                     l'éloge de la Réforme Sociale de Le Play.</note>
+                  <!-- description de l'événement -->
+               </event>
+               <event>
+                  <label/>
+               </event>
+            </listEvent>
+         </sourceDesc>
+
+      </fileDesc>
+
+      <profileDesc>
+         <!-- Description détaillée des aspects non bibliographiques -->
+         <langUsage>
+            <!-- On renseigne la langue  -->
+            <language ident="fr">français</language>
+         </langUsage>
+         <correspDesc>
+            <!-- Description de l'action liée à la correspondance -->
+            <correspAction type="sent">
+               <!-- On indique qui envoie la lettre -->
+               <!-- Description normalisée et renvoi vers la fiche de data.bnf -->
+               <persName key="Le Play, Frédéric (1806-1882)"
+                  ref="https://data.bnf.fr/fr/11911744/frederic_le_play/"> Frédéric Le
+                  Play</persName>
+               <settlement>Paris</settlement>
+               <date when="1869-06-22">22 juin 1869</date>
+               <note resp="#lucie.slavik">La première partie de la lettre est probablement ou du
+                  moins peut-être antérieure au 22 juin</note>
+               <!-- Renseigner la date avec un attribut when -->
+            </correspAction>
+
+            <correspAction type="received">
+               <!-- On indique qui reçoit la lettre -->
+               <persName key="de Ribbe, Charles (1827-1899)"
+                  ref="https://data.bnf.fr/fr/11921782/charles_de_ribbe/">Charles de
+                  Ribbe</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="previous"/>
+               <ref type="next"/>
+            </correspContext>
+
+         </correspDesc>
+         <!-- /// FIN DE LA PARTIE QUI VARIE SELON LES MANUSCRITS -->
+         <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+         <!-- /// DÉBUT D'UNE PARTIE COMMUNE À TOUS LES MANUSCRITS ? -->
+         <settingDesc>
+            <listPlace>
+               <!-- Index des noms de lieux -->
+               <place xml:id="paris">
+                  <placeName>Paris</placeName>
+                  <country>France</country>
+                  <!-- Voir si c'est utile de mentionner le pays -->
+                  <note/>
+                  <!-- On peut renseigner quelque chose ici sur le lien entre Le Play et Paris, le nombre d'années qu'il y a passées ou autre -->
+               </place>
+
+
+               <place xml:id="stDom">
+                  <placeName> 17 rue Saint-Dominique</placeName>
+                  <country>France</country>
+                  <note>Rue de Paris</note>
+                  <!--  Préciser le lien que LP a avec cette rue -->
+               </place>
+               <place xml:id="malines">
+                  <placeName>Malines</placeName>
+                  <country>Belgique</country>
+                  <note resp="#lucie.slavik">Lieu où s'est tenu le congrès catholique de Malines en
+                     1864. Monseigneur Dupanloup y a évoqué l'oeuvre de Le Play. (voir Antoine
+                     Savoye <ref
+                        target="https://www.cairn.info/revue-l-annee-sociologique-2017-2-page-397.htm"
+                     />
+                  </note>
+               </place>
+               <place xml:id="rue_victoire">
+                  <placeName>Salle Herz, rue de la Victoire</placeName>
+                  <country>France</country>
+                  <note resp="#lucie.slavik">Paris. Salle de concerts. Inaugurée en 1838. Fermée en
+                     1885.</note>
+               </place>
+            </listPlace>
+         </settingDesc>
+         <particDesc>
+            <listPerson>
+               <person sex="homme" xml:id="alexis_chevalier">
+                  <persName>Alexis Chevalier</persName>
+                  <note/>
+                  <!-- Préciser ici qui il est, ses dates etc. 
+                     Quelque chose de général qui puisse servir pour toutes les lettres, 
+                     et non quelque chose en lien avec une lettre précisément
+                     Réfléchir à une façon plus ou moins normée d'écrire les notes 
+                     (prénom, nom, titres, dates de naissance et de mort, rôle dans la société en général, 
+                     avec la sociologie en particulier et lien avec Le Play-->
+               </person>
+               <person sex="homme" xml:id="LXIV">
+                  <persName>Louis XIV</persName>
+                  <note/>
+               </person>
+
+               <person sex="homme" xml:id="augustin_cochin">
+                  <persName>Augustin Cochin</persName>
+                  <note/>
+               </person>
+
+               <person sex="homme" xml:id="rapetti">
+                  <persName>Nicolas Rapetti</persName>
+                  <note resp="#lucie.slavik">Juriste. Voir ce qu'en dit Antoine Savoye p.12<ref
+                        target="file:///tmp/mozilla_formation10/ANSO_172_0397.pdf"/>
+                  </note>
+               </person>
+
+               <person sex="homme" xml:id="coquille">
+                  <persName>Victor Coquille</persName>
+                  <note resp="#lucie.slavik">Juriste. Voir ce qu'en dit Antoine Savoye p.12<ref
+                        target="file:///tmp/mozilla_formation10/ANSO_172_0397.pdf"/>
+                  </note>
+               </person>
+
+               <person sex="homme" xml:id="hyacinthe_loyson">
+                  <persName>Père Hyacinthe Loyson</persName>
+                  <note/>
+                  <!-- Important de préciser qui il est. Grand échange épistolaire avec Le Play qui l'influence -->
+               </person>
+
+            </listPerson>
+
+            <listOrg type="sociologie">
+               <!-- Index des noms d'organisation -->
+               <!-- 	L'attribut type peut être utilisé pour établir des listes par type d'organisation si cela présente un intérêt.
+               VOIR SI C'EST VRAIMENT UTILE-->
+
+               <org xml:id="ses">
+                  <orgName>Société d'économie sociale</orgName>
+                  <note/>
+                  <!-- Donner ici une description de cette société -->
+               </org>
+
+            </listOrg>
+
+         </particDesc>
+         <!-- Autres index -->
+         <textClass>
+            <keywords>
+               <!-- Index des termes leplaysiens -->
+               <list type="index_socio_lp">
+                  <item>
+                     <name xml:id="corporation">Corporation</name>
+                     <!-- Voir s'il faut mettre des majuscules pour les index -->
+                     <note/>
+                  </item>
+
+                  <item>
+                     <name xml:id="ref_morale">Réforme morale</name>
+                     <note/>
+                  </item>
+
+                  <item>
+                     <name xml:id="ref_sociale">Réforme sociale</name>
+                     <note/>
+                  </item>
+
+                  <item>
+                     <name xml:id="masses">Masses</name>
+                     <note/>
+                  </item>
+
+                  <item>
+                     <name/>
+                     <note/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords>
+               <!-- On peut faire d'autres index si nécessaires -->
+               <list>
+                  <item>
+                     <name/>
+                     <note/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+
+      <!-- /// FIN DE LA PARTIE COMMUNE À TOUS LES MANUSCRITS ? -->
+
+
+      <!-- /// TOUT CE QUI SUIT VARIE SELON LES MANUSCRITS -->
+
+      <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+      <revisionDesc>
+         <!-- description des révisions : résume l'historique des révisions pour un fichier -->
+         <listChange>
+            <change><!-- A chaque étape importante de l'encodage du fichier, renseigner la date, les changements effectués, le nom de la personne qui les a faits   -->
+               <date/>
+               <name/>
+               <desc/>
+            </change>
+         </listChange>
+      </revisionDesc>
+
+
+   </teiHeader>
+
+
+   <!-- *** 2) CORPS DE LA LETTRE *** -->
+   <text>
+      <front/>
+      <body>
+         <div type="letter" part="I">
+            <pb n="1" facs="ChdeRibbe01.png"/><!-- Attention au nommage des fichiers img ! -->
+            <opener>
+               <dateline rend="align(right)">
+                  <placeName/>
+                  <!-- Mettre un <lb/> quand il y a changement de ligne -->
+                  <date/><placeName/></dateline>
+               <salute rend="center">Mon cher ami,</salute></opener>
+            <p>
+               <l>Regrettant beaucoup d’avoir</l>
+               <l>manqué l’occasion de vous voir, samedi</l>
+               <l>soir, nous vous prions de nous faire l’amitié </l>
+               <l>de venir diner jeudi *<note resp="author" place="margin-left">*24 juin</note> à
+                     6<hi rend="sup">h</hi>1/2 <hi rend="ul">avec MM.</hi>
+               </l>
+               <l><hi rend="ul"><persName ref="#rapetti">Rapetti</persName> et <persName
+                        ref="#coquille">Coquille</persName>.</hi></l></p>
+            <lb/>
+            <closer><salute rend="align(right)">Tout à vous</salute>
+               <signed rend="align(right)">F. Le Play</signed></closer>
+         </div>
+         <div type="letter" part="F">
+            <p><l>Mardi soir, <date>22 juin 1869</date></l><lb/>
+               <l>Le <persName ref="#hyacinthe_loyson">R. P. Hyacinthe</persName> fait jeudi à 1<hi
+                     rend="sup">h</hi>. (Salle</l>
+               <l>Herz, <placeName ref="#rue_victoire">rue de la Victoire</placeName>) un discours
+                  sur la</l>
+               <l>paix. Je vous en donne avis pour le cas où</l>
+               <l>vous le verriez d’ici là.</l></p>
+
+
+            <postscript>
+               <!-- possibilité de mettre un postscriptum si LP en a mis un -->
+               <p/>
+            </postscript>
+         </div>
+      </body>
+
+   </text>
+</TEI>

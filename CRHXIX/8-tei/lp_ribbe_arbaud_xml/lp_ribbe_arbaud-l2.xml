@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- *** 1) MÉTADONNÉES *** -->
+
+   <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+   <!-- /// PARTIE COMMUNE À TOUS LES MANUSCRITS -->
+
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Édition numérique de la correspondance de Le Play</title>
+            <funder>Centre de Recherche d'Histoire du XIXe siècle (CRHXIX)</funder>
+            <principal>
+               <persName ref="#remy.delacotte">Rémy Hême de Lacotte </persName>
+               <affiliation>Sorbonne Université</affiliation></principal>
+            <principal>
+               <persName ref="#matthieu.delavergnee">Matthieu Brejon de Lavergnée</persName>
+               <affiliation>Sorbonne Université</affiliation>
+            </principal>
+
+            <respStmt>
+               <resp>Assistante chef de projet</resp>
+               <persName ref="#sophie.lhermitte">Sophie Lhermitte</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Stagiaire numérique chargée de l'encodage, mai-juillet 2020</resp>
+               <persName ref="#lucie.slavik">Lucie Slavik</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Transcripteur Le Play à Dupanloup</resp>
+               <name ref="#clara.forcier">Clara Forcier</name>
+               <note>BNF9</note>
+               <!-- Le cas échéant, mettre le nom d'un deuxième transcripteur pour le même fonds lis-->
+            </respStmt>
+            <respStmt>
+               <resp>Transcripteurs Le Play à Charles de Ribbe</resp>
+               <!-- À modifier selon le transcripteurli -->
+               <name ref="#pierre.dulin">Pierre Dulin</name>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <publisher> CRHXIX</publisher>
+            <date when="2020">2020</date>
+            <availability>
+               <licence/>
+               <!-- Indiquer ici sous quelle licence on publie (cf. https://www.berliner-intellektuelle.eu/xml/Brief023ChamissoandeLaFoye.xml  -->
+            </availability>
+         </publicationStmt>
+         <!-- /// FIN DE LA PARTIE COMMUNE À TOUS LES MANUSCRITS -->
+
+         <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+         <!-- /// PARTIE QUI VARIE SELON LES MANUSCRITS -->
+         <sourceDesc>
+            <!-- Indication sur les origines du document -->
+            <msDesc>
+               <msIdentifier>
+                  <country key="fr">France</country>
+                  <!-- Pays d'origine -->
+                  <settlement>Paris</settlement>
+                  <!-- Lieu (ville ou autre) -->
+                  <repository>Bibliothèque Nationale de France (BnF), Papiers Dupanloup</repository>
+                  <!-- (lieu de conservation) Contient le nom d'un dépôt dans lequel des manuscrits sont entreposés, et qui peut faire partie d'une institution -->
+                  <idno>Naf 24695, ff. 416-437</idno>
+                  <!-- (identifiant) donne un numéro normalisé ou non qui peut être utilisé pour identifier une référence bibliographique -->
+               </msIdentifier>
+               <msContents/>
+               <physDesc>
+                  <handDesc>
+                     <handNote>Main de Le Play</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+
+            <listBibl>
+               <!-- 	(liste de références bibliographiques) contient une liste de références bibliographiques de toute nature. -->
+               <!-- Liste des ouvrages cités -->
+
+               <bibl>
+                  <name xml:id="une_famille">Une famille au XVIe siècle d'après des documents
+                     originaux précédée d'une lettre du R. P. Félix.</name><!-- titre avec attribut xml:id -->
+                  <author>Charles de Ribbe</author>
+                  <date when="1879">1879</date><!-- date publication normalisée avec attribut when -->
+                  <note/>
+               </bibl>
+               <bibl>
+                  <name xml:id="union_ouest" type="journal">L'Union de l'Ouest</name>
+                  <author/>
+                  <date/>
+                  <note resp="#lucie.slavik">Journal</note><!-- à développer -->
+               </bibl>
+               <bibl>
+                  <name xml:id="etudes_religieuses" type="revue">Les études religieuses, historiques
+                     et littéraires</name>
+                  <author>Revue de la Compagnie de Jésus</author>
+                  <date/>
+                  <note>Disponible sur <ref
+                        target="https://gallica.bnf.fr/ark:/12148/cb34415014q/date"
+                     >Gallica</ref></note>
+               </bibl>
+               <bibl>
+                  <name xml:id="gazette_france" type="journal">La Gazette de France</name>
+                  <author/>
+                  <date/>
+                  <note/>
+               </bibl>
+
+               <bibl>
+                  <name xml:id="monde" type="journal">Le Monde</name>
+                  <author/>
+                  <date/>
+                  <note/>
+               </bibl>
+
+            </listBibl>
+
+            <listEvent>
+               <!-- liste d'événements -->
+               <event when="1864">
+                  <!-- On peut mettre un attribut when="aaaa-mm-jj" pour la date-->
+                  <label xml:id="cong_malines">Congrès catholique de Malines, 1864</label>
+                  <!-- titre de l'événement -->
+                  <note resp="#lucie.slavik">A l'occasion de ce congrès, Félix Dupanloup fait
+                     l'éloge de la Réforme Sociale de Le Play.</note>
+                  <!-- description de l'événement -->
+               </event>
+               <event>
+                  <label/>
+               </event>
+            </listEvent>
+         </sourceDesc>
+
+      </fileDesc>
+
+      <profileDesc>
+         <!-- Description détaillée des aspects non bibliographiques -->
+         <langUsage>
+            <!-- On renseigne la langue  -->
+            <language ident="fr">français</language>
+         </langUsage>
+
+         <correspDesc>
+            <!-- Description de l'action liée à la correspondance -->
+            <correspAction type="sent">
+               <!-- On indique qui envoie la lettre -->
+               <!-- Description normalisée et renvoi vers la fiche de data.bnf -->
+               <persName key="Le Play, Frédéric (1806-1882)"
+                  ref="https://data.bnf.fr/fr/11911744/frederic_le_play/"> Frédéric Le
+                  Play</persName>
+               <settlement>Paris</settlement>
+               <date when="1870-02-17">17 février 1870</date>
+               <!-- Renseigner la date avec un attribut when -->
+            </correspAction>
+
+            <correspAction type="received">
+               <!-- On indique qui reçoit la lettre -->
+               <persName key="de Ribbe, Charles (1827-1899)"
+                  ref="https://data.bnf.fr/fr/11921782/charles_de_ribbe/">Charles de
+                  Ribbe</persName>
+               <settlement/>
+               <!-- L'indiquer comme non obligatoire dans le schéma -->
+               <date/>
+            </correspAction>
+            <correspContext>
+               <ref type="previous"/>
+               <ref type="next"/>
+            </correspContext>
+
+         </correspDesc>
+
+
+         <!-- /// FIN DE LA PARTIE QUI VARIE SELON LES MANUSCRITS -->
+
+         <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+         <!-- /// DÉBUT D'UNE PARTIE COMMUNE À TOUS LES MANUSCRITS ? -->
+         <settingDesc>
+            <listPlace>
+               <!-- Index des noms de lieux -->
+               <place xml:id="paris">
+                  <placeName>Paris</placeName>
+                  <country>France</country>
+                  <!-- Voir si c'est utile de mentionner le pays -->
+                  <note/>
+                  <!-- On peut renseigner quelque chose ici sur le lien entre Le Play et Paris, le nombre d'années qu'il y a passées ou autre -->
+               </place>
+
+
+               <place xml:id="stDom">
+                  <placeName> 17 rue Saint-Dominique</placeName>
+                  <country>France</country>
+                  <note>Rue de Paris</note>
+                  <!--  Préciser le lien que LP a avec cette rue -->
+               </place>
+               <place xml:id="place_st_sulpice">
+                  <placeName>6 place Saint-Sulpice</placeName>
+                  <country>France</country>
+                  <note>Paris</note>
+                  <!-- Renseigner le lien de Le Play avec ce lieu -->
+               </place>
+               <place xml:id="malines">
+                  <placeName>Malines</placeName>
+                  <country>Belgique</country>
+                  <note resp="#lucie.slavik">Lieu où s'est tenu le congrès catholique de Malines en
+                     1864. Monseigneur Dupanloup y a évoqué l'oeuvre de Le Play. (voir Antoine
+                     Savoye <ref
+                        target="https://www.cairn.info/revue-l-annee-sociologique-2017-2-page-397.htm"
+                     />
+                  </note>
+               </place>
+               <place>
+                  <placeName xml:id="province">Province</placeName>
+                  <country>France</country>
+                  <note resp="#lucie.slavik">Le Play emploie le terme de province par opposition à
+                     Paris.</note>
+               </place>
+            </listPlace>
+         </settingDesc>
+
+         <particDesc>
+            <listPerson>
+               <person sex="homme" xml:id="alexis_chevalier">
+                  <persName>Alexis Chevalier</persName>
+                  <note/>
+                  <!-- Préciser ici qui il est, ses dates etc. 
+                     Quelque chose de général qui puisse servir pour toutes les lettres, 
+                     et non quelque chose en lien avec une lettre précisément
+                     Réfléchir à une façon plus ou moins normée d'écrire les notes 
+                     (prénom, nom, titres, dates de naissance et de mort, rôle dans la société en général, 
+                     avec la sociologie en particulier et lien avec Le Play-->
+               </person>
+               <person sex="homme" xml:id="LXIV">
+                  <persName>Louis XIV</persName>
+                  <note/>
+               </person>
+
+               <person sex="homme" xml:id="augustin_cochin">
+                  <persName>Augustin Cochin</persName>
+                  <note/>
+               </person>
+
+               <person sex="homme" xml:id="cumont">
+                  <persName><!-- Arthur -->Vicomte de Cumont</persName>
+               </person>
+
+               <person sex="homme" xml:id="mame">
+                  <persName>Mame</persName>
+                  <note resp="#lucie.slavik">L'imprimeur de Tours. Il édite Le Play.</note>
+                  <!--à confirmer-->
+               </person>
+
+               <person sex="homme" xml:id="clair">
+                  <persName>Père Clair</persName>
+                  <note resp="#lucie.slavik">Jésuite</note>
+               </person>
+
+               <person sex="homme" xml:id="roux">
+                  <persName>E. Roux</persName>
+                  <note/>
+               </person>
+
+            </listPerson>
+
+            <listOrg type="sociologie">
+               <!-- Index des noms d'organisation -->
+               <!-- 	L'attribut type peut être utilisé pour établir des listes par type d'organisation si cela présente un intérêt.
+               VOIR SI C'EST VRAIMENT UTILE-->
+
+               <org xml:id="ses">
+                  <orgName>Société d'économie sociale</orgName>
+                  <note/>
+                  <!-- Donner ici une description de cette société -->
+               </org>
+
+            </listOrg>
+
+         </particDesc>
+
+
+         <!-- Autres index -->
+         <textClass>
+            <keywords>
+               <!-- Index des termes leplaysiens -->
+               <list type="index_socio_lp">
+                  <item>
+                     <name xml:id="corporation">Corporation</name>
+                     <!-- Voir s'il faut mettre des majuscules pour les index -->
+                     <note/>
+                  </item>
+
+                  <item>
+                     <name xml:id="reforme">Réforme</name>
+                     <note/>
+                  </item>
+
+                  <item>
+                     <name xml:id="ref_morale">Réforme morale</name>
+                     <note/>
+                  </item>
+
+                  <item>
+                     <name xml:id="ref_sociale">Réforme sociale</name>
+                     <note/>
+                  </item>
+
+                  <item>
+                     <name xml:id="masses">Masses</name>
+                     <note/>
+                  </item>
+
+                  <item>
+                     <name xml:id="propagande">Propagande</name>
+                     <note/>
+                  </item>
+               </list>
+            </keywords>
+            <keywords>
+               <!-- On peut faire d'autres index si nécessaires -->
+               <list>
+                  <item>
+                     <name/>
+                     <note/>
+                  </item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+
+      <!-- /// FIN DE LA PARTIE COMMUNE À TOUS LES MANUSCRITS ? -->
+
+
+      <!-- /// TOUT CE QUI SUIT VARIE SELON LES MANUSCRITS -->
+
+      <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+      <revisionDesc>
+         <!-- description des révisions : résume l'historique des révisions pour un fichier -->
+         <listChange>
+            <change><!-- A chaque étape importante de l'encodage du fichier, renseigner la date, les changements effectués, le nom de la personne qui les a faits   -->
+               <date/>
+               <name/>
+               <desc/>
+            </change>
+         </listChange>
+      </revisionDesc>
+
+
+   </teiHeader>
+
+
+   <!-- *** 2) CORPS DE LA LETTRE *** -->
+   <text>
+      <front/>
+      <body>
+         <div type="letter">
+            <pb n="2a" facs="ChdeRibbe02A.png"/>
+            <opener>
+               <dateline rend="align(right)">
+                  <placeName ref="#paris">Paris</placeName>le <!-- Mettre un <lb/> quand il y a changement de ligne -->
+                  <date>17 février 1870</date><placeName/><lb/><placeName ref="#place_st_sulpice"
+                     >Place Saint Sulpice, 6</placeName></dateline>
+               <salute>Mon cher ami,</salute></opener>
+            <p><l>Votre approbation allège le <choice>
+                     <sic>dûr</sic>
+                     <corr>dur</corr>
+                  </choice> souvenir </l>
+               <l>des 3000 heures de travail et me fait espérer </l>
+               <l>que ce nouveau texte nous aidera dans l’œuvre</l>
+               <l>de la <name ref="#reforme">réforme</name>.</l></p>
+            <p>
+               <l>J’ai reçu d’un directeur de journal de</l>
+               <l><placeName ref="#province">province</placeName> une lettre que je vous
+                  transmets</l>
+               <l>ci-jointe<!--<note resp="#lucie.slavik" type="editor" place="bottom">La lettre n'est
+                     pas encore en notre possession</note> -->en
+                  vous adressant une question.</l></p>
+            <p>
+               <l>J’ai eu la pensée que vous pourriez peut</l>
+               <l>être fournir aux journaux de <placeName ref="#province">province</placeName> et
+                  même</l>
+               <l>de <placeName ref="#paris">Paris</placeName> des articles qui remédieraient à
+                  la</l>
+               <l>pénurie d’hommes capables de traiter la question</l>
+               <l>Vous jugerez dans quelle limite vous </l>
+               <l>pourriez exercer ce genre de <name ref="#propagande">propagande</name>.
+               Mais</l></p>
+
+            <pb n="2b" facs="ChdeRibbe02B.png"/>
+            <p>
+               <l>alors même que vous devriez vous</l>
+               <l>borner à votre <choice>
+                     <sic>region</sic>
+                     <reg>région</reg>
+                  </choice>, je vous prierais</l>
+               <l>d’envoyer <choice>
+                     <sic>q.q.</sic>
+                     <reg>quelque</reg>
+                  </choice> chose à <persName ref="#cumont">M. le V<hi rend="sup">te</hi> de
+                     Cumont</persName></l>
+               <l>ou tout au moins de lui écrire une fois.</l></p>
+            <p>
+               <l>Je lui ai signalé, par lettre de ce</l>
+               <l>jour l’avantage qu’il trouverait dans votre</l>
+               <l>concours et selon mon habitude, je lui</l>
+               <l>ai envoyé un exemplaire d’<name ref="#une_famille"><hi rend="ul">une
+                     famille.</hi></name></l>
+               <l>En voyant la merveilleuse facilité</l>
+               <l>avec laquelle vous exprimez votre peine</l>
+               <l>touchant la <choice>
+                     <sic>deplorable</sic>
+                     <corr>déplorable</corr>
+                  </choice> situation de notre</l>
+               <l>pays, il me <choice>
+                     <sic>Semble</sic>
+                     <reg>semble</reg>
+                  </choice> que vous pourriez faire</l>
+               <l>facilement une foule d’articles en joignant</l>
+               <l>à un de ces <choice>
+                     <sic>epanchements</sic>
+                     <reg>épanchements</reg>
+                  </choice> quelque petit passage</l>
+               <l>Je suis sûr que ces petits articles</l>
+            </p>
+            <pb n="2c" facs="ChdeRibbe02C.png"/>
+            <p>
+               <l><unclear>manquant</unclear> fréquemment dans un journal,</l>
+               <l>transformeraient l’esprit des lecteurs. Il</l>
+               <l>me semble que <name ref="#union_ouest">l’union de l'ouest</name> et ses</l>
+               <l>lecteurs sont en meilleurs milieux pour</l>
+               <l>tenter cette expérience.</l>
+               <l><persName ref="#mame">Mame</persName> est content du debit, il</l>
+               <l>est plein de devouement. Il voudrait avoir </l>
+               <l>à me demander promptement une 2<hi rend="sup">e</hi> Edition.</l>
+               <l>Il a tiré à 5500.</l></p>
+            <closer>
+               <salute><l>Agréez, Mon cher ami, l’assurance de mes</l>
+                  <l><unclear>sentiments</unclear> bien affectueux.</l></salute>
+               <signed rend="ul align(right)">F. Le Play</signed></closer>
+
+            <postscript>
+               <p>
+                  <l>excellent article dans</l>
+                  <l rend="center">Les <name ref="#etudes_religieuses">Etudes religieuses</name> des
+                     Jésuites, par le</l>
+                  <l><persName ref="#clair">R. P. Clair</persName>-N°. 26. paru le 15 février.</l>
+                  <l><unclear/>, dans <name ref="#gazette_france">la Gazette de France</name>, 11
+                     février</l>
+                  <l>dans <name ref="#monde">le Monde</name> 16 février</l>
+                  <l>cela est bon à dire pour certains lecteurs du midi</l>
+                  <l>prier <persName ref="#roux">M. E. Roux</persName> de ne pas estropier mon
+                     nom</l>
+                  <l>renvoyez moi à l’occasion l’<unclear> </unclear></l></p>
+            </postscript>
+         </div>
+      </body>
+
+   </text>
+</TEI>

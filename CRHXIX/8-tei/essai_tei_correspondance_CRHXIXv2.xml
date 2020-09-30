@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Essai réalisé sur le dossier Set_entraînement_le_play -->
+<!-- Page 1-->
+<!-- ENCODAGE D'UNE SEULE LETTRE D'UNE PAGE -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- *** 1) MÉTADONNÉES *** -->
+
+   <!-- //////////////////////////////////////////////////////////////////////////////////////////////////<egXML>///////// -->
+
+   <!-- /// PARTIE COMMUNE À TOUS LES MANUSCRITS -->
+
+   <teiHeader>
+      <fileDesc>
+         <!-- Description bibliographique du document -->
+
+         <titleStmt>
+            <!-- Regroupe les informations sur le titre d’une œuvre et les personnes ou institutions responsables de son contenu intellectuel. -->
+            <title>Édition numérique de la correspondance de Le Play</title>
+            <funder>Centre de Recherche d'Histoire du XIXe siècle (CRHXIX)</funder>
+            <!-- QUI EST EN RÉALITÉ LE FINANCEUR DU PROJET ? -->
+            <principal><!--(chercheur principal) contient le nom du chercheur qui est principalement responsable de la création d’un texte électronique.-->
+               <persName ref="#remy.delacotte">Rémy Hême de Lacotte </persName>
+               <affiliation><!-- contient une description non formalisée portant sur l'affiliation présente ou passée d'une personne à une organisation, 
+                  par exemple un employeur ou un sponsor. -->Sorbonne
+                  Université</affiliation></principal>
+            <principal><!-- Pour l'instant je mets les deux responsables principaux (Messieurs de Lacotte et de Lavergnée) -->
+               <persName ref="#matthieu.delavergnee">Matthieu Brejon de Lavergnée</persName>
+               <affiliation>Sorbonne Université</affiliation>
+            </principal>
+
+            <respStmt>
+               <!-- Nom des diverses responsabilités à ajouter. 
+               Une balise par responsabilité  ref=https://tei-c.org/release/doc/tei-p5-doc/fr/html/ref-titleStmt.html -->
+               <resp>Participe au projet</resp>
+               <persName ref="#sophie.lhermitte">Sophie Lhermitte</persName>
+               <!-- Indiquer les diverses responsabilités -->
+            </respStmt>
+            <respStmt>
+               <resp>Stagiaire numérique chargée de l'encodage, mai-juillet 2020</resp>
+               <persName ref="#lucie.slavik">Lucie Slavik</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <!-- Informations sur la façon dont il est distribué ou publié -->
+            <publisher><!-- (éditeur) donne le nom de l'organisme responsable de la publication ou de la distribution d'un élément de la bibliographie -->
+               CRHXIX</publisher>
+            <date when="2020">2020</date>
+            <availability>
+               <licence/>
+               <!-- Indiquer ici sous quelle licence on publie (cf. https://www.berliner-intellektuelle.eu/xml/Brief023ChamissoandeLaFoye.xml  -->
+            </availability>
+         </publicationStmt>
+         <!-- /// FIN DE LA PARTIE COMMUNE À TOUS LES MANUSCRITS -->
+
+         <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+         <!-- /// PARTIE QUI VARIE SELON LES MANUSCRITS -->
+         <sourceDesc>
+            <!-- Indication sur les origines du document -->
+            <msDesc>
+               <msIdentifier>
+                  <country key="FR">France</country>
+                  <!-- Pays d'origine -->
+                  <settlement/>
+                  <!-- Lieu (ville ou autre) -->
+                  <institution/>
+                  <!-- Quelle institution ? Bibliothèque etc. -->
+                  <repository/>
+                  <!-- (lieu de conservation) Contient le nom d'un dépôt dans lequel des manuscrits sont entreposés, et qui peut faire partie d'une institution -->
+                  <idno/>
+                  <!-- (identifiant) donne un numéro normalisé ou non qui peut être utilisé pour identifier une référence bibliographique -->
+               </msIdentifier>
+               <msContents/>
+               <!-- Balises inutiles à mon sens -->
+               <physDesc/>
+               <!-- Même remarque. C'est plus le côté intellectuel qui nous intéresse que le support en lui-même -->
+               <!-- Pour ce qui est de la possible balise handDesc, en général, toutes les lettres écrites par Le Play sont de sa main, sauf quand il est malade, 
+                 c'est son secrétaire, mais je n'ai pas pensé qu'il était important de le préciser, pour ne pas se perdre dans les détails. 
+                 Voir avec le chef de projet s'il considère aussi que c'est un détail et s'il est d'accord. Sinon, reconsidérer cette partie -->
+            </msDesc>
+
+            <!-- VOIR SI JE LE METS À CET ENDROIT -->
+            <listBibl>
+               <!-- 	(liste de références bibliographiques) contient une liste de références bibliographiques de toute nature. -->
+               <!-- Liste des ouvrages cités -->
+               <bibl/>
+            </listBibl>
+
+            <!-- VOIR SI JE LE METS À CET ENDROIT -->
+            <listEvent>
+               <!-- liste d'événements -->
+               <event>
+                  <!-- On peut mettre un attribut when="aaaa-mm-jj" pour la date-->
+                  <label/>
+                  <!-- titre de l'événement -->
+                  <desc/>
+                  <!-- description de l'événement -->
+               </event>
+               <event>
+                  <label/>
+               </event>
+            </listEvent>
+
+         </sourceDesc>
+
+      </fileDesc>
+
+      <profileDesc>
+         <!-- Description détaillée des aspects non bibliographiques -->
+         <langUsage>
+            <!-- On renseigne la langue  -->
+            <language ident="fr">français</language>
+         </langUsage>
+
+         <correspDesc>
+            <!-- Description de l'action liée à la correspondance -->
+            <correspAction type="sent">
+               <!-- On indique qui envoie la lettre -->
+               <!-- Description normalisée et renvoi vers la fiche de data.bnf -->
+               <persName key="Le Play, Frédéric (1806-1882)"
+                  ref="https://data.bnf.fr/fr/11911744/frederic_le_play/"> Frédéric Le
+                  Play</persName>
+               <settlement>Paris</settlement>
+               <!-- Peut-être inutile de renseigner ce champ ? Il est déjà indiqué plus bas... -->
+               <date when="1864-09-20">20 septembre 1864</date>
+            </correspAction>
+
+            <correspAction type="received">
+               <!-- On indique qui reçoit la lettre -->
+               <persName/>
+               <settlement/>
+               <!-- L'indiquer comme non obligatoire dans le schéma -->
+               <date/>
+            </correspAction>
+            <correspContext>
+               <ref type="previous"/>
+               <ref type="next"/>
+            </correspContext>
+
+         </correspDesc>
+
+
+         <!-- /// FIN DE LA PARTIE QUI VARIE SELON LES MANUSCRITS -->
+
+         <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+         <!-- /// DÉBUT D'UNE PARTIE COMMUNE À TOUS LES MANUSCRITS ? -->
+         <settingDesc>
+            <listPlace>
+               <!-- Index des noms de lieux -->
+               <place xml:id="paris">
+                  <placeName>Paris</placeName>
+                  <country>France</country>
+                  <!-- Voir si c'est utile de mentionner le pays -->
+                  <note/>
+                  <!-- On peut renseigner quelque chose ici sur le lien entre Le Play et Paris, le nombre d'années qu'il y a passées ou autre -->
+               </place>
+
+
+               <place xml:id="stDom">
+                  <placeName> 17 rue Saint-Dominique</placeName>
+                  <country>France</country>
+                  <note>Rue de Paris</note>
+                  <!--  Préciser le lien que LP a avec cette rue -->
+               </place>
+            </listPlace>
+         </settingDesc>
+
+         <particDesc>
+            <listPerson>
+               <person sex="homme" xml:id="alexis_chevalier">
+                  <persName>Alexis Chevalier</persName>
+                  <note/>
+                  <!-- Préciser ici qui il est, ses dates etc. 
+                     Quelque chose de général qui puisse servir pour toutes les lettres, 
+                     et non quelque chose en lien avec une lettre précisément
+                     Réfléchir à une façon plus ou moins normée d'écrire les notes 
+                     (prénom, nom, titres, dates de naissance et de mort, rôle dans la société en général, 
+                     avec la sociologie en particulier et lien avec Le Play-->
+               </person>
+
+               <person sex="femme" xml:id="josette">
+                  <!-- à titre d'exemple... -->
+                  <persName/>
+                  <note/>
+               </person>
+
+            </listPerson>
+
+            <listOrg type="sociologie">
+               <!-- Index des noms d'organisation -->
+               <!-- 	L'attribut type peut être utilisé pour établir des listes par type d'organisation si cela présente un intérêt.
+               VOIR SI C'EST VRAIMENT UTILE-->
+
+               <org xml:id="ses">
+                  <orgName>Société d'économie sociale</orgName>
+                  <desc/>
+                  <!-- Donner ici une description de cette société -->
+               </org>
+
+               <org xml:id="societe2_blabla">
+                  <orgName/>
+                  <desc/>
+               </org>
+            </listOrg>
+
+            <listOrg type="aa">
+               <org xml:id="i">
+                  <orgName/>
+                  <desc/>
+               </org>
+            </listOrg>
+
+            <!-- /// FIN DE LA PARTIE COMMUNE À TOUS LES MANUSCRITS ? -->
+
+         </particDesc>
+
+      </profileDesc>
+
+      <!-- /// TOUT CE QUI SUIT VARIE SELON LES MANUSCRITS -->
+
+      <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+      <revisionDesc>
+         <!-- description des révisions : résume l'historique des révisions pour un fichier -->
+         <change when="2020-07" who="#lucie.slavik">Création du fichier. Premier
+            encodage.</change>
+      </revisionDesc>
+   </teiHeader>
+
+
+   <!-- *** 2) CORPS DE LA LETTRE *** -->
+   <text>
+      <body>
+         <div type="letter">
+            <!-- Je choisis de mettre une div au cas où certaines lettres seraient
+                                 parfois écrites en deux temps. Cela permet de bien marquer la différence
+                                 et on pourra la souligner par l'attribut part="I" (partie initiale, de début)
+                                 part="F" (partie finale) et ajouter une dateline pour la deuxième partie -->
+            <!-- LE CHOIX EST VALIDÉ PAR MADAME PINCHE -->
+            <!-- ne pas le rendre obligatoire dans l'ODD -->
+            <!-- Voir s'il est utile de mentionner un numéro de lettre ou ce que je mets dans le correspContext -->
+            <opener>
+               <!-- L'élément opener fait partie du rituel de correspondance -->
+               <dateline>
+                  <!--l'élément dateline pour la ligne mentionnant date et lieu de rédaction de la lettre -->
+                  <placeName ref="#paris">Paris</placeName>
+                  <!-- Lieu de rédaction de la lettre -->
+                  <date>20 <!-- DATE de rédaction de la lettre. Pour la NORMALISATION de cette date, 
+                     voir s'il est nécessaire de la mettre ici ou s'il suffit de le mentionner dans le teiHeader -->
+                     <choice>
+                        <!-- Normalisation du mois -->
+                        <abbr>9<hi rend="sup">bre</hi>.</abbr>
+                        <!-- Indication de style. Voir s'il est correct de faire ainsi -->
+                        <expan>septembre</expan>
+                     </choice> 1864</date><placeName ref="#stDom"> rue <abbr><sic>St.
+                           </sic><corr>Saint-</corr></abbr><choice>
+                        <sic>dominique</sic>
+                        <corr>Dominique</corr>
+                     </choice> 17 </placeName></dateline>
+               <salute>Mon cher <!-- L'élément salute indique la salutation au début de la lettre
+                                       Fait partie du rituel épistolaire -->
+                  <choice>
+                     <!--Normalisation des majuscules -->
+                     <sic>Collègue</sic>
+                     <corr>collègue</corr>
+                  </choice>,</salute>
+            </opener>
+            <p>
+               <!-- Le p indique le paragraphe, les l indiquent chaque ligne
+            NOTA BENE : il n'est pas forcément nécessaire d'indiquer chaque changement de ligne
+            Mais si l'on utilise de toutes façons transkribus pour les transcriptions, cela ne nécessitera 
+            peut-être pas trop de travail -->
+               <l>Le conseil de la <orgName ref="#ses"><choice>
+                        <!--Le tag # pointe vers l'index des organisations situé dans le teiHeader
+                        Dans l'index se trouveront les indications générales sur le nom en question -->
+                        <abbr>Soc<hi rend="superscript:true;">té</hi></abbr>
+                        <expan>Société</expan>
+                     </choice> d'<choice>
+                        <abbr>Ec.</abbr>
+                        <expan>Économie</expan>
+                     </choice> Sociale</orgName>
+                  <choice>
+                     <sic>reuni</sic>
+                     <corr>réuni</corr>
+                  </choice> dimanche</l>
+               <l>dernier a <choice>
+                     <sic>decidé</sic>
+                     <corr>décidé</corr>
+                  </choice> que vous auriez cette année la</l>
+               <l>Présidence, et que vous seriez chargé d’inaugurer par</l>
+               <l>votre discours d’ouverture, qui serait aussi rapproché que</l>
+               <l>possible, un Bulletin mensuel de nos Séances.</l></p>
+            <p><l>Je <choice>
+                     <sic>desirerais</sic>
+                     <corr>désirerais</corr>
+                  </choice> vivement avoir le plaisir de vous</l>
+               <l>voir à votre premier voyage à <placeName ref="#paris">Paris</placeName> pour vous
+                  offrir mon</l>
+               <l>concours et celui de M. <persName ref="#alexis_chevalier">Alexis
+                     <!-- le tag pointe vers l'index --> Chevalier</persName> que nous nous
+                  sommes</l>
+               <l>attachés pour la Publication nouvelle et je vous <choice>
+                     <sic>Serais</sic>
+                     <corr>serais</corr>
+                  </choice> fort</l>
+               <l>obligé de me fournir l’occasion d’aller vous trouver aussitôt</l>
+               <l>que possible.</l></p>
+            <closer>
+               <!-- élément closer qui marque la fin d'une lettre. 
+                                    Fait partie du rituel de correspondance -->
+               <salute>
+                  <!-- Element salute qui marque la salutation de fin de lettre, la prise de congé -->
+                  <l><choice>
+                        <sic>Agreez</sic>
+                        <corr>Agréez</corr>
+                     </choice>, <choice>
+                        <sic>Mon</sic>
+                        <corr>mon</corr>
+                        <!-- Normalisation de "mon" -->
+                     </choice> cher Collègue, l’assurance de mon <choice>
+                        <!-- Pour collègue, je fais le choix de ne pas normaliser
+                        Le tri, la normalisation en deviennent-ils aléatoires ?
+                        Voir si cela convient au chef de projet -->
+                        <sic>Soutien</sic>
+                        <!-- Normalisation de la majuscule de soutien -->
+                        <corr>soutien</corr>
+                     </choice></l>
+                  <l>affectueux et dévoué.</l></salute>
+               <signed> F. Le
+               Play</signed><!--<note resp="matthieu.delavergnee">Pour ajouter une note, écrite ici par MBL</note>-->
+            </closer>
+
+            <postscript>
+               <!-- possibilité de mettre un postscriptum si LP en a mis un -->
+               <p><l></l></p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>
