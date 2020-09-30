@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-04T17:48:00.936+02:00</Created>
+        <LastChange>2020-06-04T19:33:34.187+02:00</LastChange>
+        <TranskribusMetadata docId="403034" pageId="15570548" pageNr="11" tsid="30497427" status="IN_PROGRESS" userId="50847" imgUrl="https://files.transkribus.eu/Get?id=DSIDOWRPTOAXWEAVYBBVJLHO&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=OQUHVVHQYIEQDDGAKEGMMNHJ" imageId="11395358"/>
+    </Metadata>
+    <Page imageFilename="LPLoyson0050.TIF" imageWidth="2456" imageHeight="2179">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1594298786790" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="140,495 140,1132 1055,1132 1055,495"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="140,564 183,564 227,563 270,562 314,562 357,561 401,561 444,559 488,558 531,557 575,556 619,555 662,555 706,553 749,553 793,553 836,553 880,553 923,553 967,553 1026,550 1026,492 967,495 923,495 880,495 836,495 793,495 749,495 706,495 662,497 619,497 575,498 531,499 488,500 444,501 401,503 357,503 314,504 270,504 227,505 168,497 140,506"/>
+                <Baseline points="140,545 183,545 227,544 270,543 314,543 357,542 401,542 444,540 488,539 531,538 575,537 619,536 662,536 706,534 749,534 793,534 836,534 880,534 923,534 967,534 1011,536"/>
+                <TextEquiv>
+                    <Unicode>Je saurai moi-même plus précisément, à cette</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="150,643 151,665 204,645 246,643 288,642 331,642 373,640 415,640 458,639 500,638 542,637 585,637 627,637 669,637 711,637 754,637 796,637 838,639 881,639 923,640 965,641 1008,642 1008,585 965,584 923,583 881,582 838,582 796,580 754,580 711,580 669,580 627,580 585,580 542,580 500,581 458,582 415,583 373,583 331,585 288,585 246,586 204,588 150,586"/>
+                <Baseline points="162,626 204,626 246,624 288,623 331,623 373,621 415,621 458,620 500,619 542,618 585,618 627,618 669,618 711,618 754,618 796,618 838,620 881,620 923,621 965,622 1008,623"/>
+                <TextEquiv>
+                    <Unicode> époque, ce que nous ferons à l’occasion du coucher</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="152,717 177,719 202,721 228,722 253,722 278,722 304,720 329,720 354,720 380,720 405,720 431,722 431,668 405,666 380,666 354,666 329,666 304,666 278,668 253,668 228,668 202,667 177,665 152,663"/>
+                <Baseline points="152,699 177,701 202,703 228,704 253,704 278,704 304,702 329,702 354,702 380,702 405,702 431,704"/>
+                <TextEquiv>
+                    <Unicode> de notre fille. </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l4" custom="readingOrder {index:3;}">
+                <Coords points="315,877 347,876 380,876 412,875 445,874 478,874 510,874 543,874 576,874 608,874 641,874 674,874 706,874 739,874 772,874 804,873 837,873 870,871 902,871 935,868 968,867 968,810 935,811 902,814 870,814 837,816 804,816 772,817 739,817 706,817 674,817 641,817 610,829 582,791 544,807 543,817 510,817 478,817 445,817 412,818 380,819 347,819 315,820"/>
+                <Baseline points="315,858 347,857 380,857 412,856 445,855 478,855 510,855 543,855 576,855 608,855 641,855 674,855 706,855 739,855 772,855 804,854 837,854 870,852 902,852 935,849 968,848"/>
+                <TextEquiv>
+                    <Unicode>Agréez chere Père et ami, l’assurance </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:4;}">
+                <Coords points="159,954 198,954 237,953 276,953 316,953 355,951 394,951 434,951 473,951 512,951 552,951 591,951 630,951 669,951 709,950 748,950 787,950 827,950 866,948 905,948 945,947 945,893 905,894 866,894 827,896 787,896 748,896 709,896 669,897 630,897 591,897 552,897 512,897 473,897 434,897 394,897 355,897 316,899 276,899 237,899 198,900 159,900"/>
+                <Baseline points="159,936 198,936 237,935 276,935 316,935 355,933 394,933 434,933 473,933 512,933 552,933 591,933 630,933 669,933 709,932 748,932 787,932 827,932 866,930 905,930 945,929"/>
+                <TextEquiv>
+                    <Unicode>des sentiments affectueus et dévoués de la </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:5;}">
+                <Coords points="161,1034 205,1032 250,1029 295,1028 339,1028 384,1026 429,1025 473,1025 518,1025 563,1025 608,1025 652,1025 697,1025 742,1025 786,1026 831,1026 876,1027 920,1028 965,1028 1010,1029 1055,1029 1055,975 1010,975 965,974 920,974 876,973 831,972 786,972 742,971 697,971 652,971 608,971 563,971 518,971 473,971 429,971 384,972 339,974 295,974 250,975 205,978 161,980"/>
+                <Baseline points="161,1016 205,1014 250,1011 295,1010 339,1010 384,1008 429,1007 473,1007 518,1007 563,1007 608,1007 652,1007 697,1007 742,1007 786,1008 831,1008 876,1009 920,1010 965,1010 1010,1011 1055,1011"/>
+                <TextEquiv>
+                    <Unicode>famille souche, et spécialement, de votre affectionné.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l7" custom="readingOrder {index:6;}">
+                <Coords points="815,1120 805,1191 734,1271 517,1504 787,1339 811,1321 799,1319 825,1303 934,1237 960,1222 1012,1186 1026,1111 972,1073 956,1028 934,1026 885,1040 889,1034 863,1030 848,1022 819,1061 789,1026 815,1062"/>
+                <Baseline points="815,1101 841,1102 867,1105 893,1109 919,1112 945,1113 972,1112"/>
+                <TextEquiv>
+                    <Unicode>F. Le Play</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Je saurai moi-même plus précisément, à cette
+ époque, ce que nous ferons à l’occasion du coucher
+ de notre fille. 
+Agréez chere Père et ami, l’assurance 
+des sentiments affectueus et dévoués de la 
+famille souche, et spécialement, de votre affectionné.
+F. Le Play</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
