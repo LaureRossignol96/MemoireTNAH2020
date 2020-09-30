@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-04T17:48:00.454+02:00</Created>
+        <LastChange>2020-07-09T11:00:17.806+02:00</LastChange>
+        <TranskribusMetadata docId="403034" pageId="15570541" pageNr="4" tsid="33901872" status="IN_PROGRESS" userId="54401" imgUrl="https://files.transkribus.eu/Get?id=DIPCWQHBSYTUHNEVRZZLWVEN&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=HHBMALUESRUZIMKOONLYHTIJ" imageId="11395351"/>
+    </Metadata>
+    <Page imageFilename="IMG-3508.JPG" imageWidth="1242" imageHeight="2094">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1594298784089" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="243,0 243,1729 1214,1729 1214,0"/>
+            <TextLine id="r1l4" custom="readingOrder {index:0;}">
+                <Coords points="371,449 399,450 428,451 456,452 485,453 513,453 542,454 570,454 599,454 627,455 656,455 685,456 713,456 742,456 770,457 799,458 827,458 856,459 884,460 913,461 953,464 953,422 913,419 884,418 856,417 827,416 799,416 770,415 742,414 713,414 685,414 656,413 627,413 599,412 570,412 542,412 513,411 485,411 456,410 445,386 399,408 371,407"/>
+                <Baseline points="371,435 399,436 428,437 456,438 485,439 513,439 542,440 570,440 599,440 627,441 656,441 685,442 713,442 742,442 770,443 799,444 827,444 856,445 884,446 913,447 942,449"/>
+                <TextEquiv>
+                    <Unicode>Monsieur et cher collègue, </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:1;} sic {offset:6; length:4;correction:suis;} abbrev {offset:34; length:6;expansion:Son\u0020Altesse\u0020Impériale;} person {offset:34; length:6;}">
+                <Coords points="260,639 323,632 368,635 414,637 459,638 505,639 550,640 595,641 641,642 686,642 732,643 777,643 822,644 868,645 913,645 959,646 1004,647 1049,648 1095,649 1140,651 1186,653 1186,599 1140,597 1095,595 1049,594 1004,593 959,592 913,591 868,591 822,590 777,589 732,589 686,588 641,588 595,587 550,586 505,585 459,584 414,583 368,581 323,578 278,576"/>
+                <Baseline points="278,612 323,614 368,617 414,619 459,620 505,621 550,622 595,623 641,624 686,624 732,625 777,625 822,626 868,627 913,627 959,628 1004,629 1049,630 1095,631 1140,633 1186,635"/>
+                <TextEquiv>
+                    <Unicode>Je me Suis empressé de proposer à S.A.J. sur le</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:2;}">
+                <Coords points="247,708 294,711 341,713 388,714 436,716 483,717 530,718 578,719 625,720 672,721 720,721 767,722 814,722 861,722 909,723 956,723 1003,724 1051,724 1098,725 1145,725 1193,726 1193,672 1145,671 1098,671 1051,670 1003,670 956,669 909,669 861,668 814,668 767,668 720,667 672,667 625,666 578,665 530,664 483,663 436,662 388,660 341,659 294,657 247,654"/>
+                <Baseline points="247,690 294,693 341,695 388,696 436,698 483,699 530,700 578,701 625,702 672,703 720,703 767,704 814,704 861,704 909,705 956,705 1003,706 1051,706 1098,707 1145,707 1193,708"/>
+                <TextEquiv>
+                    <Unicode>changement que vous recommandez en faveur de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l7" custom="readingOrder {index:3;} person {offset:1; length:9;}">
+                <Coords points="249,789 295,791 342,794 388,796 435,797 481,799 528,800 574,801 621,802 667,803 714,803 760,803 807,804 853,804 900,804 946,804 993,804 1039,805 1086,805 1132,805 1179,806 1179,752 1132,751 1086,751 1039,751 993,750 946,750 900,750 853,750 807,750 760,749 714,749 667,749 621,748 574,747 528,746 481,745 435,743 388,742 342,740 295,737 249,735"/>
+                <Baseline points="249,771 295,773 342,776 388,778 435,779 481,781 528,782 574,783 621,784 667,785 714,785 760,785 807,786 853,786 900,786 946,786 993,786 1039,787 1086,787 1132,787 1179,788"/>
+                <TextEquiv>
+                    <Unicode> M. Leroux : j’ai l’espoir qu’il sera adopté et </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l8" custom="readingOrder {index:4;} person {offset:0; length:9;}">
+                <Coords points="243,880 290,881 338,882 385,883 433,884 481,884 528,884 576,884 623,884 671,884 719,884 766,884 814,884 861,884 909,884 957,885 1004,886 1052,887 1099,888 1147,890 1195,893 1195,839 1147,836 1099,834 1052,833 1004,832 957,831 909,830 861,830 814,830 766,830 719,830 671,830 623,830 576,830 528,830 479,824 431,824 385,829 338,828 290,827 243,826"/>
+                <Baseline points="243,862 290,863 338,864 385,865 433,866 481,866 528,866 576,866 623,866 671,866 719,866 766,866 814,866 861,866 909,866 957,867 1004,868 1052,869 1099,870 1147,872 1195,875"/>
+                <TextEquiv>
+                    <Unicode>M. Leroux verra prochainement l’effet de vos</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l9" custom="readingOrder {index:5;}">
+                <Coords points="251,956 276,957 301,958 326,959 351,960 376,961 401,961 426,962 451,963 476,964 502,964 527,965 552,965 577,966 602,966 627,966 652,967 677,967 702,967 727,968 760,967 760,913 727,914 702,913 677,913 652,913 627,912 602,912 577,912 552,911 527,911 502,910 476,910 451,909 426,908 401,907 376,907 351,906 326,905 301,904 276,903 251,902"/>
+                <Baseline points="251,938 276,939 301,940 326,941 351,942 376,943 401,943 426,944 451,945 476,946 502,946 527,947 552,947 577,948 602,948 627,948 652,949 677,949 702,949 727,950 753,950"/>
+                <TextEquiv>
+                    <Unicode>bonnes disposition pour lui.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l10" custom="readingOrder {index:6;}">
+                <Coords points="334,1073 378,1075 422,1077 466,1079 510,1080 554,1081 598,1082 642,1083 686,1083 730,1084 774,1084 818,1085 862,1085 906,1085 950,1086 994,1086 1038,1087 1082,1088 1126,1089 1170,1090 1214,1091 1214,1037 1170,1036 1126,1035 1082,1034 1038,1033 994,1032 950,1032 906,1031 862,1031 818,1031 774,1030 730,1030 686,1029 642,1029 598,1028 554,1027 510,1026 466,1025 422,1023 371,1011 327,1009"/>
+                <Baseline points="334,1055 378,1057 422,1059 466,1061 510,1062 554,1063 598,1064 642,1065 686,1065 730,1066 774,1066 818,1067 862,1067 906,1067 950,1068 994,1068 1038,1069 1082,1070 1126,1071 1170,1072 1214,1073"/>
+                <TextEquiv>
+                    <Unicode>Veuillez agréer, Monsieur et cher collègue, leur</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l11" custom="readingOrder {index:7;} unclear {offset:0; length:15;} sic {offset:40; length:7;correction:dévoués;}">
+                <Coords points="251,1150 292,1150 334,1151 376,1152 417,1152 459,1153 501,1153 542,1154 584,1155 626,1155 668,1156 709,1157 751,1158 793,1158 834,1159 876,1160 918,1161 959,1162 1001,1163 1043,1164 1085,1165 1085,1111 1043,1110 1001,1109 959,1108 918,1107 876,1106 834,1105 793,1104 751,1104 709,1103 668,1102 626,1101 584,1101 542,1100 501,1099 459,1099 417,1098 376,1098 334,1097 292,1096 251,1096"/>
+                <Baseline points="251,1132 292,1132 334,1133 376,1134 417,1134 459,1135 501,1135 542,1136 584,1137 626,1137 668,1138 709,1139 751,1140 793,1140 834,1141 876,1142 918,1143 959,1144 1001,1145 1043,1146 1085,1147"/>
+                <TextEquiv>
+                    <Unicode>               sentiments affectueux et devoués</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1591288613052_724" custom="readingOrder {index:8;}">
+                <Coords points="958,1202 1308,1211 1195,1351 845,1342"/>
+                <Baseline points="955,1247 1161,1261"/>
+                <TextEquiv>
+                    <Unicode>F. Le Play</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l14" custom="readingOrder {index:9;} place {offset:0; length:5;} date {offset:9; length:10;year:0; day:0; month:0;} sic {offset:11; length:3;}">
+                <Coords points="247,1616 274,1618 301,1621 329,1622 356,1624 384,1625 411,1627 439,1628 466,1629 494,1631 521,1632 548,1633 576,1634 603,1636 631,1636 658,1638 686,1639 713,1640 741,1642 768,1643 796,1644 796,1590 768,1589 741,1588 713,1586 686,1585 658,1584 631,1582 603,1582 576,1580 548,1579 521,1578 494,1577 466,1575 439,1574 411,1573 384,1571 356,1570 358,1538 330,1537 274,1564 247,1562"/>
+                <Baseline points="247,1598 274,1600 301,1603 329,1604 356,1606 384,1607 411,1609 439,1610 466,1611 494,1613 521,1614 548,1615 576,1616 603,1618 631,1618 658,1620 686,1621 713,1622 741,1624 768,1625 796,1626"/>
+                <TextEquiv>
+                    <Unicode>Paris le 5 Mai 1856</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l15" custom="readingOrder {index:10;} place {offset:0; length:21;} abbrev {offset:4; length:3;} sic {offset:8; length:9;correction:Dominique;}">
+                <Coords points="255,1708 280,1710 306,1712 331,1713 357,1714 382,1716 408,1717 433,1718 459,1719 484,1720 510,1721 535,1722 561,1723 586,1724 612,1725 637,1726 658,1738 683,1738 714,1728 740,1729 740,1675 714,1674 688,1673 663,1673 637,1672 612,1671 586,1670 561,1669 535,1668 510,1667 484,1666 459,1665 433,1664 408,1663 382,1662 357,1660 331,1659 306,1658 280,1656 255,1654"/>
+                <Baseline points="255,1690 280,1692 306,1694 331,1695 357,1696 382,1698 408,1699 433,1700 459,1701 484,1702 510,1703 535,1704 561,1705 586,1706 612,1707 637,1708 663,1709 688,1709 714,1710 740,1711"/>
+                <TextEquiv>
+                    <Unicode>rue St. dominique 17.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Monsieur et cher collègue, 
+Je me Suis empressé de proposer à S.A.J. sur le
+changement que vous recommandez en faveur de
+ M. Leroux : j’ai l’espoir qu’il sera adopté et 
+M. Leroux verra prochainement l’effet de vos
+bonnes disposition pour lui.
+Veuillez agréer, Monsieur et cher collègue, leur
+               sentiments affectueux et devoués
+F. Le Play
+Paris le 5 Mai 1856
+rue St. dominique 17.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
