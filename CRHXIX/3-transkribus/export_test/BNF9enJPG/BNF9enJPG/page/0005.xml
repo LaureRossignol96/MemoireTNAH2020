@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-05-29T12:47:20.987+02:00</Created>
+        <LastChange>2020-05-29T15:20:55.766+02:00</LastChange>
+        <TranskribusMetadata docId="395540" pageId="15371266" pageNr="5" tsid="30035379" status="IN_PROGRESS" userId="50847" imgUrl="https://files.transkribus.eu/Get?id=KFRTUEXABLAUJZCTYOWSYEXZ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=DBYLZZVPSMISHBPXXLQQEHIB" imageId="11208023"/>
+    </Metadata>
+    <Page imageFilename="0005.jpg" imageWidth="1909" imageHeight="2821">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1593250696537" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+                <RegionRefIndexed index="3" regionRef="r4"/>
+                <RegionRefIndexed index="4" regionRef="r5"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="12,403 12,557 22,557 22,403"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;}">
+            <Coords points="14,1478 14,1628 34,1628 34,1478"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;}">
+            <Coords points="10,975 10,1376 50,1376 50,975"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r4" custom="readingOrder {index:3;}">
+            <Coords points="12,1980 12,2508 62,2508 62,1980"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r5" custom="readingOrder {index:4;}">
+            <Coords points="445,108 445,1672 1803,1672 1803,108"/>
+            <TextLine id="r5l2" custom="readingOrder {index:0;}">
+                <Coords points="448,509 512,514 577,518 642,521 707,524 772,526 837,528 902,530 967,531 1032,532 1097,532 1161,532 1226,532 1291,532 1356,532 1421,532 1486,531 1551,531 1616,531 1681,531 1746,532 1746,468 1681,467 1616,467 1551,467 1486,467 1421,468 1356,468 1291,468 1226,468 1161,468 1097,468 1032,468 967,467 902,466 837,464 772,462 707,460 642,457 577,454 512,450 448,445"/>
+                <Baseline points="448,488 512,493 577,497 642,500 707,503 772,505 837,507 902,509 967,510 1032,511 1097,511 1161,511 1226,511 1291,511 1356,511 1421,511 1486,510 1551,510 1616,510 1681,510 1746,511"/>
+                <TextEquiv>
+                    <Unicode>de se placer au premier rang des réformateurs laïques.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r5l3" custom="readingOrder {index:1;}">
+                <Coords points="445,602 511,604 577,607 643,609 709,612 775,614 841,616 907,618 973,619 1039,621 1105,622 1171,623 1237,624 1303,625 1369,626 1435,626 1501,626 1567,627 1633,627 1699,627 1765,627 1765,563 1699,563 1633,563 1567,563 1501,562 1435,562 1369,562 1303,561 1237,560 1171,559 1105,558 1039,557 973,555 907,554 841,552 775,550 709,548 643,545 577,543 511,540 445,538"/>
+                <Baseline points="445,581 511,583 577,586 643,588 709,591 775,593 841,595 907,597 973,598 1039,600 1105,601 1171,602 1237,603 1303,604 1369,605 1435,605 1501,605 1567,606 1633,606 1699,606 1765,606"/>
+                <TextEquiv>
+                    <Unicode>C'est à ce point de vue que je m'étais permis, Monseigneur, de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r5l4" custom="readingOrder {index:2;}">
+                <Coords points="446,693 513,696 580,698 647,700 714,703 781,705 848,707 915,709 982,711 1049,713 1117,715 1184,716 1251,718 1318,719 1385,720 1452,721 1519,721 1586,722 1653,722 1720,721 1788,721 1788,655 1720,655 1653,656 1586,656 1519,655 1452,655 1385,654 1318,653 1251,652 1184,650 1117,649 1049,647 982,645 915,643 848,641 781,639 714,637 647,634 580,632 513,630 446,627"/>
+                <Baseline points="446,671 513,674 580,676 647,678 714,681 781,683 848,685 915,687 982,689 1049,691 1117,693 1184,694 1251,696 1318,697 1385,698 1452,699 1519,699 1586,700 1653,700 1720,699 1788,699"/>
+                <TextEquiv>
+                    <Unicode>vous conseiller de stimuler son zèle. J’aurais été très mortifié </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r5l5" custom="readingOrder {index:3;}">
+                <Coords points="457,792 524,793 591,794 658,795 725,796 792,797 859,798 926,799 993,800 1060,801 1128,802 1195,803 1262,804 1329,805 1396,806 1463,807 1530,809 1597,810 1664,811 1731,813 1799,815 1799,751 1731,749 1664,747 1597,746 1530,745 1463,743 1396,742 1329,741 1262,740 1195,739 1128,738 1060,737 993,736 926,735 859,734 792,733 725,732 658,731 591,730 524,729 457,728"/>
+                <Baseline points="457,771 524,772 591,773 658,774 725,775 792,776 859,777 926,778 993,779 1060,780 1128,781 1195,782 1262,783 1329,784 1396,785 1463,786 1530,788 1597,789 1664,790 1731,792 1799,794"/>
+                <TextEquiv>
+                    <Unicode> de vous laisser dans la pensée que je désire voir Cochin s'oc-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r5l6" custom="readingOrder {index:4;}">
+                <Coords points="463,883 528,883 593,883 658,883 723,883 788,883 853,884 918,885 983,885 1048,886 1113,887 1178,888 1243,889 1308,890 1373,891 1438,893 1503,894 1568,895 1633,896 1698,898 1764,899 1764,838 1698,837 1633,835 1568,834 1503,833 1438,832 1373,830 1308,829 1243,828 1178,827 1113,826 1048,825 983,824 918,824 853,823 788,822 723,822 658,822 593,822 528,822 463,822"/>
+                <Baseline points="463,863 528,863 593,863 658,863 723,863 788,863 853,864 918,865 983,865 1048,866 1113,867 1178,868 1243,869 1308,870 1373,871 1438,873 1503,874 1568,875 1633,876 1698,878 1764,879"/>
+                <TextEquiv>
+                    <Unicode>cuper plus qu'il ne le fait de mon travail qui ne peut être </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r5l7" custom="readingOrder {index:5;}">
+                <Coords points="463,967 530,969 597,971 664,972 731,973 798,974 865,975 932,975 999,976 1066,976 1133,977 1200,977 1267,978 1334,979 1401,980 1468,981 1535,982 1602,983 1669,985 1736,988 1803,990 1803,929 1736,927 1669,924 1602,922 1535,921 1468,920 1401,919 1334,918 1267,917 1200,916 1133,916 1066,915 999,915 932,914 865,914 798,913 731,912 664,911 597,910 530,908 463,906"/>
+                <Baseline points="463,947 530,949 597,951 664,952 731,953 798,954 865,955 932,955 999,956 1066,956 1133,957 1200,957 1267,958 1334,959 1401,960 1468,961 1535,962 1602,963 1669,965 1736,968 1803,970"/>
+                <TextEquiv>
+                    <Unicode>qu'un détail de notre grande entreprise ! C'est en lui même </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r5l8" custom="readingOrder {index:6;}">
+                <Coords points="461,1057 525,1058 590,1059 654,1060 719,1061 783,1062 848,1063 912,1063 977,1064 1041,1065 1106,1066 1170,1066 1235,1067 1299,1068 1364,1070 1428,1071 1493,1072 1557,1074 1622,1075 1686,1077 1751,1079 1751,1015 1686,1013 1622,1011 1557,1010 1493,1008 1428,1007 1364,1006 1299,1004 1235,1003 1170,1002 1106,1002 1041,1001 977,1000 912,999 848,999 783,998 719,997 654,996 590,995 525,994 461,993"/>
+                <Baseline points="461,1036 525,1037 590,1038 654,1039 719,1040 783,1041 848,1042 912,1042 977,1043 1041,1044 1106,1045 1170,1045 1235,1046 1299,1047 1364,1049 1428,1050 1493,1051 1557,1053 1622,1054 1686,1056 1751,1058"/>
+                <TextEquiv>
+                    <Unicode>et sans mon concours qu'il doit trouver les forces nécessaires </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r5l9" custom="readingOrder {index:7;}">
+                <Coords points="465,1146 529,1147 593,1148 658,1149 722,1150 787,1151 851,1152 915,1153 980,1154 1044,1155 1109,1156 1173,1157 1237,1158 1302,1159 1366,1160 1431,1161 1495,1162 1559,1163 1624,1165 1688,1166 1753,1167 1753,1107 1688,1106 1624,1105 1559,1103 1495,1102 1431,1101 1366,1100 1302,1099 1237,1098 1173,1097 1109,1096 1044,1095 980,1094 915,1093 851,1092 787,1091 722,1090 658,1089 593,1088 529,1087 465,1086"/>
+                <Baseline points="465,1126 529,1127 593,1128 658,1129 722,1130 787,1131 851,1132 915,1133 980,1134 1044,1135 1109,1136 1173,1137 1237,1138 1302,1139 1366,1140 1431,1141 1495,1142 1559,1143 1624,1145 1688,1146 1753,1147"/>
+                <TextEquiv>
+                    <Unicode>l'accomplissement de la mission que lui assignent ses</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r5l10" custom="readingOrder {index:8;}">
+                <Coords points="466,1228 492,1232 519,1234 546,1235 573,1236 600,1236 627,1237 664,1239 664,1179 627,1177 600,1176 573,1176 546,1175 519,1174 492,1172 466,1168"/>
+                <Baseline points="466,1208 492,1212 519,1214 546,1215 573,1216 600,1216 627,1217 654,1219"/>
+                <TextEquiv>
+                    <Unicode> talents !</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r5l11" custom="readingOrder {index:9;}">
+                <Coords points="621,1344 676,1345 731,1346 786,1347 841,1348 896,1349 951,1351 1006,1352 1061,1353 1116,1354 1171,1356 1226,1357 1281,1358 1336,1359 1391,1361 1446,1362 1501,1363 1556,1365 1611,1366 1666,1368 1721,1369 1721,1302 1666,1301 1611,1299 1556,1298 1501,1296 1446,1295 1391,1294 1336,1292 1281,1291 1226,1290 1171,1289 1116,1287 1061,1286 1006,1285 951,1284 896,1282 841,1281 786,1280 731,1279 676,1278 621,1277"/>
+                <Baseline points="621,1322 676,1323 731,1324 786,1325 841,1326 896,1327 951,1329 1006,1330 1061,1331 1116,1332 1171,1334 1226,1335 1281,1336 1336,1337 1391,1339 1446,1340 1501,1341 1556,1343 1611,1344 1666,1346 1721,1347"/>
+                <TextEquiv>
+                    <Unicode>Veuillez agréer, Monseigneur, avec l'expression</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r5l12" custom="readingOrder {index:10;}">
+                <Coords points="481,1430 543,1431 606,1432 668,1433 731,1434 793,1435 856,1437 918,1438 981,1440 1043,1442 1106,1444 1168,1446 1231,1448 1293,1450 1356,1453 1418,1455 1481,1458 1543,1461 1606,1463 1668,1466 1731,1468 1731,1410 1668,1408 1606,1405 1543,1403 1481,1400 1418,1397 1356,1395 1293,1392 1231,1390 1168,1388 1106,1386 1043,1384 981,1382 918,1380 856,1379 793,1377 731,1376 668,1375 606,1374 543,1373 481,1372"/>
+                <Baseline points="481,1411 543,1412 606,1413 668,1414 731,1415 793,1416 856,1418 918,1419 981,1421 1043,1423 1106,1425 1168,1427 1231,1429 1293,1431 1356,1434 1418,1436 1481,1439 1543,1442 1606,1444 1668,1447 1731,1449"/>
+                <TextEquiv>
+                    <Unicode> de mes sentiments dévoués, l'assurance de ma haute</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r5l13" custom="readingOrder {index:11;}">
+                <Coords points="488,1511 513,1513 538,1515 563,1516 588,1518 613,1520 638,1521 663,1522 688,1524 713,1525 738,1526 763,1527 788,1528 813,1528 848,1527 848,1466 813,1467 788,1467 763,1466 738,1465 713,1464 688,1463 663,1461 638,1460 613,1459 588,1457 563,1455 538,1454 513,1452 488,1450"/>
+                <Baseline points="488,1491 513,1493 538,1495 563,1496 588,1498 613,1500 638,1501 663,1502 688,1504 713,1505 738,1506 763,1507 788,1508 813,1508 838,1509"/>
+                <TextEquiv>
+                    <Unicode>considération.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r5l14" custom="readingOrder {index:12;}">
+                <Coords points="1390,1647 1416,1647 1443,1649 1469,1652 1496,1655 1315,1732 1126,1997 1326,2034 1775,1769 1767,1683 1656,1672 1683,1671 1683,1602 1656,1603 1629,1602 1633,1573 1598,1572 1549,1594 1549,1559 1522,1555 1489,1547 1463,1544 1416,1578 1390,1578"/>
+                <Baseline points="1390,1624 1416,1624 1443,1626 1469,1629 1496,1632 1523,1636 1549,1640 1576,1643 1603,1647 1629,1648 1656,1649 1683,1648"/>
+                <TextEquiv>
+                    <Unicode>F. Le Play</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>de se placer au premier rang des réformateurs laïques.
+C'est à ce point de vue que je m'étais permis, Monseigneur, de
+vous conseiller de stimuler son zèle. J’aurais été très mortifié 
+ de vous laisser dans la pensée que je désire voir Cochin s'oc-
+cuper plus qu'il ne le fait de mon travail qui ne peut être 
+qu'un détail de notre grande entreprise ! C'est en lui même 
+et sans mon concours qu'il doit trouver les forces nécessaires 
+l'accomplissement de la mission que lui assignent ses
+ talents !
+Veuillez agréer, Monseigneur, avec l'expression
+ de mes sentiments dévoués, l'assurance de ma haute
+considération.
+F. Le Play</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

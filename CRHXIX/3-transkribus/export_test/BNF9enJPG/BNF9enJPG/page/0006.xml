@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-05-29T12:47:21.101+02:00</Created>
+        <LastChange>2020-05-29T15:21:09.361+02:00</LastChange>
+        <TranskribusMetadata docId="395540" pageId="15371267" pageNr="6" tsid="30035392" status="IN_PROGRESS" userId="50847" imgUrl="https://files.transkribus.eu/Get?id=EMYFMJBVUUKRGQKDWPGZSRRW&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=FMVUBATXXPSIOBXNQAKXJYLN" imageId="11208024"/>
+    </Metadata>
+    <Page imageFilename="0006.jpg" imageWidth="1875" imageHeight="2821">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1593250696841" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="614,1229 614,1384 776,1384 776,1229"/>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

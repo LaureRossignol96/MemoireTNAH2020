@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-05-29T12:47:20.450+02:00</Created>
+        <LastChange>2020-05-29T15:01:51.615+02:00</LastChange>
+        <TranskribusMetadata docId="395540" pageId="15371261" pageNr="2" tsid="30033851" status="IN_PROGRESS" userId="50847" imgUrl="https://files.transkribus.eu/Get?id=XOUVXJLRLEDRJGNGKKJYYGMK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=XHDNRLWBQYRJMIKVOJAHPSPE" imageId="11208018"/>
+    </Metadata>
+    <Page imageFilename="0002.jpg" imageWidth="1821" imageHeight="2821">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1593250695232" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="558,457 558,1218 1667,1218 1667,457"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="559,512 613,513 667,514 721,515 775,516 829,517 883,517 937,518 991,518 1045,519 1099,519 1153,519 1207,519 1261,520 1315,520 1369,520 1423,520 1477,519 1531,519 1585,519 1639,519 1639,464 1585,464 1531,464 1477,464 1423,465 1369,465 1315,465 1261,465 1207,464 1153,464 1099,464 1045,464 991,463 937,463 883,462 829,462 775,461 721,460 667,459 613,458 559,457"/>
+                <Baseline points="559,494 613,495 667,496 721,497 775,498 829,499 883,499 937,500 991,500 1045,501 1099,501 1153,501 1207,501 1261,502 1315,502 1369,502 1423,502 1477,501 1531,501 1585,501 1639,501"/>
+                <TextEquiv>
+                    <Unicode>de cette nature, au lieu de les éparpiller comme il </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="563,587 618,588 673,590 728,590 783,591 838,592 893,592 948,593 1003,593 1058,594 1113,594 1168,594 1223,595 1278,595 1333,595 1388,595 1443,596 1498,596 1553,596 1608,596 1695,594 1695,539 1608,541 1553,541 1498,541 1443,541 1388,540 1333,540 1278,540 1223,540 1168,539 1113,539 1058,539 1003,538 948,538 893,537 838,537 783,536 728,535 673,535 618,533 563,532"/>
+                <Baseline points="563,569 618,570 673,572 728,572 783,573 838,574 893,574 948,575 1003,575 1058,576 1113,576 1168,576 1223,577 1278,577 1333,577 1388,577 1443,578 1498,578 1553,578 1608,578 1678,578"/>
+                <TextEquiv>
+                    <Unicode>l'a peut-être trop fait jusqu'à ce jour. Aucun homme</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l3" custom="readingOrder {index:2;}">
+                <Coords points="567,670 621,670 676,670 730,671 785,671 840,672 894,673 949,673 1003,674 1058,675 1113,676 1167,677 1222,677 1276,678 1331,679 1386,680 1440,682 1495,683 1549,684 1604,685 1760,683 1760,625 1604,627 1549,626 1495,625 1440,624 1386,622 1331,621 1276,620 1222,619 1167,619 1113,618 1058,617 1003,616 949,615 894,615 840,614 785,613 730,613 676,612 621,612 567,612"/>
+                <Baseline points="567,651 621,651 676,651 730,652 785,652 840,653 894,654 949,654 1003,655 1058,656 1113,657 1167,658 1222,658 1276,659 1331,660 1386,661 1440,663 1495,664 1549,665 1604,666 1723,669"/>
+                <TextEquiv>
+                    <Unicode> ne me paraît plus capable d'y être utile ; c'est là surtout</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l4" custom="readingOrder {index:3;}">
+                <Coords points="558,757 612,756 667,756 722,756 777,756 832,757 887,757 942,758 997,760 1052,761 1107,762 1161,764 1216,765 1271,766 1326,768 1381,769 1436,770 1491,771 1546,772 1601,772 1656,772 1656,712 1601,712 1546,712 1491,711 1436,710 1381,709 1326,708 1271,706 1216,705 1161,704 1107,702 1052,701 997,700 942,698 887,697 832,697 777,696 722,696 667,696 612,696 558,697"/>
+                <Baseline points="558,737 612,736 667,736 722,736 777,736 832,737 887,737 942,738 997,740 1052,741 1107,742 1161,744 1216,745 1271,746 1326,748 1381,749 1436,750 1491,751 1546,752 1601,752 1656,752"/>
+                <TextEquiv>
+                    <Unicode>qu'il trouverait l'emploi de ses éminentes facultés.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l5" custom="readingOrder {index:4;}">
+                <Coords points="731,916 777,917 824,918 871,919 917,919 964,920 1011,920 1057,921 1104,921 1151,921 1198,921 1244,921 1291,922 1338,922 1384,922 1431,923 1478,923 1524,924 1571,925 1618,926 1719,927 1719,867 1618,866 1571,865 1524,864 1478,863 1431,863 1384,862 1338,862 1291,862 1244,861 1198,861 1151,861 1104,861 1057,861 1011,860 964,860 917,859 871,859 824,858 777,857 731,856"/>
+                <Baseline points="731,896 777,897 824,898 871,899 917,899 964,900 1011,900 1057,901 1104,901 1151,901 1198,901 1244,901 1291,902 1338,902 1384,902 1431,903 1478,903 1524,904 1571,905 1658,906 1705,907"/>
+                <TextEquiv>
+                    <Unicode>Veuillez agréer, Monseigneur, avec l'expres-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l6" custom="readingOrder {index:5;}">
+                <Coords points="563,1003 618,1004 673,1005 728,1005 783,1006 839,1006 894,1006 949,1007 1004,1007 1059,1007 1115,1007 1170,1007 1225,1008 1280,1008 1335,1009 1391,1010 1446,1011 1501,1012 1556,1014 1611,1016 1699,1016 1699,956 1611,956 1556,954 1501,952 1446,951 1391,950 1335,949 1280,948 1225,948 1170,947 1115,947 1059,947 1004,947 949,947 894,946 839,946 783,946 728,945 673,945 618,944 563,943"/>
+                <Baseline points="563,983 618,984 673,985 728,985 783,986 839,986 894,986 949,987 1004,987 1059,987 1115,987 1170,987 1225,988 1280,988 1335,989 1391,990 1446,991 1501,992 1556,994 1611,996 1691,994"/>
+                <TextEquiv>
+                    <Unicode>sion de ma gratitude, l'assurance de ma haute</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l7" custom="readingOrder {index:6;}">
+                <Coords points="563,1086 588,1087 613,1088 638,1088 663,1089 688,1088 713,1088 738,1088 763,1088 788,1088 813,1088 838,1089 838,1029 813,1028 788,1028 763,1028 738,1028 713,1028 688,1028 663,1029 638,1028 613,1028 588,1027 563,1026"/>
+                <Baseline points="563,1066 588,1067 613,1068 638,1068 663,1069 688,1068 713,1068 738,1068 763,1068 788,1068 813,1068 838,1069"/>
+                <TextEquiv>
+                    <Unicode>considération.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r1l8" custom="readingOrder {index:7;}">
+                <Coords points="1384,1188 1411,1195 1438,1201 1465,1207 1492,1211 1519,1214 1546,1216 1573,1218 1600,1218 1627,1218 1627,1158 1600,1158 1573,1158 1546,1156 1519,1154 1492,1151 1465,1147 1438,1141 1411,1135 1384,1128"/>
+                <Baseline points="1384,1168 1411,1175 1438,1181 1465,1187 1492,1191 1519,1194 1546,1196 1573,1198 1600,1198 1627,1198"/>
+                <TextEquiv>
+                    <Unicode>F. Le Play</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>de cette nature, au lieu de les éparpiller comme il 
+l'a peut-être trop fait jusqu'à ce jour. Aucun homme
+ ne me paraît plus capable d'y être utile ; c'est là surtout
+qu'il trouverait l'emploi de ses éminentes facultés.
+Veuillez agréer, Monseigneur, avec l'expres-
+sion de ma gratitude, l'assurance de ma haute
+considération.
+F. Le Play</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
