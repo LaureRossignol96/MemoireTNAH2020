@@ -1,0 +1,1702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="short">oddbyexample</title>
+            <title>ODD pour le projet d'édition numérique de correspondance<lb/>Frédéric LE PLAY
+               (1806-1882)<lb/>Centre de recherche d'Histoire du XIXe siècle</title>
+            <author>
+               <forename>Lucie</forename>
+               <name>Slavik</name>
+               <affiliation>Stagiaire du Master 2 Technologies Numériques appliquées à l'Histoire
+                  (TNAH), Ecole Nationale des Chartes</affiliation>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Centre de recherche d'Histoire du XIXe siècle</p>
+            <p>Sorbonne</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Derived from <ref
+                  target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base
+                  odd</ref> after an analysis of 1 files in
+               file:/home/formation1/Bureau/STAGE_CRHXIX/ODD/ODD_v1/</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div1>
+            <head>Documentation pour l'encodage de la correspondance active et passive de Le
+               Play</head>
+            <div2>
+               <head>Introduction</head>
+               <p>Ce guide d'encodage a pour but d'expliquer à l'équipe du Centre de recherche
+                  d'Histoire du XIXe siècle, comment encoder les lettres actives et passives du
+                  corpus qui est en sa possession, en vue de l'édition numérique de la
+                  correspondance de Le Play. Il est donc le document de référence pour comprendre
+                  l'enchaînement des balises (il y a un ordre très précis à respecter, sans quoi le
+                  fichier XML n'est pas valide). Tout fichier XML doit donc être écrit en référence
+                  à l'ODD et y être associé.</p>
+            </div2>
+            <div2>
+               <head>Avertissement préliminaire</head>
+               <p>Il est à noter que cet ODD est encore perfectible. De nombreux cas n'ont pas
+                  encore été traités. C'est donc un document susceptible d'être modifié. Je pense
+                  notamment à l'encodage des documents joints à certaines lettres ainsi que nombre
+                  d'autres cas particuliers que nous n'avons pas eu le temps de traiter durant ce
+                  stage relativement court.</p>
+               <p>Il sera donc nécessaire de mettre cet ODD à jour.</p>
+            </div2>
+
+            <div2>
+               <head>Présentation du projet d'édition numérique Le Play</head>
+               <div3>
+                  <head>Objectifs scientifiques</head>
+                  <p>Le projet scientifique d'édition numérique de correspondance de Le Play
+                     consiste à éclairer les conditions d’élaboration des enquêtes qui se
+                     multiplient en Europe à partir des années 1840 (Buret, Villermé, Blanqui,
+                     Engels…) et qui s’interrogent sur les mutations du monde du travail et la
+                     naissance d’un paupérisme de masse, ce que l’on appelait alors la « question
+                     sociale ». Or ces enquêtes publiées gomment toute la phase préparatoire,
+                     pourtant riche d’enjeux aussi bien épistémologiques qu’idéologiques. Les
+                     correspondances représentent une source inexploitée pour étudier cet aspect. En
+                     travaillant sur les pratiques savantes d’un groupe d’enquêteurs réunis au sein
+                     d’une école « sociologique » relativement homogène, nous pensons pouvoir
+                     contribuer de manière pluridisciplinaire à l’histoire des sciences sociales.
+                     L’« école » leplaysienne jouit d’un regain d’intérêt historiographique mais sa
+                     mémoire demeure relativement effacée par l’école durkheimienne concurrente.
+                     Notre projet de recherche promet donc des résultats scientifiques neufs. Il
+                     s’agit donc de donner accès à ces fonds dispersés et parfois peu accessibles en
+                     les numérisant et en les mettant en ligne, et de transcrire les lettres pour
+                     produire une édition électronique du corpus.</p>
+               </div3>
+               <div3>
+                  <head>Description du corpus</head>
+                  <p>Le corpus de lettres à numériser puis encoder représente 2091 lettres échangées
+                     entre Frédéric Le Play et 94 correspondants entre 1837 et 1882. Le corpus est
+                     conservé dans trois fonds principaux : fonds Le Play de la Société d’économie
+                     et de sciences sociales conservée au CEDIAS-Musée social ; fonds Le Play de la
+                     Bibliothèque de l’Institut de France ; fonds Le Play de l’association du
+                     château de Ligoure (Haute-Vienne). </p>
+                  <p>A côté de ces trois massifs, la correspondance est particulièrement éclatée
+                     dans de nombreuses bibliothèques et centres d’archives, tant en France
+                     (Archives nationales, Bibliothèque nationale de France, bibliothèque Thiers,
+                     etc.) qu’à l’étranger (Angleterre, Belgique, Italie, Russie, etc.). Le travail
+                     de numérisation a déjà été engagé, en particulier dans les fonds les plus
+                     importants. Les fonds complémentaires sont les ouvrages de Le Play, les
+                     enquêtes publiées, les revues du mouvement. Une large partie est disponible sur
+                     Gallica (<hi rend="italic">La Réforme sociale en France</hi>, 1864 ; <hi
+                        rend="italic">Les Ouvriers européens</hi>, 6 volumes entre 1877 et 1879 ;
+                     revue <hi rend="italic">La Réforme sociale</hi>, 1881-1934, etc.) </p>
+                  <p>Un premier inventaire sommaire a été réalisé en 2006 et publié dans <hi
+                        rend="italic">Les Etudes sociales</hi> (n° 142-144, p. 231-247).
+                     L’inventaire précis pièce à pièce reste à réaliser. </p>
+                  <p>Il faudra donc prendre en compte la diversité des corpus et les diverses mains
+                     qui ont écrit cette correspondance. L'encodage doit en laisser la trace.</p>
+               </div3>
+               <div3>
+                  <head>Objectifs de cet encodage</head>
+                  <p>Tout l'objectif de cet encodage est de souligner le rituel épistolaire et de
+                     répondre aux besoins du futur site en vue duquel il est fait.</p>
+                  <p>Concernant l'encodage d'une correspondance, on pourra se référer à cette
+                     documentation : <hi rend="italic">L’édition numérique de correspondances –
+                        guide méthodologique,</hi> disponible <ref
+                        target="https://cahier.hypotheses.org/guide-correspondance">ici</ref>.</p>
+                  <p>Un des points particulièrement importants est la mise en place d'index de noms
+                     de lieux, personnes, organisations, événements, vocabulaire leplaysien. Pour
+                     cela, il est conseillé d'établir une fiche type pour chaque index, recensant
+                     les mots déjà rencontrés, afin de faciliter l'encodage par des copier/coller.
+                     Nous avons déjà commencé à les faire, il faudra donc les compléter au fur et à
+                     mesure et s'y référer au cours de l'encodage, si cela s'avère être une méthode
+                     efficace.</p>
+                  <p>Pour faciliter l'encodage, un tutoriel a été réalisé par la stagiaire, ainsi
+                     qu'un autre pour relier le fichier XML à l'ODD.</p>
+                  <p>Il faudra également, comme souligné plus haut, indiquer de quels fonds les
+                     lettres proviennent et par quelles mains elles sont écrites etc. Autant
+                     d'éléments à prendre en compte dans l'encodage d'une correspondance, d'où
+                     l'importance de l'ODD.</p>
+                  <p>La partie ci-dessous spécifie les balises à choisir pour prendre en compte tous
+                     ces cas de figure.</p>
+               </div3>
+            </div2>
+
+            <div2>
+               <head>Structure de l'encodage</head>
+               <div3>
+                  <head>Présentation générale</head>
+                  <p>Le document XML est contenu dans l'élément racine <gi>TEI</gi> lui-même divisé
+                     en deux : une première partie se trouve dans un élément <gi>teiHeader</gi> qui
+                     comporte les métadonnées et les index, et une deuxième dans un élément
+                        <gi>text</gi> qui comprend le corps du texte.</p>
+               </div3>
+               <div3>
+                  <head>Structure du teiHeader</head>
+                  <p>Le <gi>teiHeader</gi> est divisé en deux parties principales :</p>
+                  <p>le <gi>fileDesc</gi>, qui est une description bibliographique du document</p>
+                  <p>le <gi>profileDesc</gi> qui est une description détaillée des aspects non
+                     bibliographiques.</p>
+                  <div4>
+                     <head>Le fileDesc</head>
+                     <p>Le <gi>fileDesc</gi> est composé de trois parties obligatoires.</p>
+                     <p>Le <gi>titleStmt</gi> qui est une déclaration du titre.</p>
+                     <p>Le <gi>publicationStmt</gi> qui est une déclaration de la publication.</p>
+                     <p>Le <gi>sourceDesc</gi> qui est une description de la source.</p>
+                     <div5>
+                        <head>Le titleStmt</head>
+                        <p>Le <gi>titleStmt</gi> regroupe les informations sur le titre d’une œuvre
+                           et les personnes ou institutions responsables de son contenu
+                           intellectuel.</p>
+                        <p>Il comprend une balise <gi>title</gi> pour le titre, une balise
+                              <gi>funder</gi> qui renseigne le financeur du projet, et une balise
+                              <gi>principal</gi> (chercheur principal) qui contient le nom du
+                           chercheur qui est principalement responsable de la création d’un texte
+                           électronique. En l'occurence, comme cela est partagé par Messieurs
+                           Matthieu Brejon de Lavergnée et Rémy Hême de Lacotte, j'ai mis deux
+                           balises <gi>principal</gi>. Celle-ci renseigne le <gi>persName</gi>,
+                           c'est à dire le prénom puis le nom de la personne en question, et son
+                              <gi>affiliation</gi>.Nous avons choisi de mettre un attribut
+                              <att>ref</att> à chaque persName pour permettre de pointer quand
+                           nécessaire. Nous ne sommes pas certains de son efficacité, cela fera
+                           partie des choses à revoir dans l'ODD pour la personne qui prendra la
+                           suite pour la partie numérique. Pour cela, nous avons pris modèle sur
+                           l'édition numérique des <ref
+                              target="https://www.berliner-intellektuelle.eu/?fr"><hi rend="italic"
+                                 >lettres et textes : le Berlin intellectuel des années
+                              1800.</hi></ref>
+                        </p>
+                        <p>Après les principaux responsables du projet, on indique les autres
+                           membres de l'équipe et ceux qui ont participé de près ou de loin au
+                           projet. Pour chaque personne, on utilise la balise <gi>respStmt</gi> qui
+                           englobe la balise <gi>resp</gi>, indiquant la responsabilité qu'a eue la
+                           personne en question, la balise <gi>name</gi> qui englobe le prénom puis
+                           le nom, et une balise <gi>note</gi> facultative, si jamais l'on a des
+                           remarques à faire. La balise <gi>note</gi> peut aussi comprendre un
+                           attribut <att>resp</att> indiquant qui a rédigé la note.</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <principal>
+                              <persName ref="#remy.delacotte">Rémy Hême de Lacotte </persName>
+                              <affiliation>Sorbonne Université</affiliation></principal>
+                           <note/>
+                           <principal>
+                              <persName ref="#matthieu.delavergnee">Matthieu Brejon de
+                                 Lavergnée</persName>
+                              <affiliation>Sorbonne Université</affiliation>
+                              <note/>
+                           </principal>
+                        </egXML>
+                        <p>Il faudra donc renseigner ici les transcripteurs. Nous pensons pour le
+                           moment qu'il faudra renseigner dans chaque fichier XML quel transcripteur
+                           a transcrit les manuscrits. On pourra également renseigner quel en a été
+                           le relecteur.</p>
+                        <p>La liste des transcripteurs et la mention des fonds se trouve dans un
+                           fichier excel rempli par Monsieur Matthieu Brejon de Lavergnée.</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <respStmt>
+                              <resp>Transcripteurs Le Play à Charles de Ribbe</resp>
+                              <!-- À modifier selon le transcripteur -->
+                              <name ref="#pierre.dulin">Pierre Dulin</name>
+                           </respStmt>
+                        </egXML>
+                        <p>Parfois, il y a plusieurs transcripteurs pour un même fonds. Il faudra
+                           être attentif à la précision en général, et ne perdre aucune information.
+                           Peut-être faudra-t-il se renseigner pour savoir si les transcripteurs
+                           désirent ou non être nommés dans le site. Dans le cas contraire, on
+                           pourrait ajouter une balise <gi>note</gi> pour le mentionner, ou un
+                           attribut <att>n</att> indiquant 1 ou 2, c'est à dire oui ou non, donc 1
+                           s'il veut bien être mentionné, 2 dans le cas contraire</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <name ref="#gaston.dupont" n="1">Gaston Dupont</name>
+                           <name ref="#josette.dupuis" n="2">Josette Dupuis</name>
+                        </egXML>
+                        <p>Ceci est une suggestion, il faut encore en vérifier la validité.</p>
+                        <p>Cela fait partie des choses à revoir par la suite, car c'est en cours de
+                           réflexion.</p>
+                     </div5>
+                     <div5>
+                        <head>Le publicationStmt</head>
+                        <p>Comme souligné plus haut, le <gi>publicationStmt</gi> informe sur la
+                           façon dont le projet est distribué ou publié. Dans la balise
+                              <gi>publisher</gi>, on trouve le nom de l'éditeur ou le nom de
+                           l'organisme responsable de la publication ou de la distribution d'un
+                           élément de la bibliographie. On peut y ajouter la date avec un attribut
+                              <att>when</att>, afin de garder les informations de progression du
+                           projet.</p>
+                        <p>Enfin, élément non négligeable, la balise <gi>availability</gi> englobe
+                           la <gi>licence</gi> sous laquelle l'édition est publiée. C'est encore un
+                           point à définir pour notre projet, c'est pourquoi la balise est encore
+                           vide. Il faudra la remplir <hi rend="italic">a posteriori</hi> dans les
+                           fichiers XML.</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <publicationStmt>
+                              <publisher> CRHXIX</publisher>
+                              <date when="2020">2020</date>
+                              <availability>
+                                 <licence/>
+                                 <!-- À DÉFINIR -->
+                              </availability>
+                           </publicationStmt>
+                        </egXML>
+                     </div5>
+                     <div5>
+                        <head>Le sourceDesc</head>
+                        <p>Le <gi>sourceDesc</gi> est une description de la source.</p>
+                        <p>Cette partie varie donc particulièrement selon les manuscrits. Nous nous
+                           permettons de conseiller de faire un <gi>sourceDesc</gi>-type selon le
+                           fonds traité, et de le mettre dans un fichier XML intitulé
+                           fonds_xy_base.xml que l'on pourra copier/coller pour la création de
+                           chaque fichier XML du même fonds. Cela sera un grand gain de temps.
+                           Bien-sûr, il faudra toujours modifier les index et ajouter des mots
+                           adaptés à la lettre en question. Nous y reviendrons quand nous parlerons
+                           des index.</p>
+                        <div6>
+                           <head>Le msDesc</head>
+                           <p>Le <gi>msDesc</gi> englobe les balises de description du manuscrit, à
+                              savoir la balise <gi>msIdentifier</gi> qui elle-même contient la
+                              balise <gi>country</gi>. Celle-ci indique le pays d'origine et peut
+                              comporter un attribut <att>key</att> qui est facultatif. La balise
+                                 <gi>settlement</gi> indique le lieu (ville ou autre), puis on
+                              renseigne l' <gi>institution</gi> qui abrite le manuscrit,. La balise
+                                 <gi>repository</gi> contient le nom d'un dépôt dans lequel des
+                              manuscrits sont entreposés, et qui peut faire partie d'une
+                              institution, et l'<gi>idno</gi> (identifiant) donne un numéro
+                              normalisé ou non qui peut être utilisé pour identifier une référence
+                              bibliographique</p>
+                           <p><hi rend="italic">Pour rappel, toutes ces informations sont
+                                 renseignées dans le fichier excel réalisé par Monsieur Matthieu
+                                 Brejon de Lavergnée. Il suffit de s'y référer et de copier/coller
+                                 les éléments qui nous intéressent dans les balises
+                              concernées.</hi></p>
+                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                              <msIdentifier>
+                                 <country key="fr">France</country>
+                                 <!-- Pays d'origine -->
+                                 <settlement>Paris</settlement>
+                                 <!-- Lieu (ville ou autre) -->
+                                 <repository>Bibliothèque Nationale de France (BnF), Papiers
+                                    Dupanloup</repository>
+                                 <!-- (lieu de conservation) Contient le nom d'un dépôt dans lequel des manuscrits sont entreposés, et qui peut faire partie d'une institution -->
+                                 <idno>Naf 24695, ff. 416-437</idno>
+                                 <!-- (identifiant) donne un numéro normalisé ou non qui peut être utilisé pour identifier une référence bibliographique -->
+                              </msIdentifier>
+                           </egXML>
+                           <p>Pour l'instant, je ne vois pas trop l'utilité de la balise
+                                 <gi>msContents</gi> pour notre projet. Elle renseigne le contenu du
+                              manuscrit, décrivant le contenu intellectuel d'un manuscrit ou d'une
+                              partie d'un manuscrit, soit en une série de paragraphes <gi>p</gi>,
+                              soit sous la forme d'une série d'éléments structurés <gi>msItem</gi>
+                              concernant les items du manuscrit.Néanmoins, je laisse la possibilité
+                              de l'utiliser, mais on pourrait la supprimer par la suite.</p>
+                           <p>En revanche, la balise <gi>physDesc</gi> pourra s'avérer utile. Elle
+                              contient la balise <gi>handDesc</gi> qui mentionne dans le
+                                 <gi>handNote</gi> quelle main a écrit le manuscrit. Or, si Le Play
+                              écrit de sa main la plupart du temps, ce n'est pas toujours le cas,
+                              notamment quand il est malade. Pour les autres correspondants, le
+                              temps nous a manqué pour nous pencher sur la question, néanmoins, il
+                              sera toujours intéressant pour le lecteur non spécialiste et qui ne
+                              connaît donc pas les écritures, d'être informé du rédacteur du
+                              manuscrit.</p>
+                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                              <physDesc>
+                                 <handDesc>
+                                    <handNote>Main de Le Play</handNote>
+                                 </handDesc>
+                              </physDesc>
+                           </egXML>
+                           <p>Toujours dans le <gi>sourceDesc</gi> se trouve un premier index, celui
+                              des ouvrages cités dans la correspondance. Tous se situent dans le
+                              même index, que ce soit des ouvrages écrits de la main de Le Play ou
+                              d'autres contemporains ou antérieurs. Nous avons choisi de renseigner
+                              aussi dans cet index les revues et les journaux. Pour les différencier
+                              des livres, nous avons pensé à ajouter un attribut <att>type</att>,
+                              qui spécifie si c'est un journal ou une revue.</p>
+                           <p>L'index des ouvrages est englobé dans une balise <gi>listBibl</gi>.
+                              Chaque ouvrage (livre, journal ou revue) est contenu dans une balise
+                                 <gi>bibl</gi>, suivie d'une balise <gi>name</gi> pour le titre,
+                                 <gi>author</gi> pour l'auteur, <gi>date</gi> normalisée avec
+                              l'attribut <att>when</att>, et une balise <gi>note</gi> est
+                              facultative. A cet endroit, on pourra donner des informations sur
+                              l'ouvrage en question. La note pourra comporter un attribut
+                                 <att>resp</att> pour indiquer qui en est l'auteur. Cela permettra
+                              également de hiérarchiser la qualité des commentaires. Une note
+                              rédigée par un étudiant stagiaire sera considérée de moindre valeur
+                              que celle d'un spécialiste de Le Play.</p>
+                           <p><hi rend="bold italic">Attention, la balise <gi>name</gi> doit
+                                 obligatoirement avoir un attribut <att>xml:id</att> qui permettra
+                                 de pointer dans le texte vers l'index.</hi>
+                           </p>
+                           <p><hi rend="italic">Nota :</hi> La balise <gi>author</gi> ne sera pas
+                              utile pour les journaux. Elle sera donc facultative pour les journaux
+                              mais obligatoire pour les ouvrages, distinction qui ne sera pas
+                              mentionnée dans l'ODD mais qui est néanmoins importante à avoir en
+                              tête.</p>
+                           <p>La balise <gi>ref</gi> avec attribut <att>target</att> permet de faire
+                              un lien vers un site. (À confirmer, j'espère que cela marche bien
+                              effectivement).</p>
+                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                              <listBibl>
+                                 <!-- 	(liste de références bibliographiques) contient une liste de références bibliographiques de toute nature. -->
+                                 <!-- Liste des ouvrages cités -->
+                                 <bibl>
+                                    <name xml:id="une_famille">Une famille au XVIe siècle d'après
+                                       des documents originaux précédée d'une lettre du R. P.
+                                       Félix.</name><!-- titre avec attribut xml:id -->
+                                    <author>Charles de Ribbe</author>
+                                    <date when="1879">1879</date><!-- date publication normalisée avec attribut when -->
+                                    <note/>
+                                 </bibl>
+                                 <bibl>
+                                    <name xml:id="union_ouest" type="journal">L'Union de
+                                       l'Ouest</name>
+                                    <author/>
+                                    <date/>
+                                    <note resp="#lucie.slavik">Journal</note><!-- à développer -->
+                                 </bibl>
+                                 <bibl>
+                                    <name xml:id="etudes_religieuses" type="revue">Les études
+                                       religieuses, historiques et littéraires</name>
+                                    <author>Revue de la Compagnie de Jésus</author>
+                                    <date/>
+                                    <note>Disponible sur <ref
+                                          target="https://gallica.bnf.fr/ark:/12148/cb34415014q/date"
+                                          >Gallica</ref></note>
+                                 </bibl>
+                              </listBibl>
+                           </egXML>
+                           <p>Après l'index des ouvrages, on trouve l'index des événements, sous la
+                              balise <gi>listEvent</gi>. Il recense les événements importants qui
+                              sont mentionnés dans la correspondance. Chaque événement marquant est
+                              contenu dans une balise <gi>event</gi> avec un attribut
+                                 <att>when</att> mentionnant la date normalisée. La balise
+                                 <gi>event</gi> englobe un <gi>label</gi> contenant le titre de
+                              l'événement et comportant un attribut <att>xml:id</att> indispensable
+                              pour qu'on puisse faire référence à l'événement dans le corps du
+                              texte. On peut laisser un commentaire sur l'événement dans une balise
+                                 <gi>note</gi>, avec un attribut <att>resp</att> indiquant par qui
+                              elle a été rédigée.</p>
+                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                              <listEvent>
+                                 <!-- liste d'événements -->
+                                 <event when="1864">
+                                    <!-- On peut mettre un attribut when="aaaa-mm-jj" pour la date-->
+                                    <label xml:id="cong_malines">Congrès catholique de Malines,
+                                       1864</label>
+                                    <!-- titre de l'événement -->
+                                    <note resp="#lucie.slavik">A l'occasion de ce congrès, Félix
+                                       Dupanloup fait l'éloge de la Réforme Sociale de Le
+                                       Play.</note>
+                                    <!-- description de l'événement -->
+                                 </event>
+                              </listEvent>
+                           </egXML>
+                           <p>Les autres index se trouvent dans le <gi>profileDesc</gi> décrit
+                              ci-dessous.</p>
+                        </div6>
+                     </div5>
+                  </div4>
+                  <div4>
+                     <head>Le profileDesc</head>
+                     <p>Le <gi>profileDesc</gi> contient la description détaillée des aspects non
+                        bibliographiques.</p>
+                     <div5>
+                        <head>Le langUsage</head>
+                        <p>Avant tout, on renseigne la langue dans la balise <gi>langUsage</gi> qui
+                           comprend elle-même la balise <gi>language</gi> avec un attribut
+                              <att>ident</att>. Se rapporter à l'exemple ci-dessous. Dans la plupart
+                           des cas, ce sera du français. N'ayant pas encore une vue d'ensemble assez
+                           complète du projet, nous ne savons si d'autres lettres sont écrites dans
+                           des langues autres.</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <langUsage>
+                              <language ident="fr">français</language>
+                           </langUsage>
+                        </egXML>
+                     </div5>
+                     <div5>
+                        <head>Le correspDesc</head>
+                        <p>Le <gi>correspDesc</gi> comprend les informations de description de
+                           l'action liée à la correspondance. C'est un élément clé pour l'édition
+                           numérique de correspondance, et donc tout à fait adapté à notre
+                           projet.</p>
+                        <p>Le <gi>correspDesc</gi> comprend principalement la balise
+                              <gi>correspAction</gi>. Celle-ci se décline en deux temps.</p>
+                        <p>Tout d'abord, une balise <gi>correspAction</gi> avec un attribut
+                              <att>type</att> comprenant la valeur <hi rend="italic">sent</hi>
+                           renseigne qui a envoyé la lettre. La balise <gi>persName</gi> comprend
+                           donc le prénom puis le nom de l'expéditeur (la plupart du temps il s'agit
+                           de Le Play). Elle comprend un attribut <att>key</att> qui décrit
+                           l'expéditeur de façon normalisée et un attribut <att>ref</att> qui
+                           renvoie vers sa fiche bnf (voir l'exemple ci-dessous). La balise
+                              <gi>settlement</gi> renseigne le lieu de rédaction de la lettre, et la
+                           balise <gi>date</gi> indique la date à laquelle la lettre a été écrite.
+                           L'attribut <att>when</att> permet de la normaliser au format
+                           AAAA-MM-JJ.</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <correspAction type="sent">
+                              <persName key="Le Play, Frédéric (1806-1882)"
+                                 ref="https://data.bnf.fr/fr/11911744/frederic_le_play/"> Frédéric
+                                 Le Play</persName>
+                              <settlement>Paris</settlement>
+                              <date when="1870-02-17">17 février 1870</date>
+                           </correspAction>
+                        </egXML>
+
+                        <p>Puis on retrouve une deuxième balise <gi>correspAction</gi> avec un
+                           attribut <att>type</att> comprenant cette fois-ci la valeur <hi
+                              rend="italic">received</hi> renseignant à qui la lettre a été envoyée.
+                           La balise <gi>persName</gi> comprend donc le prénom puis le nom du
+                           destinataire. Elle comprend également un attribut <att>key</att> qui
+                           décrit l'expéditeur de façon normalisée et un attribut <att>ref</att> qui
+                           renvoie vers sa fiche bnf (voir l'exemple ci-dessous). Il y a possibilité
+                           d'ajouter une balise <gi>settlement</gi> renseignant le lieu de réception
+                           de la lettre, autrement dit le lieu où se trouve le destinataire, et la
+                           balise <gi>date</gi> indiquant la date de réception. L'attribut
+                              <att>when</att> permet de la normaliser au format AAAA-MM-JJ.
+                           Cependant, il est bien clair que ces deux dernières informations ne
+                           seront quasiment jamais renseignées (tout au moins c'est l'opinion que
+                           l'on peut avoir aujourd'hui été 2020).</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <correspAction type="received">
+                              <!-- On indique qui reçoit la lettre -->
+                              <persName key="de Ribbe, Charles (1827-1899)"
+                                 ref="https://data.bnf.fr/fr/11921782/charles_de_ribbe/">Charles de
+                                 Ribbe</persName>
+                              <settlement/>
+                              <!-- L'indiquer comme non obligatoire dans le schéma -->
+                              <date/>
+                           </correspAction>
+                        </egXML>
+                        <lb/>
+                        <p>Après l'on renseigne le <gi>correspContext</gi>, à savoir le contexte
+                           dans lequel se situe la lettre, quelle lettre la précède, quelle lettre
+                           la suit. On renseigne ces deux informations dans une balise <gi>ref</gi>
+                           avec un attribut <att>type</att> de valeur <hi rend="italic"
+                              >previous</hi> pour la lettre précédente, de valeur <hi rend="italic"
+                              >next</hi> pour la suivante, et on le fait suivre d'un attribut
+                              <att>target</att> qui fait pointer vers le fichier XML en
+                           question.</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <correspContext>
+                              <ref type="previous" target="lettre1.xml"/>
+                              <ref type="next" target="lettre3.xml"/>
+                              <!--La lettre que nous traitons est la lettre 2, 
+                                 la lettre qui précède est la lettre 1, la lettre qui suit est la 3-->
+                           </correspContext>
+                        </egXML>
+                     </div5>
+
+                     <div5>
+                        <head>Le settingDesc</head>
+                        <p>Dans le <gi>settingDesc</gi> se trouve une description du contexte. Il
+                           englobe l'index de noms de lieux. </p>
+                        <p>Les informations sur le lieu sont encadrées d'une balise <gi>place</gi>
+                           qui a un attribut <att>xml:id</att> indispensable pour pointer ensuite du
+                           texte vers l'index. Dans le <gi>placeName</gi> est renseigné le nom du
+                           lieu, dans <gi>country</gi> le pays, dans la <gi>note</gi>, on peut
+                           écrire la description que l'on veut. Là encore, il y a possibilité d'y
+                           ajouter un attribut <att>resp</att> pour renseigner qui a écrit la
+                           note.</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <listPlace>
+                              <place xml:id="place_st_sulpice">
+                                 <placeName>6 place Saint-Sulpice</placeName>
+                                 <country>France</country>
+                                 <note resp="#lucie.slavik" place="foot">Paris</note>
+                                 <!-- Renseigner le lien de Le Play avec ce lieu -->
+                              </place>
+                              <place xml:id="malines">
+                                 <placeName>Malines</placeName>
+                                 <country>Belgique</country>
+                                 <note resp="#lucie.slavik">Lieu où s'est tenu le congrès catholique
+                                    de Malines en 1864. Monseigneur Dupanloup y a évoqué l'oeuvre de
+                                    Le Play. (Voir <ref
+                                       target="https://www.cairn.info/revue-l-annee-sociologique-2017-2-page-397.htm"
+                                       > Antoine Savoye</ref>). </note>
+                              </place>
+                           </listPlace>
+                        </egXML>
+                        <p><hi rend="italic"><hi rend="bold">Questions à résoudre :</hi> on pourrait
+                              ajouter un attribut <att>place</att> pour dire où l'on veut que la
+                                 <gi>note</gi> se situe dans la page. <lb/>Par ailleurs, importante
+                              question également, il faudrait voir si dans l'index des lieux du
+                              fichier XML correspondant à une lettre, on ne met que ceux qui sont
+                              mentionnés dans la page en question ou l'index général. Je serais
+                              plutôt pour la première solution. <lb/>
+                              <hi rend="bold">Nota bene :</hi> Ne pas oublier de remplir au fur et à
+                              mesure l'index des noms de lieux mis dans un fichier à part pour
+                              pouvoir faire un copier/coller directement si un nom de lieu est
+                              rencontré dans la correspondance. Ce sera un gain de temps.</hi></p>
+                     </div5>
+
+                     <div5>
+                        <head>Le particDesc</head>
+                        <p>Le <gi>particDesc</gi> comprend tous les autres index.</p>
+                        <div6>
+                           <head>Le listPerson</head>
+                           <p>Le <gi>listPerson</gi> comprend l'index des noms de personnes et
+                              personnages mentionnés dans la correspondance. Là encore, il est
+                              recommandé, à chaque fois que l'on en rencontre un nouveau, de
+                              l'écrire dans un fichier à part pour n'avoir qu'à effectuer un
+                              copier/coller lors de la prochaine rencontre.<lb/><hi rend="italic"
+                                 >Nota bene : c'est une façon de faire qui est peut-être désuète, il
+                                 est possible qu'il existe de bonnes pratiques pour faire ceci de
+                                 façon plus automatisée et efficace. Celui qui prendra la suite du
+                                 projet pourra creuser cette piste de réflexion.</hi>
+                           </p>
+                           <p>Pour chaque personne ou personnage, il y a une balise englobante
+                                 <gi>person</gi> avec un attribut <att>sex</att> pour indiquer le
+                              genre de la personne et un attribut <att>xml:id</att> indispensable
+                              pour lui donner un identifiant qui permettra ensuite dans le texte de
+                              pouvoir pointer vers l'index. Le prénon suivi du nom sont indiqués
+                              dans la balise <gi>persName</gi>. Une balise <gi>note</gi> permet de
+                              présenter la personne en question, mais c'est une présentation
+                              générale qui n'est pas liée à une lettre en particulier. Si l'on veut
+                              faire une note adaptée à un endroit d'une lettre en particulier, il
+                              faut la mettre dans le corps du texte. On développe cette idée plus
+                              bas. Pour la <gi>note</gi>, on peut mettre un attribut <att>resp</att>
+                              pour indiquer qui l'a écrite. Pour son contenu, il serait intéressant
+                              de réfléchir à une façon plus ou moins normée d'écrire les notes
+                              (prénom, nom, titres, dates de naissance et de mort, rôle dans la
+                              société en général, avec la sociologie en particulier et lien avec Le
+                              Play. Voir ce qu'en pense le chef de projet.</p>
+                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                              <listPerson>
+                                 <person sex="homme" xml:id="alexis_chevalier">
+                                    <persName>Alexis Chevalier</persName>
+                                    <note/>
+                                 </person>
+                                 <person sex="homme" xml:id="LXIV">
+                                    <persName>Louis XIV</persName>
+                                    <note/>
+                                 </person>
+                              </listPerson>
+                           </egXML>
+                        </div6>
+                        <div6>
+                           <head>Le listOrg</head>
+                           <p>Le <gi>listOrg</gi> comprend l'index des organisations. On peut si
+                              l'on veut les regrouper par type d'organisations avec un attribut
+                                 <att>type</att>, et faire donc plusieurs index (par exemple, un
+                              index d'organisations sociologiques, un index d'organisations
+                              politiques, un index d'associations etc.). Je serais plutôt pour ne
+                              pas faire de distinctions entre les différentes organisations et donc
+                              se borner à un simple index général pour simplifier au maximum, mais
+                              c'est à décider avec celui qui prendra la suite du projet
+                              numérique.</p>
+                           <p>Le nom de l'organisation est compris dans la balise <gi>org</gi>
+                              comprenant l'attribut <att>xml:id</att> pour son identifiant. La
+                              balise <gi>orgName</gi> indique le nom de la société, et la balise
+                                 <gi>note</gi> (plutôt que <gi>desc</gi>, intialement choisie, mais
+                              modifiée dans un souci de simplification) permet de rentrer une note
+                              générale sur l'organisation en question.</p>
+                           <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                              <listOrg type="sociologie">
+                                 <!-- Index des noms d'organisation -->
+                                 <!-- 	L'attribut type peut être utilisé pour établir des listes par type d'organisation si cela présente un intérêt.
+               VOIR SI C'EST VRAIMENT UTILE-->
+                                 <org xml:id="ses">
+                                    <orgName>Société d'économie sociale</orgName>
+                                    <note/>
+                                    <!-- Donner ici une description de cette société -->
+                                 </org>
+                                 <org xml:id="societe2_blabla">
+                                    <orgName/>
+                                    <note/>
+                                 </org>
+                              </listOrg>
+                              <listOrg type="aa">
+                                 <org xml:id="i">
+                                    <orgName/>
+                                    <note/>
+                                 </org>
+                              </listOrg>
+                           </egXML>
+                        </div6>
+                     </div5>
+                     <div5>
+                        <head>Le textClass</head>
+                        <p>La balise <gi>textClass</gi> comprend tous les autres index. En
+                           l'occurrence, il s'agit pour nous de l'index leplaysien. Les mots à
+                           indexer sont en cours de choix, la plupart ont été sélectionnés par
+                           Messieurs Antoine Savoye, Rémy Hême de Lacotte et Matthieu Brejon de
+                           Lavergnée mais il est encore nécessaire d'y réfléchir encore. Par
+                           exemple, ci-dessous, on peut voir qu'on a distingué <hi rend="italic"
+                              >Réforme</hi> de <hi rend="italic">Réforme morale</hi> et <hi
+                              rend="italic">Réforme sociale</hi>. Il serait bon de voir si l'on
+                           continue à distinguer ou si l'on met tout sous la même balise, avec le
+                           même identifiant <att>xml:id</att>.</p>
+                        <p>Quoiqu'il en soit, voici comment se présente l'index : on met tout
+                           d'abord une balise <gi>textClass</gi> comprenant une balise
+                              <gi>keywords</gi> comprenant elle-même une balise <gi>list</gi> avec,
+                           pour valeur de l'attribut <att>type</att>, le nom de l'index dont il est
+                           question.</p>
+                        <p>Chaque balise <gi>item</gi> comprend le nom du terme leplaysien avec un
+                           attribut <att>xml:id</att> qui permettra de pointer vers le terme depuis
+                           le texte. Une balise <gi>note</gi> permet d'y laisser des commentaires.
+                           Il sera possible d'y ajouter un attribut <att>resp</att> pour indiquer
+                           qui en est l'auteur.</p>
+                        <p>Chaque <gi>keywords</gi> ouvre un index. Si l'on avait besoin de faire un
+                           autre index, on pourrait le mettre à cet endroit.</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <!-- Autres index -->
+                           <textClass>
+                              <keywords>
+                                 <!-- Index des termes leplaysiens -->
+                                 <list type="index_socio_lp">
+                                    <item>
+                                       <name xml:id="corporation">Corporation</name>
+                                       <!-- Voir s'il faut mettre des majuscules pour les index -->
+                                       <note/>
+                                    </item>
+                                    <item>
+                                       <name xml:id="reforme">Réforme</name>
+                                       <note/>
+                                    </item>
+                                    <item>
+                                       <name xml:id="ref_morale">Réforme morale</name>
+                                       <note/>
+                                    </item>
+                                    <item>
+                                       <name xml:id="ref_sociale">Réforme sociale</name>
+                                       <note/>
+                                    </item>
+                                    <item>
+                                       <name xml:id="masses">Masses</name>
+                                       <note/>
+                                    </item>
+                                 </list>
+                              </keywords>
+                              <keywords>
+                                 <!-- On peut faire d'autres index si nécessaires -->
+                                 <list>
+                                    <item>
+                                       <name/>
+                                       <note/>
+                                    </item>
+                                 </list>
+                              </keywords>
+                           </textClass>
+                        </egXML>
+                     </div5>
+                  </div4>
+                  <div4>
+                     <head>Le revisionDesc</head>
+                     <p>Le dernier élément du <gi>teiHeader</gi> est le <gi>revisionDesc</gi> qui
+                        résume l'historique des révisions pour un fichier.</p>
+                     <p>Chaque changement est mentionné sous la balise change. Autrement dit, à
+                        chaque modification importante du fichier XML, on renseigne quelle
+                        modification a été faite (<gi>change</gi>), à quelle date avec l'attribut
+                           <att>when</att>, par qui avec l'attribut <att>who</att>.</p>
+                     <p>Le changement le plus récent est indiqué en premier.</p>
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <revisionDesc>
+                           <change when="2021-01" who="#gaston.dupont">Modification de l'index
+                              blabla</change>
+                           <change when="2020-07-31" who="#lucie.slavik">Création du fichier.
+                              Premier encodage.</change>
+                        </revisionDesc>
+                     </egXML>
+                  </div4>
+               </div3>
+               <div3>
+                  <head>Structure du text</head>
+                  <div4>
+                     <head>Informations préliminaires</head>
+                     <p>La balise <gi>text</gi> comprend en général trois balises :</p>
+                     <p>Le<gi> front</gi> pour tous les éléments liminaires</p>
+                     <p>Le <gi>body</gi> pour le corps du texte proprement dit</p>
+                     <p>Le <gi>back</gi> pour tous les appendices, épilogues, postfaces.</p>
+                     <p>Dans notre cas, nous nous intéresseront uniquement à la balise
+                        <gi>body</gi>.</p>
+                     <p>La balise <gi>body</gi> comprend une <gi>div</gi> (division) avec un
+                        attribut <att>type</att> dont la valeur est <hi rend="italic">lettre</hi>.
+                        Si la lettre a été rédigée en deux fois, on peut donc utiliser plusieurs
+                           <gi>div</gi>, avec un attribut <att>part</att> dont la valeur sera <hi
+                           rend="italic bold">I</hi> pour le début ou partie initiale, <hi
+                           rend="italic bold">F</hi> pour la partie finale, <hi rend="italic bold"
+                           >M</hi> pour le milieu si nécessaire. Cela permettra également d'ajouter
+                        une <gi>dateline</gi> pour les autres parties.</p>
+                     <p>La première balise ensuite à mettre dans la <gi>div</gi> est la balise
+                           <gi>pb</gi>, qui permet de relier le fichier XML en question avec le
+                        manuscrit numérisé. On utilise tout d'abord un attribut <att>n</att> pour
+                        renseigner le numéro du manuscrit, cela va de 1 à l'infini, et on peut y
+                        ajouter en plus une lettre en minuscule quand la lettre fait plusieurs pages
+                        et donc que le même fichier XML doit être mis en lien avec plusieurs images
+                        numérisées. Ainsi, la première page de la lettre 2 est numérotée 2a, la
+                        deuxième page 2b, la troisième page 2c et ainsi de suite.</p>
+                     <p>L'attribut <att>facs</att> pour les fac-similés pointe directement vers une
+                        image ou vers une partie d'une image correspondant au contenu de l'élément.
+                        On y met comme valeur le nom du fichier image.</p>
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <pb n="2a" facs="ChdeRibbe02A.png"/>
+                     </egXML>
+                     <p>Dès que l'on change de page de manuscrit au sein du même fichier XML donc de
+                        la même lettre, il faut donc à nouveau mettre la balise <gi>pb</gi> pour
+                        redonner toutes ces informations, entre la fin de la page précédente et le
+                        début de la nouvelle page.</p>
+                  </div4>
+                  <div4>
+                     <head>L'opener</head>
+                     <p>La balise <gi>opener</gi> souligne le rituel épistolaire. Elle abrite tous
+                        les éléments qui font débuter une lettre, à savoir l'élément
+                           <gi>dateline</gi> pour la ligne mentionnant le lieu (<gi>placeName</gi>
+                        avec attribut <att>ref</att>, dont la valeur comprend un #, pour pointer
+                        vers l'index) et la date (<gi>date</gi>) de rédaction de la lettre</p>
+                     <p><hi rend="italic"><hi rend="bold">Nota bene :</hi> Il faut encore décider si
+                           on normalise aussi à cet endroit la date avec un attribut <att>when</att>
+                           ou si c'est inutile étant donné que cela a déjà été fait dans le
+                              <gi>correspDesc</gi> du <gi>teiHeader</gi>.</hi></p>
+                     <p>Comme on peut le voir dans l'exemple ci-dessous, le corps de la lettre
+                        nécessite parfois l'emploi d'autres balises pour traiter les cas
+                        particuliers. C'est le cas des abréviations. Afin de garder les deux
+                        versions, la version originale et la version normalisée, on utilise une
+                        balise générale <gi>choice</gi> qui abrite deux balises : la première
+                           <gi>abbr</gi> garde l'abréviation originale de l'auteur. La deuxième
+                           <gi>expan</gi> donne le mot entier.</p>
+                     <p>Une procédure assez similaire se fait pour la correction des fautes ou la
+                        normalisation des lettres. On utilise alors une balise <gi>choice</gi> qui
+                        englobe une balise <gi>sic</gi> qui contient le texte original, et une autre
+                           <gi>corr</gi> qui contient le texte corrigé.</p>
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <opener>
+                           <dateline>
+                              <placeName ref="#paris">Paris</placeName>
+                              <date>20 <choice>
+                                    <!-- Développement de l'abréviation sur le mois -->
+                                    <abbr>9<hi rend="sup">bre</hi>.</abbr>
+                                    <expan>septembre</expan>
+                                 </choice> 1864</date><placeName ref="#stDom"> rue <choice><sic>St.
+                                       </sic><corr>Saint-</corr></choice><choice>
+                                    <sic>dominique</sic>
+                                    <corr>Dominique</corr>
+                                 </choice> 17 </placeName></dateline>
+                           <salute>Mon cher <choice>
+                                 <!--On retire les majuscules -->
+                                 <sic>Collègue</sic>
+                                 <corr>collègue</corr>
+                              </choice>,</salute>
+                        </opener>
+                     </egXML>
+                     <p>A cela s'ajoute la question du style. Certaines lettres sont en italiques,
+                        soulignées etc. Pour manifester ces différents styles, on utilise la balise
+                           <gi>hi</gi> avec son attribut <att>rend</att> qui spécifie la nature du
+                        style employé :</p>
+                     <p>"italic" pour les italiques</p>
+                     <p>"bold" si c'est du gras</p>
+                     <p>"upper" pour la mise en capitales du texte sélectionné</p>
+                     <p>"small-caps" pour la mise en petites capitales</p>
+                     <p>"sup" pour la mise en exposant</p>
+                     <p>"ul" pour souligner</p>
+                     <p>"line-through" pour barrer.</p>
+                     <lb/>
+                     <p>La balise <gi>dateline</gi> renseignée, il s'agit ensuite de mettre dans la
+                        balise <gi>salute</gi> la salutation qui est faite au début de la lettre.
+                        Cela fait partie du rituel épistolaire.</p>
+                     <p>Ceci fait, on passe au corps de la lettre.</p>
+                  </div4>
+                  <div4>
+                     <head>Le corps de la lettre</head>
+                     <p>Le corps de la lettre est contenu dans des balises <gi>p</gi>. Autrement
+                        dit, chaque paragraphe est contenu dans une balise <gi>p</gi>. Chaque ligne
+                        de ce paragraphe est contenu dans une balise <gi>l</gi>.</p>
+                     <p>Il faut ensuite gérer les cas particuliers. Parfois, l'auteur de la lettre
+                        écrit lui-même des notes dans les marges. Dans ce cas-là, on peut utiliser
+                        une balise <gi>note</gi>. On utilise un attribut <att>resp</att> pour
+                        indiquer que la note a été rédigée par l'auteur de la lettre lui-même, et un
+                        attribut <att>place</att> pour indiquer où la note se trouve dans
+                        l'original.</p>
+                     <p>La valeur de l'attribut <att>place</att> peut être :</p>
+                     <p>"above" : above the line </p>
+                     <p>"below" : below the line</p>
+                     <p>"bottom" : at the foot of the page</p>
+                     <p>"end" : at the end of e.g. chapter or volume</p>
+                     <p>"inline" : within the body of the text.</p>
+                     <p>"inspace" : in a predefined space, for example left by an earlier
+                        scribe.</p>
+                     <p>"margin" : in the margin (left, right, or both)</p>
+                     <p>"opposite" : on the opposite, i.e. facing, page</p>
+                     <p>"overleaf" : on the other side of the leaf</p>
+                     <p>"top" : at the top of the page</p>
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <p>
+                           <l>Regrettant beaucoup d’avoir</l>
+                           <l>manqué l’occasion de vous voir, samedi</l>
+                           <l>soir, nous vous prions de nous faire l’amitié </l>
+                           <l>de venir diner jeudi *<note resp="author" place="margin-left">*24
+                                 juin</note> à 6<hi rend="sup">h</hi>1/2 <hi rend="ul">avec MM.</hi>
+                           </l>
+                           <l><hi rend="ul"><persName ref="#rapetti">Rapetti</persName> et <persName
+                                    ref="#coquille">Coquille</persName>.</hi></l></p>
+                        <lb/>
+                     </egXML>
+                     <p>À chaque mot indexé, il faut donner la possibilité de pointer vers l'index.
+                        Pour les noms de lieux on utilise la balise <gi>placeName</gi>. Pour les
+                        noms de personnes ou personnages, on utilise la balise <gi>persName</gi>.
+                        Pour les noms d'organisation on utilise la balise <gi>orgName</gi> et pour
+                        tous les autres index, on indique la balise <gi>name</gi>. Toutes ces
+                        balises ont un attribut <att>ref</att> qui permet de pointer vers l'index en
+                        question avec un #. </p>
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <persName ref="#rapetti">Rapetti</persName>
+                     </egXML>
+                     <p><hi rend="italic bold">Nota bene :</hi>
+                        <hi rend="italic">Il faudra encore développer cette partie sur le corsp de
+                           la lettre, et réfléchir aux autres cas particuliers qui risquent d'être
+                           nombreux étant donné le grand corpus qui est en notre
+                        possession.</hi></p>
+                  </div4>
+                  <div4>
+                     <head>Le closer</head>
+                     <p>La balise <gi>closer</gi> marque la fin d'une lettre et fait partie du
+                        rituel de correspondance.</p>
+                     <p>Elle-même contient deux balises : d'une part <gi>salute</gi> qui comprend la
+                        formule de politesse concluant la lettre, d'autre part <gi>signed</gi> qui
+                        englobe la signature. Bien-sûr, la balise <gi>salute</gi> comprend des
+                        balises <gi>l</gi> encadrant chaque ligne, c'est toujours le même principe
+                        que dans le corps de la lettre. En revanche, les balises <gi>p</gi> ne sont
+                        pas admises dans la balise <gi>salute</gi>, probablement parce que les
+                        salutations ne font en général pas plus d'un petit paragraphe.</p>
+                     <p>On peut mettre un attribut <att>rend</att> pour indiquer l'emplacement de la
+                        signature dans la lettre.</p>
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <closer>
+                           <salute><l>Agréez, Mon cher ami, l’assurance de mes</l>
+                              <l><unclear>sentiments</unclear> bien affectueux.</l></salute>
+                           <signed rend="ul align(right)">F. Le Play</signed></closer>
+                     </egXML>
+                  </div4>
+                  <div4>
+                     <head>Le postscript</head>
+                     <p>La balise <gi>postscript</gi> contient l'éventuel post-scriptum. Elle
+                        contient des balises <gi>p</gi> et <gi>l</gi>.</p>
+                     <p>C'est la dernière balise admise dans le corps du texte. </p>
+                     <p>On doit ensuite refermer les balises <gi>div</gi>, <gi>body</gi>,
+                           <gi>text</gi>, et <gi>TEI</gi>.</p>
+                     <p>La lettre a été encodée. On peut passer à la suivante !</p>
+                  </div4>
+               </div3>
+               <div3>
+                  <head>Remarques finales</head>
+                  <p>Pour plus d'informations sur l'ODD, voir le cours de Madame Ariane Pinche,
+                     dispensé à l'École Nationale des Chartes, disponible sur <ref
+                        target="https://github.com/ArianePinche/coursTNAH_XML-TEI">github</ref>. On
+                     lira à profit les slides des séances <ref
+                        target="https://github.com/ArianePinche/coursTNAH_XML-TEI/blob/master/seance10/ODD1.pdf"
+                        >10</ref>, <ref
+                        target="https://github.com/ArianePinche/coursTNAH_XML-TEI/blob/master/seance11/ODD2.pdf"
+                        >11</ref> et <ref
+                        target="https://github.com/ArianePinche/coursTNAH_XML-TEI/blob/master/seance12/ODD3.pdf"
+                        >12</ref>.</p>
+                  <p>Les autres séances sont également intéressantes pour mieux comprendre
+                     l'encodage en XML-TEI.</p>
+                  <p>Pour améliorer cet ODD, la documentation disponible <ref
+                        target="http://teic.github.io/TCW/howtoGenerate-fr.html">ici</ref> pourrait
+                     également s'avérer utile.</p>
+                  <p><hi rend="italic">Nota : la partie deux de cette présente documentation sur le
+                        schéma de balise et spécifications XML commente les balises choisies avec
+                        plus d'exemples et détails.</hi></p>
+               </div3>
+            </div2>
+         </div1>
+
+
+         <div1>
+            <head>Schéma de balises</head>
+            <schemaSpec ident="oddbyexample" start="TEI ">
+               <moduleRef key="tei"/>
+               <!--Checking module textcrit-->
+               <classRef key="att.textCritical"/>
+               <classRef key="model.rdgLike"/>
+               <classRef key="model.rdgPart"/>
+               <classSpec ident="att.textCritical" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="cause" mode="delete"/>
+                     <attDef ident="varSeq" mode="delete"/>
+                     <attDef ident="require" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!--Checking module msdescription-->
+               <classRef key="model.physDescPart"/>
+               <moduleRef key="msdescription"
+                  include="msDesc msIdentifier repository msContents physDesc handDesc"/>
+               <elementSpec ident="msDesc" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="msIdentifier" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="repository" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="msContents" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="physDesc" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="handDesc" mode="change">
+                  <attList>
+                     <attDef ident="hands" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!--Checking module namesdates-->
+               <classRef key="model.persNamePart"/>
+               <moduleRef key="namesdates"
+                  include="orgName persName placeName country settlement affiliation event listOrg listEvent listPerson listPlace org person place"/>
+               <elementSpec ident="orgName" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="persName" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="placeName" mode="change">
+                  <attList>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="country" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="settlement" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="affiliation" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="event" mode="change">
+                  <attList>
+                     <attDef ident="where" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="listOrg" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="sociologie"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="listEvent" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="listPerson" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="listPlace" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="org" mode="change">
+                  <attList>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="person" mode="change">
+                  <attList>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="age" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="place" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!--Checking module dictionaries-->
+               <classRef key="att.lexicographic"/>
+               <classRef key="model.entryLike"/>
+               <classRef key="model.formPart"/>
+               <classRef key="model.gramPart"/>
+               <classRef key="model.lexicalRefinement"/>
+               <classRef key="model.morphLike"/>
+               <classRef key="model.ptrLike.form"/>
+               <classSpec ident="att.lexicographic" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="expand" mode="delete"/>
+                     <attDef ident="split" mode="delete"/>
+                     <attDef ident="value" mode="delete"/>
+                     <attDef ident="location" mode="delete"/>
+                     <attDef ident="mergedIn" mode="delete"/>
+                     <attDef ident="opt" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!--Checking module tagdocs-->
+               <classRef key="att.combinable"/>
+               <classRef key="att.identified"/>
+               <classRef key="model.contentPart"/>
+               <classSpec ident="att.combinable" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="mode" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.identified" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="ident" mode="delete"/>
+                     <attDef ident="predeclare" mode="delete"/>
+                     <attDef ident="module" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.ascribed.directed" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="toWhom" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.dimensions" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="unit" mode="delete"/>
+                     <attDef ident="quantity" mode="delete"/>
+                     <attDef ident="extent" mode="delete"/>
+                     <attDef ident="precision" mode="delete"/>
+                     <attDef ident="scope" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.damaged" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="agent" mode="delete"/>
+                     <attDef ident="degree" mode="delete"/>
+                     <attDef ident="group" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.datable.w3c" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="notBefore" mode="delete"/>
+                     <attDef ident="notAfter" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.datable" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="calendar" mode="delete"/>
+                     <attDef ident="period" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.divLike" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="org" mode="delete"/>
+                     <attDef ident="sample" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.global.responsibility" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="cert" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.media" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="width" mode="delete"/>
+                     <attDef ident="height" mode="delete"/>
+                     <attDef ident="scale" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.naming" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="nymRef" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.typed" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.pointing" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="targetLang" mode="delete"/>
+                     <attDef ident="evaluate" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.pointing.group" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="domains" mode="delete"/>
+                     <attDef ident="targFunc" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.segLike" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="function" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.timed" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="start" mode="delete"/>
+                     <attDef ident="end" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.transcriptional" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="status" mode="delete"/>
+                     <attDef ident="cause" mode="delete"/>
+                     <attDef ident="seq" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.personal" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="full" mode="delete"/>
+                     <attDef ident="sort" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!--Checking module core-->
+               <moduleRef key="core"
+                  include="p hi sic corr choice reg unclear name date ref list item label note pb lb author respStmt resp title publisher bibl listBibl l"/>
+               <elementSpec ident="p" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="hi" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="sic" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="corr" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="choice" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="reg" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="unclear" mode="change">
+                  <attList>
+                     <attDef ident="reason" mode="delete"/>
+                     <attDef ident="agent" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="name" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="journal"/>
+                           <valItem ident="livre"/>
+                           <valItem ident="revue"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="date" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="ref" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="next"/>
+                           <valItem ident="previous"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="list" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="index_socio_lp"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="index_socio_lp"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="item" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="label" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="note" mode="change">
+                  <attList>
+                     <attDef ident="anchored" mode="delete"/>
+                     <attDef ident="targetEnd" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="target" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="pb" mode="change">
+                  <attList>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="lb" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="author" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="respStmt" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="resp" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="title" mode="change">
+                  <attList>
+                     <attDef ident="level" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="publisher" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="bibl" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="listBibl" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="l" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!--Checking module figures-->
+               <!--Checking module header-->
+               <moduleRef key="header"
+                  include="teiHeader fileDesc titleStmt funder principal publicationStmt idno availability licence sourceDesc profileDesc handNote langUsage language textClass keywords correspDesc correspAction correspContext revisionDesc change"/>
+               <elementSpec ident="teiHeader" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="fileDesc" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="titleStmt" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="funder" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="principal" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="publicationStmt" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="idno" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="autre_depot"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="autre_depot"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="availability" mode="change">
+                  <attList>
+                     <attDef ident="status" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="licence" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="target" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="sourceDesc" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="profileDesc" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="handNote" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="langUsage" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="language" mode="change">
+                  <attList>
+                     <attDef ident="usage" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="textClass" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="keywords" mode="change">
+                  <attList>
+                     <attDef ident="scheme" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="correspDesc" mode="change">
+                  <attList>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="correspAction" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="received"/>
+                           <valItem ident="sent"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="received"/>
+                           <valItem ident="sent"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="correspContext" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="revisionDesc" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="change" mode="change">
+                  <attList>
+                     <attDef ident="target" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!--Checking module gaiji-->
+               <!--Checking module verse-->
+               <!--Checking module transcr-->
+               <classRef key="att.global.facs"/>
+               <!--Checking module linking-->
+               <!--Checking module analysis-->
+               <classRef key="att.linguistic"/>
+               <classSpec ident="att.linguistic" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="lemma" mode="delete"/>
+                     <attDef ident="lemmaRef" mode="delete"/>
+                     <attDef ident="pos" mode="delete"/>
+                     <attDef ident="msd" mode="delete"/>
+                     <attDef ident="join" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!--Checking module textstructure-->
+               <moduleRef key="textstructure"
+                  include="TEI text body div dateline opener closer salute signed postscript front"/>
+               <elementSpec ident="TEI" mode="change">
+                  <attList>
+                     <attDef ident="version" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="text" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="body" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="div" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="letter"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="dateline" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="opener" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="closer" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="salute" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="signed" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="postscript" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="front" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!--Checking module corpus-->
+               <moduleRef key="corpus" include="particDesc settingDesc"/>
+               <elementSpec ident="particDesc" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="settingDesc" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                  </attList>
+               </elementSpec>
+            </schemaSpec>
+         </div1>
+      </body>
+   </text>
+</TEI>
